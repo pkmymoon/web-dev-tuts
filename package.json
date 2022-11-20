@@ -2,7 +2,7 @@
   "name": "steyp-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gitname.github.io/WebDevTuts",
+  "homepage": "https://pkmymoon.github.io/steyp-clone",
   "dependencies": {
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^2.0.13",
