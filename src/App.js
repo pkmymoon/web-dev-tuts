@@ -13,7 +13,7 @@ function App() {
         <Nav />
         <div className="flex-1 bg-bg_light dark:bg-bg_dark h-full transition-all ease-out duration-300">
           <Routes>
-            <Route path="/">
+            <Route path="/steyp-clone">
               <Route index element={<Home />} />
               <Route path="html">
                 <Route path=":title" element={<Html />} />
