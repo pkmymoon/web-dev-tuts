@@ -1,8 +1,9 @@
 import React from 'react'
+import Html from './topics/Html'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div><Html/></div>
   )
 }
 
