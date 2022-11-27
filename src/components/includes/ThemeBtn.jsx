@@ -27,7 +27,7 @@ function ThemeBtn() {
     <button
       type="button"
       onClick={switchTheme}
-      className=" p-3 border-0 md:border-2 rounded-full border-utility-outline dark:border-utility-outline-dark "
+      className=" p-3 "
     >
       {theme === "dark" ? (
         <SunIcon className="h-6 w-6 text-on-surface-variant-dark" />

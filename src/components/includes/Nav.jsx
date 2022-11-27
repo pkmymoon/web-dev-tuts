@@ -15,44 +15,54 @@ function Nav() {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <>
-      <div className="relative ">
+      <div className="sticky top-0 z-10">
+        {/* Overlay */}
         {navOpen ? (
           <div
             id="overlay"
-            className="absolute w-screen h-screen backdrop-blur-md md:hidden top-0 right-0 bottom-0 left-0 bg-background-dark opacity-50 "
+            className="absolute w-screen h-screen top-0 right-0 bottom-0 left-0 bg-background-dark opacity-80 "
           ></div>
         ) : (
           ""
         )}
 
-        <div className="flex flex-row md:flex-col fixed  top-0  items-center justify-between px-5 py-3 md:py-6 w-full md:w-auto h-auto md:h-screen bg-surface-0 dark:bg-surface-0-dark md:bg-surface-2 md:dark:bg-surface-2-dark md:overflow-y-auto">
-          <div onClick={() => setNavOpen(!navOpen)} className="md:absolute">
-            <MenuBtn menuStat={navOpen} />
-          </div>
-          {/* Nav */}
-
-          <nav
-            onClick={() => setNavOpen(!navOpen)}
-            className={`${
-              navOpen ? " translate-x-0 rounded-r-2xl" : " -translate-x-full"
-            } md:translate-x-0 drop-shadow-xl md:drop-shadow-none absolute md:static top-0 left-0 h-screen md:h-auto w-60 md:w-full px-6 md:px-0 py-3  md:py-0  md:bg-none bg-surface-2 dark:bg-surface-2-dark transition-transform ease-in-out duration-300 overflow-y-auto md:over`}
-          >
+        <header className="flex items-center justify-between px-5 py-3  w-full  h-20 bg-surface-0 dark:bg-surface-0-dark drop-shadow-sm">
+          {/* MenuBtn */}
+          <div className=" relative">
             <div
               onClick={() => setNavOpen(!navOpen)}
-              className="md:absolute mb-4"
+              className=" z-10 top-0 left-0"
             >
               <MenuBtn menuStat={navOpen} />
             </div>
-            <div className="w-full md:w-20 mb-3.5 group">
-              <NavLink to="/">
+          </div>
+
+          {/* Nav */}
+          <h1 className=" text-xl font-bold text-on-surface-variant dark:text-on-surface-variant-dark">
+            Tech Schooling
+          </h1>
+          <nav
+            onClick={() => setNavOpen(!navOpen)}
+            className={`${
+              navOpen ? " translate-x-0 rounded-r-2xl " : " -translate-x-full"
+            } flex flex-col items-start drop-shadow-xl  absolute top-0 left-0 bottom-0 h-screen w-60  px-6  py-3  bg-surface-2 dark:bg-surface-2-dark transition-transform ease-in-out duration-300 overflow-y-auto`}
+          >
+            <div
+              onClick={() => setNavOpen(!navOpen)}
+              className=" flex items-center justify-center mb-4 top-0 left-0 rounded-full"
+            >
+              <MenuBtn menuStat={navOpen} />
+            </div>
+            <div className="w-full  mb-3.5 group">
+              <NavLink to="web-dev-tuts/">
                 {({ isActive }) => (
-                  <div className="flex rounded-full md:block items-center gap-4 md:gap-0">
+                  <div className="flex rounded-full  items-center gap-4 ">
                     <div
                       className={`${
                         isActive
                           ? "group-hover:bg-none"
                           : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center justify-center w-16 h-10 md:w-14 md:h-8 md:mx-auto rounded-full relative  `}
+                      } flex items-center justify-center w-16 h-10   rounded-full relative  `}
                     >
                       <div
                         className={`${
@@ -74,16 +84,16 @@ function Nav() {
                 )}
               </NavLink>
             </div>
-            <div className="w-full md:w-20 mb-3.5 group">
+            <div className="w-full  mb-3.5 group">
               <NavLink to="/html">
                 {({ isActive }) => (
-                  <div className="flex rounded-full md:block items-center gap-4 md:gap-0">
+                  <div className="flex rounded-full  items-center gap-4 ">
                     <div
                       className={`${
                         isActive
                           ? "group-hover:bg-none"
                           : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center justify-center w-16 h-10 md:w-14 md:h-8 md:mx-auto rounded-full relative  `}
+                      } flex items-center justify-center w-16 h-10   rounded-full relative  `}
                     >
                       <div
                         className={`${
@@ -105,16 +115,16 @@ function Nav() {
                 )}
               </NavLink>
             </div>
-            <div className="w-full md:w-20 mb-3.5 group">
+            <div className="w-full  mb-3.5 group">
               <NavLink to="/css">
                 {({ isActive }) => (
-                  <div className="flex md:block items-center  gap-4 md:gap-0">
+                  <div className="flex  items-center  gap-4 ">
                     <div
                       className={`${
                         isActive
                           ? "group-hover:bg-none"
                           : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center justify-center w-16 h-10 md:w-14 md:h-8 md:mx-auto rounded-full relative  `}
+                      } flex items-center justify-center w-16 h-10   rounded-full relative  `}
                     >
                       <div
                         className={`${
@@ -136,16 +146,16 @@ function Nav() {
                 )}
               </NavLink>
             </div>
-            <div className="w-full md:w-20 mb-3.5 group">
+            <div className="w-full  mb-3.5 group">
               <NavLink to="/java-script">
                 {({ isActive }) => (
-                  <div className="flex md:block items-center  gap-4 md:gap-0">
+                  <div className="flex  items-center  gap-4 ">
                     <div
                       className={`${
                         isActive
                           ? "group-hover:bg-none"
                           : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center justify-center w-16 h-10 md:w-14 md:h-8 md:mx-auto rounded-full relative  `}
+                      } flex items-center justify-center w-16 h-10   rounded-full relative  `}
                     >
                       <div
                         className={`${
@@ -167,16 +177,16 @@ function Nav() {
                 )}
               </NavLink>
             </div>
-            <div className="w-full md:w-20 mb-3.5 group">
+            <div className="w-full  mb-3.5 group">
               <NavLink to="/jquery">
                 {({ isActive }) => (
-                  <div className="flex md:block items-center  gap-4 md:gap-0">
+                  <div className="flex  items-center  gap-4 ">
                     <div
                       className={`${
                         isActive
                           ? "group-hover:bg-none"
                           : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center justify-center w-16 h-10 md:w-14 md:h-8 md:mx-auto rounded-full relative  `}
+                      } flex items-center justify-center w-16 h-10   rounded-full relative  `}
                     >
                       <div
                         className={`${
@@ -198,16 +208,16 @@ function Nav() {
                 )}
               </NavLink>
             </div>
-            <div className="w-full md:w-20 mb-3.5 group">
+            <div className="w-full  mb-3.5 group">
               <NavLink to="/bootstrap">
                 {({ isActive }) => (
-                  <div className="flex md:block items-center  gap-4 md:gap-0">
+                  <div className="flex  items-center  gap-4 ">
                     <div
                       className={`${
                         isActive
                           ? "group-hover:bg-none"
                           : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center justify-center w-16 h-10 md:w-14 md:h-8 md:mx-auto rounded-full relative  `}
+                      } flex items-center justify-center w-16 h-10   rounded-full relative  `}
                     >
                       <div
                         className={`${
@@ -229,16 +239,16 @@ function Nav() {
                 )}
               </NavLink>
             </div>
-            <div className="w-full md:w-20 mb-3.5 group">
+            <div className="w-full  mb-3.5 group">
               <NavLink to="/sass">
                 {({ isActive }) => (
-                  <div className="flex md:block items-center  gap-4 md:gap-0">
+                  <div className="flex  items-center  gap-4 ">
                     <div
                       className={`${
                         isActive
                           ? "group-hover:bg-none"
                           : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center justify-center w-16 h-10 md:w-14 md:h-8 md:mx-auto rounded-full relative  `}
+                      } flex items-center justify-center w-16 h-10   rounded-full relative  `}
                     >
                       <div
                         className={`${
@@ -260,16 +270,16 @@ function Nav() {
                 )}
               </NavLink>
             </div>
-            <div className="w-full md:w-20 mb-3.5 group">
+            <div className="w-full  mb-3.5 group">
               <NavLink to="/react">
                 {({ isActive }) => (
-                  <div className="flex md:block items-center  gap-4 md:gap-0">
+                  <div className="flex  items-center  gap-4 ">
                     <div
                       className={`${
                         isActive
                           ? "group-hover:bg-none"
                           : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center justify-center w-16 h-10 md:w-14 md:h-8 md:mx-auto rounded-full relative  `}
+                      } flex items-center justify-center w-16 h-10   rounded-full relative  `}
                     >
                       <div
                         className={`${
@@ -296,7 +306,7 @@ function Nav() {
           <div>
             <ThemeBtn />
           </div>
-        </div>
+        </header>
       </div>
     </>
   );
