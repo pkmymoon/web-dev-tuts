@@ -6,7 +6,7 @@ import UiEngineer from "./components/screens/ui-engineer/UiEngineer";
 function App() {
   return (
     <Router>
-      <div className="flex flex-col scroll-smooth ">
+      <div className="flex flex-col ">
         
         <Nav />
 

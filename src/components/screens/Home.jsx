@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import topics from "../../assets/data/topics.json";
-import Background from "../../assets/images/hero.png";
+import Background from "../../assets/images/hero-img.jpg";
 import ReactHlsPlayer from "react-hls-player/dist";
 import {
   ClockIcon,
@@ -20,7 +20,7 @@ function Home() {
           backgroundImage: `url(${Background})`,
         }}
       >
-        <h2 className=" text-5xl md:text-6xl font-bold text-primary dark:text-on-primary-dark ">
+        <h2 className=" text-5xl md:text-6xl font-bold text-on-primary dark:text-on-primary ">
           Learn to Code
         </h2>
         <p></p>
@@ -86,8 +86,8 @@ function Home() {
                   />
                 </div>
               </div>
-              <div className="flex items-center justify-end md:justify-center">
-                <Link to="ui-engineer" className="mt-5">
+              <div className="flex items-center justify-center">
+                <Link to="ui-engineer" className="mt-10">
                   <RippleBtn label="Learn More" />
                 </Link>
               </div>

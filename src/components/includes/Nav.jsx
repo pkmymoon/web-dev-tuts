@@ -15,18 +15,18 @@ function Nav() {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <>
-      <div className="sticky top-0 z-10">
+      <div className="relative top-0 right-0 left-0 z-10 h-20">
         {/* Overlay */}
         {navOpen ? (
           <div
             id="overlay"
-            className="absolute w-screen h-screen top-0 right-0 bottom-0 left-0 bg-background-dark opacity-80 "
+            className="fixed w-screen h-screen top-0 right-0 bottom-0 left-0 bg-background-dark opacity-80 "
           ></div>
         ) : (
           ""
         )}
 
-        <header className="flex items-center justify-between px-5 py-3  w-full  h-20 bg-surface-0 dark:bg-surface-0-dark drop-shadow-sm">
+        <header className="flex fixed items-center justify-between px-5 py-3  w-full  h-20 bg-surface-0 dark:bg-surface-0-dark drop-shadow-sm">
           {/* MenuBtn */}
           <div className=" relative">
             <div
@@ -45,7 +45,7 @@ function Nav() {
             onClick={() => setNavOpen(!navOpen)}
             className={`${
               navOpen ? " translate-x-0 rounded-r-2xl " : " -translate-x-full"
-            } flex flex-col items-start drop-shadow-xl  absolute top-0 left-0 bottom-0 h-screen w-60  px-6  py-3  bg-surface-2 dark:bg-surface-2-dark transition-transform ease-in-out duration-300 overflow-y-auto`}
+            } flex flex-col items-start drop-shadow-xl fixed top-0 left-0 h-screen w-60  px-6  py-3  bg-surface-2 dark:bg-surface-2-dark transition-transform ease-in-out duration-300 overflow-y-auto`}
           >
             <div
               onClick={() => setNavOpen(!navOpen)}
