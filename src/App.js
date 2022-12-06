@@ -6,9 +6,11 @@ import UiEngineer from "./components/screens/ui-engineer/UiEngineer";
 function App() {
   return (
     <Router>
-      <div className="flex flex-col ">
-        
+      <div className="flex flex-col md:flex-row">
+        <div>
+
         <Nav />
+        </div>
 
           <Routes>
             <Route path="web-dev-tuts/" element={<Home/> } />

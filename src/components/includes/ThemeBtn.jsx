@@ -27,12 +27,22 @@ function ThemeBtn() {
     <button
       type="button"
       onClick={switchTheme}
-      className=" p-3 "
+      className="flex gap-2 mt-0 md:mt-5 p-3 items-center border-none md:border rounded-full border-on-surface-variant dark:border-on-surface-variant-dark"
     >
       {theme === "dark" ? (
-        <SunIcon className="h-6 w-6 text-on-surface-variant-dark" />
+        <>
+          <SunIcon className="h-6 w-6 text-on-surface-variant-dark" />
+          <span className="hidden md:block text-xs text-on-surface-variant-dark">
+            Switch to light mode
+          </span>
+        </>
       ) : (
-        <MoonIcon className="h-6 w-6 text-on-surface-variant" />
+        <>
+          <MoonIcon className="h-6 w-6 text-on-surface-variant" />
+          <span className="hidden md:block text-xs text-on-surface-variant">
+            Switch to dark mode
+          </span>
+        </>
       )}
     </button>
   );

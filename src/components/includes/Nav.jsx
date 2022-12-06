@@ -15,41 +15,43 @@ function Nav() {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <>
-      <div className="relative top-0 right-0 left-0 z-10 h-20">
+      <div className="relative z-10 h-20 md:h-screen w-full md:w-60">
         {/* Overlay */}
         {navOpen ? (
           <div
             id="overlay"
-            className="fixed w-screen h-screen top-0 right-0 bottom-0 left-0 bg-background-dark opacity-80 "
+            className="fixed md:hidden w-screen h-screen top-0 right-0 bottom-0 left-0 bg-background-dark opacity-80 "
           ></div>
         ) : (
           ""
         )}
 
-        <header className="flex fixed items-center justify-between px-5 py-3  w-full  h-20 bg-surface-0 dark:bg-surface-0-dark drop-shadow-sm">
+        <header className="flex md:flex-col fixed  items-center justify-between px-5 py-3 md:py-5  w-full md:w-60  h-20 md:h-screen bg-surface-0 md:bg-surface-2 dark:bg-surface-0-dark md:dark:bg-surface-2-dark drop-shadow-sm ">
           {/* MenuBtn */}
-          <div className=" relative">
+          <div className=" relative md:hidden">
             <div
               onClick={() => setNavOpen(!navOpen)}
-              className=" z-10 top-0 left-0"
+              className=" z-10 top-0 left-0 "
             >
               <MenuBtn menuStat={navOpen} />
             </div>
           </div>
 
           {/* Nav */}
-          <h1 className=" text-xl font-bold text-on-surface-variant dark:text-on-surface-variant-dark">
+          <h1 className=" text-xl font-bold text-on-surface-variant my-0 md:my-5 dark:text-on-surface-variant-dark">
             Tech Schooling
           </h1>
           <nav
-            onClick={() => setNavOpen(!navOpen)}
+            onClick={() => setTimeout(() => setNavOpen(!navOpen), 200)}
             className={`${
-              navOpen ? " translate-x-0 rounded-r-2xl " : " -translate-x-full"
-            } flex flex-col items-start drop-shadow-xl fixed top-0 left-0 h-screen w-60  px-6  py-3  bg-surface-2 dark:bg-surface-2-dark transition-transform ease-in-out duration-300 overflow-y-auto`}
+              navOpen
+                ? " translate-x-0 rounded-r-2xl "
+                : " -translate-x-full md:translate-x-0"
+            } flex flex-col items-start drop-shadow-xl md:drop-shadow-none fixed md:static top-0 left-0 h-screen md:h-auto w-60  px-6  py-3  bg-surface-2 dark:bg-surface-2-dark transition-transform ease-in-out duration-300 overflow-y-auto`}
           >
             <div
               onClick={() => setNavOpen(!navOpen)}
-              className=" flex items-center justify-center mb-4 top-0 left-0 rounded-full"
+              className=" flex items-center md:hidden justify-center mb-4 top-0 left-0 rounded-full"
             >
               <MenuBtn menuStat={navOpen} />
             </div>

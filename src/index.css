@@ -10,6 +10,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 *::-webkit-scrollbar{
-  display: none;
+  width: 8px;
+
+}
+*::-webkit-scrollbar-track {
+  background: #424242;
+  border-radius: 10px;
+  margin: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #686868;
+  border-radius: 10px;
 }
  
