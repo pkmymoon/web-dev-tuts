@@ -15,20 +15,20 @@ function Nav() {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <>
-      <div className="relative z-10 h-20 md:h-screen w-full md:w-60">
+      <div className="relative z-10 h-20 lg:h-screen w-full lg:w-60">
         {/* Overlay */}
         {navOpen ? (
           <div
             id="overlay"
-            className="fixed md:hidden w-screen h-screen top-0 right-0 bottom-0 left-0 bg-background-dark opacity-80 "
+            className="fixed lg:hidden w-screen h-screen top-0 right-0 bottom-0 left-0 bg-background-dark opacity-80 "
           ></div>
         ) : (
           ""
         )}
 
-        <header className="flex md:flex-col fixed  items-center justify-between px-5 py-3 md:py-5  w-full md:w-60  h-20 md:h-screen bg-surface-0 md:bg-surface-2 dark:bg-surface-0-dark md:dark:bg-surface-2-dark drop-shadow-sm ">
+        <header className="flex lg:flex-col fixed  items-center justify-between px-5 py-3 lg:py-5  w-full lg:w-60  h-20 lg:h-screen bg-surface-0 lg:bg-surface-2 dark:bg-surface-0-dark lg:dark:bg-surface-2-dark drop-shadow-sm ">
           {/* MenuBtn */}
-          <div className=" relative md:hidden">
+          <div className=" relative lg:hidden">
             <div
               onClick={() => setNavOpen(!navOpen)}
               className=" z-10 top-0 left-0 "
@@ -38,25 +38,23 @@ function Nav() {
           </div>
 
           {/* Nav */}
-          <h1 className=" text-xl font-bold text-on-surface-variant my-0 md:my-5 dark:text-on-surface-variant-dark">
-            Tech Schooling
-          </h1>
+          
           <nav
             onClick={() => setTimeout(() => setNavOpen(!navOpen), 200)}
             className={`${
               navOpen
                 ? " translate-x-0 rounded-r-2xl "
-                : " -translate-x-full md:translate-x-0"
-            } flex flex-col items-start drop-shadow-xl md:drop-shadow-none fixed md:static top-0 left-0 h-screen md:h-auto w-60  px-6  py-3  bg-surface-2 dark:bg-surface-2-dark transition-transform ease-in-out duration-300 overflow-y-auto`}
+                : " -translate-x-full lg:translate-x-0"
+            } flex flex-col items-start drop-shadow-xl lg:drop-shadow-none fixed lg:static top-0 left-0 h-screen lg:h-auto w-60  px-6  py-3  bg-surface-2 dark:bg-surface-2-dark transition-transform ease-in-out duration-300 overflow-y-auto`}
           >
             <div
               onClick={() => setNavOpen(!navOpen)}
-              className=" flex items-center md:hidden justify-center mb-4 top-0 left-0 rounded-full"
+              className=" flex items-center lg:hidden justify-center mb-4 top-0 left-0 rounded-full"
             >
               <MenuBtn menuStat={navOpen} />
             </div>
             <div className="w-full  mb-3.5 group">
-              <NavLink to="web-dev-tuts/">
+              <NavLink to="web-dev-tuts">
                 {({ isActive }) => (
                   <div className="flex rounded-full  items-center gap-4 ">
                     <div
@@ -78,7 +76,7 @@ function Nav() {
                     <span
                       className={`${
                         isActive ? "font-semibold" : "font-normal"
-                      } text-center mt-0 md:mt-1 text-lg md:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
+                      } text-center mt-0 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
                     >
                       Home
                     </span>
@@ -109,7 +107,7 @@ function Nav() {
                     <span
                       className={`${
                         isActive ? "font-semibold" : "font-normal"
-                      } text-center mt-0 md:mt-1 text-lg md:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
+                      } text-center mt-0 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
                     >
                       HTML
                     </span>
@@ -140,7 +138,7 @@ function Nav() {
                     <span
                       className={`${
                         isActive ? "font-semibold" : "font-normal"
-                      } text-center mt-0 md:mt-1 text-lg md:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
+                      } text-center mt-0 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
                     >
                       CSS
                     </span>
@@ -171,7 +169,7 @@ function Nav() {
                     <span
                       className={`${
                         isActive ? "font-semibold" : "font-normal"
-                      } text-center mt-0 md:mt-1 text-lg md:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
+                      } text-center mt-0 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
                     >
                       JavaScript
                     </span>
@@ -202,7 +200,7 @@ function Nav() {
                     <span
                       className={`${
                         isActive ? "font-semibold" : "font-normal"
-                      } text-center mt-0 md:mt-1 text-lg md:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
+                      } text-center mt-0 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
                     >
                       jQuery
                     </span>
@@ -233,7 +231,7 @@ function Nav() {
                     <span
                       className={`${
                         isActive ? "font-semibold" : "font-normal"
-                      } text-center mt-0 md:mt-1 text-lg md:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
+                      } text-center mt-0 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
                     >
                       Bootstrap
                     </span>
@@ -264,7 +262,7 @@ function Nav() {
                     <span
                       className={`${
                         isActive ? "font-semibold" : "font-normal"
-                      } text-center mt-0 md:mt-1 text-lg md:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
+                      } text-center mt-0 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
                     >
                       SASS
                     </span>
@@ -295,7 +293,7 @@ function Nav() {
                     <span
                       className={`${
                         isActive ? "font-semibold" : "font-normal"
-                      } text-center mt-0 md:mt-1 text-lg md:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
+                      } text-center mt-0 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
                     >
                       React
                     </span>
