@@ -1,3 +1,9 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
 /*! ../demux/demuxer-inline */
 
 /*! ../demux/demuxer-worker.js */
