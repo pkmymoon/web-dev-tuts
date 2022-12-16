@@ -38,7 +38,9 @@ function Nav() {
           </div>
 
           {/* Nav */}
-          
+          <h1 className=" text-xl font-bold text-on-surface-variant my-0 lg:my-5 dark:text-on-surface-variant-dark">
+            Tech Schooling
+          </h1>
           <nav
             onClick={() => setTimeout(() => setNavOpen(!navOpen), 200)}
             className={`${

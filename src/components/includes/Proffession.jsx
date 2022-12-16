@@ -23,10 +23,13 @@ function Proffession(props) {
       setIsOpen(true);
     }
   return (
-    <li className="mb-20 last:mb-0 ml-6 group">
-      <span className="flex absolute -left-[13px] text-xs justify-center items-center w-6 h-6 bg-secondary-container rounded-full dark:bg-secondary-container-dark"></span>
-      <div className="flex flex-col lg:flex-row justify-between">
-        <div className="w-full flex flex-col items-start lg:w-2/4 p-5">
+    <li className="mb-20 last:mb-0 ml-0 group">
+      {/* <span className="flex absolute -left-[13px] text-xs justify-center items-center w-6 h-6 bg-secondary-container rounded-full dark:bg-secondary-container-dark"></span> */}
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4 italic">
+            #{props.id}
+          </h2>
+      <div className="flex gap-6 flex-col lg:flex-row justify-between">
+        <div className="w-full flex flex-col items-start lg:w-2/4">
           <h3 className="text-2xl lg:text-3xl font-semibold mb-4">
             {props.title}
           </h3>
@@ -54,7 +57,7 @@ function Proffession(props) {
             <p className="text-lg">{props.answer}</p>
           </div>
         </div>
-        <div className="w-full p-5 lg:w-2/4 h-full  ">
+        <div className="w-full lg:w-2/4 h-full  ">
           <>
             <button
               type="button"
@@ -180,7 +183,7 @@ function Proffession(props) {
           ></rect>
         </svg>
       </div>
-      <span className="hidden group-last:flex absolute -left-[13px]  text-xs justify-center items-center w-6 h-1 bg-secondary-container dark:bg-secondary-container-dark"></span>
+      {/* <span className="hidden group-last:flex absolute -left-[13px]  text-xs justify-center items-center w-6 h-1 bg-secondary-container dark:bg-secondary-container-dark"></span> */}
     </li>
   );
 }

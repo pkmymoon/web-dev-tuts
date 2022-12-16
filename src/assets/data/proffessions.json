@@ -1,72 +1,200 @@
 [
-    {
+  {
+    "id": 1,
+    "link": "ui-engineer",
+    "title": "UI Engineer",
+    "skills": 10,
+    "skillsList": [
+      {
         "id": 1,
-        "link":"ui-engineer",
-        "title":"UI Engineer",
-        "skills": 10,
-        "lessons": 97,
-        "videos": 558,
-        "duration": "57 hrs 29 mins",
-        "description":"Develop an interactive responsive website using HTML, CSS,JavaScript and its modern Frameworks.",
-        "question":"What you need to know before you get started with UI Engineer?",
-        "answer":"UI Engineer is also known as User Interface Engineer whose job is to think from the user perspective and to design websites and web applications that are attractive and extremely functional.",
-        "image":"https://d3mbaugvr53zg5.cloudfront.net/media/elearning/designation/UI_Engineer.jpg",
-        "video":"https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/designations/34167af1-49ec-4330-92e0-eceb0aa06cf8/HLS/34167af1-49ec-4330-92e0-eceb0aa06cf8.m3u8"
-    },
-    {
+        "title": "Technology",
+        "link": "tech",
+        "lessons": 1,
+        "duration": "49 mins"
+      },
+      {
         "id": 2,
-        "link":"backend-developer",
-        "title":"Backend Developer",
-        "skills": 3,
-        "lessons": 35,
-        "videos": 241,
-        "duration": "25 hrs 56 mins",
-        "description":"Build beautiful websites with CMS features using Python and Django web framework.",
-        "question":"What you need to know before you get started with Backend Developer?",
-        "answer":"Back-end developers are web developers who concentrate on the data that is stored or accessed on a website or through an app. Their role is to develop systems and programs that ensure that the right data is accessed through the proper means.",
-        "image":"https://d3mbaugvr53zg5.cloudfront.net/media/elearning/designation/Backend_Developer_ACsVD3G.jpg",
-        "video":"https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/designations/5f7a461a-e769-4411-b434-f47ad73ebd4d/HLS/5f7a461a-e769-4411-b434-f47ad73ebd4d.m3u8"
-    },
-    {
-        "id": 3,
-        "link":"devops-engineer",
-        "title":"DevOps Engineer",
-        "skills": 1,
+        "title": "HTML",
+        "link": "html",
+
         "lessons": 12,
-        "videos": 56,
-        "duration": "4 hrs 31 mins",
-        "description":"Build, publish and maintain web application.",
-        "question":"What you need to know before you get started with DevOps Engineer?",
-        "answer":"DevOps is a set of methods that combines software development and IT operations. It aims to reduce the friction between the systems development life-cycle and provide continuous delivery with high software quality.",
-        "image":"https://d3mbaugvr53zg5.cloudfront.net/media/elearning/designation/DevOps_Engineer.jpg",
-        "video":"https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/designations/ccb83047-f047-4449-9af1-6f0acae361f2/HLS/ccb83047-f047-4449-9af1-6f0acae361f2.m3u8"
-    },
-    {
+        "duration": "4 hrs 51 mins"
+      },
+      {
+        "id": 3,
+        "title": "Cascading Style Sheets",
+        "link": "css",
+
+        "lessons": 22,
+        "duration": "19 hrs 20 mins"
+      },
+      {
         "id": 4,
-        "link":"web-app-developer",
-        "title":"Web Application Developer",
-        "skills": 1,
-        "lessons": 4,
-        "videos": 35,
-        "duration": "4 hrs 31 mins",
-        "description":"Build an entire Web application with Frontend, Backend and API connections.",
-        "question":"What you need to know before you get started with Web Application Developer?",
-        "answer":"A web application developer is responsible for maintaining and building software applications according to the client’s specifications and also evaluating codes to ensure industry standards.",
-        "image":"https://d3mbaugvr53zg5.cloudfront.net/media/elearning/designation/Web_Application_Developer_vmaZxha.jpg",
-        "video":"https://player.vimeo.com/external/682170410.m3u8?s=cc22cd1f3ecb0a43138be579e8cadba48e608311"
-    },
-    {
+        "title": "Git & Gitlab",
+        "link": "git",
+
+        "lessons": 2,
+        "duration": "1 hr 23 mins"
+      },
+      {
         "id": 5,
-        "link":"mobile-app-developer",
-        "title":"Mobile Application Developer",
-        "skills": 1,
+        "title": "JavaScript",
+        "link": "js",
+
+        "lessons": 24,
+        "duration": "9 hrs 20 mins"
+      },
+      {
+        "id": 6,
+        "title": "jQuery",
+        "link": "jquery",
+        "lessons": 9,
+        "duration": "3 hrs 59 mins"
+      },
+      {
+        "id": 7,
+        "title": "Bootstrap",
+        "link": "bootstrap",
+        "lessons": 6,
+        "duration": "2 hrs 23 mins"
+      },
+      {
+        "id": 8,
+        "title": "SASS",
+        "link": "sass",
+        "lessons": 2,
+        "duration": "1 hr 29 mins"
+      },
+      {
+        "id": 9,
+        "title": "React",
+        "link": "react",
         "lessons": 14,
-        "videos": 82,
-        "duration": "6 hrs 57 mins",
-        "description":"",
-        "question":"What you need to know before you get started with Mobile Application Developer?",
-        "answer":"Mobile application developers should be able to produce applications for Android and iOS in accordance with UI and UX trends which are functional as well as elegant.",
-        "image":"https://d3mbaugvr53zg5.cloudfront.net/media/elearning/designation/Mobile_Application_Developer.jpg",
-        "video":"https://player.vimeo.com/external/746818442.m3u8?s=04e3c80010744df36e8ee2e4b46d49a494d5ab3c"
-    }
+        "duration": "11 hrs 26 mins"
+      },
+      {
+        "id": 10,
+        "title": "Progressive Web Apps",
+        "link": "pwa",
+        "lessons": 5,
+        "duration": "2 hrs 24 mins"
+      }
+    ],
+    "lessons": 97,
+    "videos": 558,
+    "duration": "57 hrs 29 mins",
+    "description": "Develop an interactive responsive website using HTML, CSS,JavaScript and its modern Frameworks.",
+    "question": "What you need to know before you get started with UI Engineer?",
+    "answer": "UI Engineer is also known as User Interface Engineer whose job is to think from the user perspective and to design websites and web applications that are attractive and extremely functional.",
+    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/designation/UI_Engineer.jpg",
+    "video": "https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/designations/34167af1-49ec-4330-92e0-eceb0aa06cf8/HLS/34167af1-49ec-4330-92e0-eceb0aa06cf8.m3u8"
+  },
+  {
+    "id": 2,
+    "link": "backend-developer",
+    "title": "Backend Developer",
+    "skills": 3,
+    "skillsList": [
+      {
+        "id": 1,
+        "title": "Python",
+        "link": "python",
+
+        "lessons": 12,
+        "duration": "6 hrs 47 mins"
+      },
+      {
+        "id": 2,
+        "title": "Django",
+        "link": "django",
+        "lessons": 13,
+        "duration": "10 hrs 59 mins"
+      },
+      {
+        "id": 3,
+        "title": "Django Advanced",
+        "link": "django-advanced",
+        "lessons": 10,
+        "duration": "8 hrs 9 mins"
+      }
+    ],
+    "lessons": 35,
+    "videos": 241,
+    "duration": "25 hrs 56 mins",
+    "description": "Build beautiful websites with CMS features using Python and Django web framework.",
+    "question": "What you need to know before you get started with Backend Developer?",
+    "answer": "Back-end developers are web developers who concentrate on the data that is stored or accessed on a website or through an app. Their role is to develop systems and programs that ensure that the right data is accessed through the proper means.",
+    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/designation/Backend_Developer_ACsVD3G.jpg",
+    "video": "https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/designations/5f7a461a-e769-4411-b434-f47ad73ebd4d/HLS/5f7a461a-e769-4411-b434-f47ad73ebd4d.m3u8"
+  },
+  {
+    "id": 3,
+    "link": "devops-engineer",
+    "title": "DevOps Engineer",
+    "skills": 1,
+    "skillsList": [
+      {
+        "id": 1,
+        "title": "Website Hosting",
+        "link": "hosting",
+        "lessons": 12,
+        "duration": "4 hrs 31 mins"
+      }
+    ],
+    "lessons": 12,
+    "videos": 56,
+    "duration": "4 hrs 31 mins",
+    "description": "Build, publish and maintain web application.",
+    "question": "What you need to know before you get started with DevOps Engineer?",
+    "answer": "DevOps is a set of methods that combines software development and IT operations. It aims to reduce the friction between the systems development life-cycle and provide continuous delivery with high software quality.",
+    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/designation/DevOps_Engineer.jpg",
+    "video": "https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/designations/ccb83047-f047-4449-9af1-6f0acae361f2/HLS/ccb83047-f047-4449-9af1-6f0acae361f2.m3u8"
+  },
+  {
+    "id": 4,
+    "link": "web-app-developer",
+    "title": "Web Application Developer",
+    "skills": 1,
+    "skillsList": [
+      {
+        "id": 1,
+        "title": "API Development",
+        "link": "api",
+        "lessons": 4,
+        "duration": "4 hrs 31 mins"
+      }
+    ],
+    "lessons": 4,
+    "videos": 35,
+    "duration": "4 hrs 31 mins",
+    "description": "Build an entire Web application with Frontend, Backend and API connections.",
+    "question": "What you need to know before you get started with Web Application Developer?",
+    "answer": "A web application developer is responsible for maintaining and building software applications according to the client’s specifications and also evaluating codes to ensure industry standards.",
+    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/designation/Web_Application_Developer_vmaZxha.jpg",
+    "video": "https://player.vimeo.com/external/682170410.m3u8?s=cc22cd1f3ecb0a43138be579e8cadba48e608311"
+  },
+  {
+    "id": 5,
+    "link": "mobile-app-developer",
+    "title": "Mobile Application Developer",
+    "skills": 1,
+    "skillsList": [
+      {
+        "id": 1,
+        "title": "React Native",
+        "link": "react-native",
+
+        "lessons": 14,
+        "duration": "6 hrs 57 mins"
+      }
+    ],
+    "lessons": 14,
+    "videos": 82,
+    "duration": "6 hrs 57 mins",
+    "description": "Creating iOS and Android Applications and publishing on respective platform",
+    "question": "What you need to know before you get started with Mobile Application Developer?",
+    "answer": "Mobile application developers should be able to produce applications for Android and iOS in accordance with UI and UX trends which are functional as well as elegant.",
+    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/designation/Mobile_Application_Developer.jpg",
+    "video": "https://player.vimeo.com/external/746818442.m3u8?s=04e3c80010744df36e8ee2e4b46d49a494d5ab3c"
+  }
 ]
