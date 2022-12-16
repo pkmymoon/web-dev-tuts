@@ -13,7 +13,7 @@ function Home() {
           backgroundImage: `url(${Background})`,
         }}
       >
-        <h2 className=" text-5xl lg:text-6xl font-bold text-on-primary dark:text-on-primary ">
+        <h2 className=" text-5xl lg:text-5xl font-bold text-on-primary dark:text-on-primary ">
           Tech Schooling
         </h2>
         <p></p>
