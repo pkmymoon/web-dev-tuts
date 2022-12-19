@@ -25,9 +25,9 @@ function Proffession(props) {
   return (
     <li className="mb-20 last:mb-0 ml-0 group">
       {/* <span className="flex absolute -left-[13px] text-xs justify-center items-center w-6 h-6 bg-secondary-container rounded-full dark:bg-secondary-container-dark"></span> */}
-          <h2 className="text-4xl lg:text-5xl font-bold mb-4 italic">
-            #{props.id}
-          </h2>
+      <h2 className="text-4xl lg:text-5xl font-bold mb-4 italic">
+        #{props.id}
+      </h2>
       <div className="flex gap-6 flex-col lg:flex-row justify-between">
         <div className="w-full flex flex-col items-start lg:w-2/4">
           <h3 className="text-2xl lg:text-3xl font-semibold mb-4">
@@ -62,7 +62,7 @@ function Proffession(props) {
             <button
               type="button"
               onClick={openModal}
-              className="h-full w-full relative "
+              className="h-full transition-all ease-linear hover:scale-[101%] w-full relative "
             >
               <img
                 className="shadow-2xl rounded-3xl"
@@ -113,7 +113,7 @@ function Proffession(props) {
                           {props.title}
                           <Link
                             to={props.link}
-                            className="ml-5 flex items-center flex-wrap gap-1 rounded-full bg-surface-5 dark:bg-surface-5-dark px-3 py-2 text-xs"
+                            className="ml-5  transition-all ease-linear hover:scale-[105%] flex items-center flex-wrap gap-1 rounded-full bg-surface-5 dark:bg-surface-5-dark px-3 py-2 text-xs"
                           >
                             Learn More
                             <ChevronRightIcon className=" w-3 h-3" />
@@ -141,7 +141,7 @@ function Proffession(props) {
           <div className="flex items-center justify-center">
             <Link
               to={props.link}
-              className="ml-5 flex mt-10 items-center flex-wrap gap-1 rounded-full bg-surface-5 dark:bg-surface-5-dark px-6 py-3 text-lg"
+              className="ml-5 transition-all ease-linear hover:scale-[105%] flex mt-10 items-center flex-wrap gap-1 rounded-full bg-surface-5 dark:bg-surface-5-dark px-6 py-3 text-lg"
             >
               Learn More
               <ChevronRightIcon className=" w-5 h-5" />

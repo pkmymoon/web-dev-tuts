@@ -10,13 +10,231 @@
         "title": "Technology",
         "link": "tech",
         "lessons": 1,
+        "lessonsList": [
+          {
+            "id": 1,
+            "title": "Introduction",
+            "link": "intro",
+            "topics": 10,
+            "duration": "49 mins",
+            "topicsList": [
+              {
+                "id": 1,
+                "title": "Technology",
+                "duration": "3 mins, 22 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/1_Technology_Thumbnail.jpg",
+                "video": "https://player.vimeo.com/external/714493914.m3u8?s=bb980cbfc738fc9935df369ea6cfde4b6d1cffcf"
+              },
+              {
+                "id": 2,
+                "title": "Technology & Future Jobs",
+                "duration": "5 mins, 8 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearn…3_Technology_Technology___Future_Jobs_05BGmYz.jpg",
+                "video": "https://player.vimeo.com/external/714494060.m3u8?s=85ab537ffa9f37787b1202623ac4d1114c4aaef2"
+              }
+            ]
+          }
+        ],
         "duration": "49 mins"
       },
       {
         "id": 2,
         "title": "HTML",
         "link": "html",
-
+        "lessonsList": [
+          {
+            "id": 1,
+            "title": "Introduction to HTML",
+            "link": "intro",
+            "topics": 13,
+            "duration": "50 mins",
+            "topicsList": [
+              {
+                "id": 1,
+                "title": "Technology",
+                "duration": "3 mins, 22 secs",
+                "poster": "",
+                "video": ""
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "HTML Links, Attributes and Values",
+            "link": "links-attribs-vals",
+            "topics": 7,
+            "duration": "33 mins",
+            "topicsList": [
+              {
+                "id": 1,
+                "title": "Technology",
+                "duration": "3 mins, 22 secs",
+                "poster": "",
+                "video": ""
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Images, Self and Pair Tags",
+            "link": "img-tags",
+            "topics": 5,
+            "duration": "32 mins",
+            "topicsList": [
+              {
+                "id": 1,
+                "title": "Technology",
+                "duration": "3 mins, 22 secs",
+                "poster": "",
+                "video": ""
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "title": "How to Write a Tag?",
+            "link": "tag",
+            "topics": 5,
+            "duration": "21 mins",
+            "topicsList": [
+              {
+                "id": 1,
+                "title": "Technology",
+                "duration": "3 mins, 22 secs",
+                "poster": "",
+                "video": ""
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "title": "Group Tags",
+            "link": "grp-tags",
+            "topics": 4,
+            "duration": "12 mins",
+            "topicsList": [
+              {
+                "id": 1,
+                "title": "Technology",
+                "duration": "3 mins, 22 secs",
+                "poster": "",
+                "video": ""
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "title": "Tables",
+            "link": "tbls",
+            "topics": 3,
+            "duration": "17 mins",
+            "topicsList": [
+              {
+                "id": 1,
+                "title": "Technology",
+                "duration": "3 mins, 22 secs",
+                "poster": "",
+                "video": ""
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "title": "Class and ID",
+            "link": "cls-id",
+            "topics": 1,
+            "duration": "9 mins",
+            "topicsList": [
+              {
+                "id": 1,
+                "title": "Technology",
+                "duration": "3 mins, 22 secs",
+                "poster": "",
+                "video": ""
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "title": "HTML Forms",
+            "link": "forms",
+            "topics": 12,
+            "duration": "41 mins",
+            "topicsList": [
+              {
+                "id": 1,
+                "title": "Technology",
+                "duration": "3 mins, 22 secs",
+                "poster": "",
+                "video": ""
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "title": "Grouping Tags",
+            "link": "grping-tags",
+            "topics": 1,
+            "duration": "9 mins",
+            "topicsList": [
+              {
+                "id": 1,
+                "title": "Technology",
+                "duration": "3 mins, 22 secs",
+                "poster": "",
+                "video": ""
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "title": "Block and Inline Elements",
+            "link": "block-inline",
+            "topics": 3,
+            "duration": "13 mins",
+            "topicsList": [
+              {
+                "id": 1,
+                "title": "Technology",
+                "duration": "3 mins, 22 secs",
+                "poster": "",
+                "video": ""
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "title": "Media Elements",
+            "link": "media",
+            "topics": 3,
+            "duration": "18 mins",
+            "topicsList": [
+              {
+                "id": 1,
+                "title": "Technology",
+                "duration": "3 mins, 22 secs",
+                "poster": "",
+                "video": ""
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "title": "Additional Information",
+            "link": "info",
+            "topics": 2,
+            "duration": "6 mins",
+            "topicsList": [
+              {
+                "id": 1,
+                "title": "Technology",
+                "duration": "3 mins, 22 secs",
+                "poster": "",
+                "video": ""
+              }
+            ]
+          }
+        ],
         "lessons": 12,
         "duration": "4 hrs 51 mins"
       },
