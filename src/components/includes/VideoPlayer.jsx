@@ -5,31 +5,34 @@ import {
 import ReactHlsPlayer from "react-hls-player/dist";
 import React from "react";
 
-function VideoPlayer(id, title, src, topic) {
+function VideoPlayer(props) {
   
-  const playerRef = React.useRef();
-  function togglePlay() {
-    playerRef.current.paused
-      ? playerRef.current.play()
-      : playerRef.current.pause();
-  }
+  // const playerRef = React.useRef();
+  // function togglePlay() {
+  //   playerRef.current.paused
+  //     ? playerRef.current.play()
+  //     : playerRef.current.pause();
+  // }
 
   return (
-    <div key={id} id="video-player" className="basis-4/6 p-7 min-h-screen">
-      <p className="text-4xl ml-5 mb-5 font-bold text-onBgContainer_light dark:text-onBgContainer_dark">
-        {topic}
-      </p>
+    <div
+      key={props.id}
+      id="video-player"
+      className=""
+    >
+      
       <div>
         <div id="video " className="relative">
           <ReactHlsPlayer
+            poster={props.poster}
             className="w-full rounded-3xl "
-            playerRef={playerRef}
-            src={src}
-            controls={false}
+            src={props.src}
+            autoPlay={false}
+            controls={true}
             width="100%"
             height="auto"
           />
-          <div
+          {/* <div
             id="controlls"
             className="p-7 flex items-center justify-between absolute top-0 w-full"
           >
@@ -51,11 +54,11 @@ function VideoPlayer(id, title, src, topic) {
                 onClick={togglePlay}
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <p className="text-3xl ml-5 mb-5 font-base text-onBgContainer_light dark:text-onBgContainer_dark">
-        {title}
+      <p className="text-3xl ml-5 mt-5 font-base ">
+        {props.title}
       </p>
     </div>
   );

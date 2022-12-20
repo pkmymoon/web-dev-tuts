@@ -16,10 +16,10 @@ function ProffessionView() {
   return (
     <>
       <motion.div
-        initial={{ y: 10, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        exit={{ y: -10, opacity: 0 }}
-        transition={{ duration: 0.3 }}
+        initial={{ x: 10, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        exit={{ x: -10, opacity: 0 }}
+        transition={{ duration: 0.2 }}
       >
         <Helmet>
           <title>Tech Schooling | {proffession.title}</title>
@@ -51,7 +51,7 @@ function ProffessionView() {
           <div className="p-10 z-0">
             <div className="  flex flex-wrap gap-4 ">
               {proffession.skillsList.map((skill) => (
-                <div className=" w-full md:w-[49%] group transition-all ease-linear  hover:scale-[101%] bg-surface-1 dark:bg-surface-1-dark hover:bg-secondary-container hover:dark:bg-secondary-container-dark rounded-2xl">
+                <div key={skill.id} className=" w-full md:w-[49%] group transition-all ease-linear  hover:scale-[101%] bg-surface-1 dark:bg-surface-1-dark hover:bg-secondary-container hover:dark:bg-secondary-container-dark rounded-2xl">
                   <Link to={skill.link} className="flex items-start p-6">
                     <div className="mr-5">
                       <p className="text-xl font-bold italic">#{skill.id}</p>

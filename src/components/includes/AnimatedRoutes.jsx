@@ -6,15 +6,16 @@ import TopicView from "../screens/TopicView";
 import ProffessionView from "../screens/ProffessionView";
 import SkillView from "../screens/SkillView";
 import { motion, AnimatePresence } from "framer-motion";
+import VideoSkeleton from "./VideoSkeleton";
 function AnimatedRoutes() {
   const location = useLocation();
   return (
     <AnimatePresence classname="w-full">
       <motion.div
-        initial={{ y: 10, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        exit={{ y: -10, opacity: 0 }}
-        transition={{ duration: 0.3 }}
+        initial={{ x: 10, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        exit={{ x: -10, opacity: 0 }}
+        transition={{ duration: 0.2 }}
       >
         <Routes location={location} key={location.pathname}>
           <Route path="web-dev-tuts/" element={<Home />} />
@@ -24,7 +25,7 @@ function AnimatedRoutes() {
             path="web-dev-tuts/:proff/:skill/:lesson"
             element={<LessonsView />}
           >
-            <Route index element={<TopicView />} />
+            <Route index element={<VideoSkeleton />} />
             <Route path=":topic" element={<TopicView />} />
           </Route>
         </Routes>

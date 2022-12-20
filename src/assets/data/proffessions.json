@@ -21,6 +21,7 @@
               {
                 "id": 1,
                 "title": "Technology",
+                "link": "technology",
                 "duration": "3 mins, 22 secs",
                 "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/1_Technology_Thumbnail.jpg",
                 "video": "https://player.vimeo.com/external/714493914.m3u8?s=bb980cbfc738fc9935df369ea6cfde4b6d1cffcf"
@@ -28,9 +29,74 @@
               {
                 "id": 2,
                 "title": "Technology & Future Jobs",
+                "link": "technology&future_jobs",
                 "duration": "5 mins, 8 secs",
-                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearn…3_Technology_Technology___Future_Jobs_05BGmYz.jpg",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/3_Technology_Technology___Future_Jobs_05BGmYz.jpg",
                 "video": "https://player.vimeo.com/external/714494060.m3u8?s=85ab537ffa9f37787b1202623ac4d1114c4aaef2"
+              },
+              {
+                "id": 3,
+                "title": "Devices",
+                "link": "devices",
+                "duration": "4 mins, 35 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/4_Technology_Devices.jpg",
+                "video": "https://player.vimeo.com/external/714534351.m3u8?s=db2c7e84e1e4285eca7ca603adc45586e24c5cf5"
+              },
+              {
+                "id": 4,
+                "title": "Operating Systems",
+                "link": "os",
+                "duration": "9 mins, 12 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/5_Technology_Operating_System.jpg",
+                "video": "https://player.vimeo.com/external/714494405.m3u8?s=75de551bdd6aa0cc5b606fb72b7b966512bf4a1e"
+              },
+              {
+                "id": 5,
+                "title": "How internet works?",
+                "link": "how_internet_works",
+                "duration": "5 mins, 6 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/6_Technology_How_internet_Works.jpg",
+                "video": "https://player.vimeo.com/external/714494233.m3u8?s=fa69fcfded099ef1bf0263b8ffaf3e207049f452"
+              },
+              {
+                "id": 6,
+                "title": "What is a website?",
+                "link": "what_is_a_website",
+                "duration": "1 mins, 16 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/7_Technology_What_is_a_website.jpg",
+                "video": "https://player.vimeo.com/external/714494744.m3u8?s=9d4bd28526c22127db90ec2ebd17c04b45093e41"
+              },
+              {
+                "id": 7,
+                "title": "What is coding?",
+                "link": "what_is_coding",
+                "duration": "3 mins, 16 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/8_Technology_What_is_coding.jpg",
+                "video": "https://player.vimeo.com/external/714534566.m3u8?s=a77e23d00cc18e8dfeb723668dc841367a0229d0"
+              },
+              {
+                "id": 8,
+                "title": "Website Development",
+                "link": "website_development",
+                "duration": "6 mins, 1 sec",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/9_echnology_Website_Development.jpg",
+                "video": "https://player.vimeo.com/external/714494611.m3u8?s=7a39981f686a96baa820f372c6214b63dada7518"
+              },
+              {
+                "id": 9,
+                "title": "Creating a file",
+                "link": "creating_a_file",
+                "duration": "7 mins, 23 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/10_echnology_Creating_a_file.jpg",
+                "video": "https://player.vimeo.com/external/714494946.m3u8?s=3f5d278840384f8092a8c3883a2feb5572d20c78"
+              },
+              {
+                "id": 10,
+                "title": "Folder Structuring",
+                "link": "folder_structuring",
+                "duration": "3 mins, 16 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/11_echnology_Folder_Structuring.jpg",
+                "video": "https://player.vimeo.com/external/714493826.m3u8?s=b89408ecba6a86a4aa93638e40108cde19d841bc"
               }
             ]
           }
