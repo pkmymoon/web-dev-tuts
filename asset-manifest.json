@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web-dev-tuts/static/css/main.9a352a21.css",
-    "main.js": "/web-dev-tuts/static/js/main.bb4c0bca.js",
+    "main.js": "/web-dev-tuts/static/js/main.047cd406.js",
     "static/media/jquery.svg": "/web-dev-tuts/static/media/jquery.437be6ae111b92380f470fd416dc4a6d.svg",
     "static/media/sass.svg": "/web-dev-tuts/static/media/sass.28bf205813f852cbb1e3e79c5412ffbe.svg",
     "static/media/react.svg": "/web-dev-tuts/static/media/react.d9ae6f722679b9a7bba83d0a9317f073.svg",
@@ -11,10 +11,10 @@
     "static/media/css.svg": "/web-dev-tuts/static/media/css.511a0f65e1c611ebccc9a8b4a5e5f3c1.svg",
     "static/media/html.svg": "/web-dev-tuts/static/media/html.f3fc21436fc34a76e138a0da756074fe.svg",
     "main.9a352a21.css.map": "/web-dev-tuts/static/css/main.9a352a21.css.map",
-    "main.bb4c0bca.js.map": "/web-dev-tuts/static/js/main.bb4c0bca.js.map"
+    "main.047cd406.js.map": "/web-dev-tuts/static/js/main.047cd406.js.map"
   },
   "entrypoints": [
     "static/css/main.9a352a21.css",
-    "static/js/main.bb4c0bca.js"
+    "static/js/main.047cd406.js"
   ]
 }
