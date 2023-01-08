@@ -87,7 +87,7 @@ function Nav() {
               </NavLink>
             </div>
             <div className="w-full  mb-3.5 group">
-              <NavLink to="/html">
+              <NavLink to="web-dev-tuts/ui-engineer/html">
                 {({ isActive }) => (
                   <div className="flex rounded-full  items-center gap-4 ">
                     <div
@@ -118,7 +118,7 @@ function Nav() {
               </NavLink>
             </div>
             <div className="w-full  mb-3.5 group">
-              <NavLink to="/css">
+              <NavLink to="web-dev-tuts/ui-engineer/css">
                 {({ isActive }) => (
                   <div className="flex  items-center  gap-4 ">
                     <div
@@ -149,7 +149,7 @@ function Nav() {
               </NavLink>
             </div>
             <div className="w-full  mb-3.5 group">
-              <NavLink to="/java-script">
+              <NavLink to="web-dev-tuts/ui-engineer/java-script">
                 {({ isActive }) => (
                   <div className="flex  items-center  gap-4 ">
                     <div
@@ -180,7 +180,7 @@ function Nav() {
               </NavLink>
             </div>
             <div className="w-full  mb-3.5 group">
-              <NavLink to="/jquery">
+              <NavLink to="web-dev-tuts/ui-engineer/jquery">
                 {({ isActive }) => (
                   <div className="flex  items-center  gap-4 ">
                     <div
@@ -211,7 +211,7 @@ function Nav() {
               </NavLink>
             </div>
             <div className="w-full  mb-3.5 group">
-              <NavLink to="/bootstrap">
+              <NavLink to="web-dev-tuts/ui-engineer/bootstrap">
                 {({ isActive }) => (
                   <div className="flex  items-center  gap-4 ">
                     <div
@@ -242,7 +242,7 @@ function Nav() {
               </NavLink>
             </div>
             <div className="w-full  mb-3.5 group">
-              <NavLink to="/sass">
+              <NavLink to="web-dev-tuts/ui-engineer/sass">
                 {({ isActive }) => (
                   <div className="flex  items-center  gap-4 ">
                     <div
@@ -273,7 +273,7 @@ function Nav() {
               </NavLink>
             </div>
             <div className="w-full  mb-3.5 group">
-              <NavLink to="/react">
+              <NavLink to="web-dev-tuts/ui-engineer/react">
                 {({ isActive }) => (
                   <div className="flex  items-center  gap-4 ">
                     <div
@@ -301,6 +301,16 @@ function Nav() {
                     </span>
                   </div>
                 )}
+              </NavLink>
+            </div>
+            <div className="w-full  mb-3.5 group">
+              <NavLink to="web-dev-tuts/data">
+                
+                    <span
+                      className="font-normal text-center mt-0 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark"
+                    >
+                      Data
+                    </span>
               </NavLink>
             </div>
           </nav>

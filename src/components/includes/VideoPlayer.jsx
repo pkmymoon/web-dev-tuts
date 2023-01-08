@@ -27,7 +27,7 @@ function VideoPlayer(props) {
             poster={props.poster}
             className="w-full rounded-3xl "
             src={props.src}
-            autoPlay={false}
+            autoPlay={true}
             controls={true}
             width="100%"
             height="auto"

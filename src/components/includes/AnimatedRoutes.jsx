@@ -7,6 +7,7 @@ import ProffessionView from "../screens/ProffessionView";
 import SkillView from "../screens/SkillView";
 import { motion, AnimatePresence } from "framer-motion";
 import VideoSkeleton from "./VideoSkeleton";
+import DataCollection from "../screens/DataCollection";
 function AnimatedRoutes() {
   const location = useLocation();
   return (
@@ -19,6 +20,7 @@ function AnimatedRoutes() {
       >
         <Routes location={location} key={location.pathname}>
           <Route path="web-dev-tuts/" element={<Home />} />
+          <Route path="web-dev-tuts/data" element={<DataCollection />} />
           <Route path="web-dev-tuts/:proff" element={<ProffessionView />} />
           <Route path="web-dev-tuts/:proff/:skill" element={<SkillView />} />
           <Route

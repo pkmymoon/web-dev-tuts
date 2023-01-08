@@ -117,10 +117,107 @@
             "topicsList": [
               {
                 "id": 1,
-                "title": "Technology",
-                "duration": "3 mins, 22 secs",
-                "poster": "",
-                "video": ""
+                "title": "What is HTML?",
+                "link": "what_is_html",
+                "duration": "6 mins, 13 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/1_What_is_HTML_.jpg",
+                "video": "https://player.vimeo.com/external/725645009.m3u8?s=f580b7434eae5aac8db8f265b29933806acbb990"
+              },
+              {
+                "id": 2,
+                "title": "Creating HTML file",
+                "link": "Creating HTML file",
+                "duration": "7 mins, 23 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/2_Creating_HTML_file.jpg",
+                "video": "https://player.vimeo.com/external/725645264.m3u8?s=504d3f1af16e96c53a261f0f27d85f69e28f1bf4"
+              },
+              {
+                "id": 3,
+                "title": "Create first web page",
+                "link": "Create first web page",
+                "duration": "3 mins, 24 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/3_Create-first-web-page.jpg",
+                "video": "https://player.vimeo.com/external/725645534.m3u8?s=497b1ac2cba9d89783258ce0841159e182d28d62"
+              },
+              {
+                "id": 4,
+                "title": "Create an HTML element",
+                "link": "Create an HTML element",
+                "duration": "4 mins, 6 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/4_Create_an_HTML_element.jpg",
+                "video": "https://player.vimeo.com/external/725643856.m3u8?s=68b538fe35c665da92050f3f371265038855c690"
+              },
+              {
+                "id": 5,
+                "title": "HTML Versions",
+                "link": "HTML Versions",
+                "duration": "1 mins, 33 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/5_HTML_versions.jpg",
+                "video": "https://player.vimeo.com/external/725643957.m3u8?s=6e62e1ab80e82e4c08b64a5987d8e62ea3f94603"
+              },
+              {
+                "id": 6,
+                "title": "HTML tag",
+                "link": "HTML tag",
+                "duration": "2 mins, 26 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/6_HTML_tag.jpg",
+                "video": "https://player.vimeo.com/external/725644057.m3u8?s=3ba97ce281d2f0d1e9818c2ac0d06b747e825c08"
+              },
+              {
+                "id": 7,
+                "title": "Head tag",
+                "link": "Head tag",
+                "duration": "3 mins, 27 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/7_Head-tag.jpg",
+                "video": "https://player.vimeo.com/external/725644140.m3u8?s=f3b1f9b6aa7f1e394b8de97dcdb7aa1d2efc4842"
+              },
+              {
+                "id": 8,
+                "title": "Title tag",
+                "link": "Title tag",
+                "duration": "3 mins, 17 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/8_Title-tag.jpg",
+                "video": "https://player.vimeo.com/external/725644239.m3u8?s=038cba8e3f15edc7f7a37ba2fd4563bcfc549f4a"
+              },
+              {
+                "id": 9,
+                "title": "Body tag",
+                "link": "Body tag",
+                "duration": "1 mins, 25 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/9_Body-tag.jpg",
+                "video": "https://player.vimeo.com/external/725644298.m3u8?s=6f80b35dc005505acae4ca4f44f62c3687c7dede"
+              },
+              {
+                "id": 10,
+                "title": "Heading",
+                "link": "Heading",
+                "duration": "5 mins, 24 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/10_Heading.jpg",
+                "video": "https://player.vimeo.com/external/725644379.m3u8?s=95230859d1b3279067f230c991272114324b70af"
+              },
+              {
+                "id": 11,
+                "title": "Paragraph",
+                "link": "Paragraph",
+                "duration": "3 mins, 13 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/11_Paragraph.jpg",
+                "video": "https://player.vimeo.com/external/725644605.m3u8?s=1809ae521e4a23ab75dcea30a245e244a675288a"
+              },
+              {
+                "id": 12,
+                "title": "Parent child relationship",
+                "link": "Parent child relationship",
+                "duration": "5 mins, 6 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/12_Parent-child-relationship.jpg",
+                "video": "https://player.vimeo.com/external/725644713.m3u8?s=47180d5cf9a907fb387654cccad3f5d1eac5d030"
+              },
+              {
+                "id": 13,
+                "title": "Comments",
+                "link": "Comments",
+                "duration": "3 mins, 10 secs",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/Introduction_to_HTML.jpg",
+                "video": "https://player.vimeo.com/external/725644856.m3u8?s=610b1163d0bab5a708547e8c52582c26c98d59bf"
               }
             ]
           },
@@ -133,10 +230,59 @@
             "topicsList": [
               {
                 "id": 1,
-                "title": "Technology",
-                "duration": "3 mins, 22 secs",
-                "poster": "",
-                "video": ""
+                "title": "Adding Link",
+                "link": "3036e115-9579-4376-891c-c834a5138915",
+                "duration": "3 mins, 10 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/01_Adding-link.jpg",
+                "video": "https://player.vimeo.com/external/725648776.m3u8?s=5a742bba2d61fb4127252aeb9c9f787d5e0dc130"
+              },
+              {
+                "id": 2,
+                "title": "Attributes",
+                "link": "453a6d42-c98e-4329-b006-065d1f752dac",
+                "duration": "4 mins, 33 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/02_Attributes.jpg",
+                "video": "https://player.vimeo.com/external/725646984.m3u8?s=4409770da1e70f7f01b6217c08c4087f312ac4fe"
+              },
+              {
+                "id": 3,
+                "title": "Linking two pages",
+                "link": "7492a269-2102-4651-be30-b16d0469535e",
+                "duration": "6 mins, 1 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/03_-_Linking_two_pages.jpg",
+                "video": "https://player.vimeo.com/external/725647139.m3u8?s=77701f26e49f8acbb6ad0b4e8b9e80c2b0574664"
+              },
+              {
+                "id": 4,
+                "title": "Multiple attributes",
+                "link": "cbb4edf9-a14d-474d-8790-2af979787700",
+                "duration": "6 mins, 23 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/04_Multiple-attributes.jpg",
+                "video": "https://player.vimeo.com/external/725647294.m3u8?s=88ebb64e15152cdfaa3bc39f70b6b1b98dd6d154"
+              },
+              {
+                "id": 5,
+                "title": "Attribute categorization",
+                "link": "81d4faa3-bbcc-406a-af24-5a804ae1b1ad",
+                "duration": "7 mins, 14 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/05_Attribute-categorisation.jpg",
+                "video": "https://player.vimeo.com/external/725647810.m3u8?s=2da8d84b0162ac6d5bf9d4fcbc5f1cdac697bd3b"
+              },
+              {
+                "id": 6,
+                "title": "Attribute values",
+                "link": "eec4e486-7f0d-421a-acfd-b63e6dc9a404",
+                "duration": "3 mins, 17 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/06_Attribute-values.jpg",
+                "video": "https://player.vimeo.com/external/725648274.m3u8?s=5bfd50f30752b295f6c7851bd5c1c51ec8bb5119"
+              },
+              {
+                "id": 7,
+                "title": "Custom attribute",
+                "link": "31975269-44a2-4f6c-a4a8-c736210bc6cd",
+                "duration": "3 mins, 16 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/07_Custom-attribute.jpg",
+                "video": "https://player.vimeo.com/external/725648499.m3u8?s=1fee131778e8ce7f30b3c00464ae624d9187f90d"
               }
             ]
           },
@@ -149,10 +295,43 @@
             "topicsList": [
               {
                 "id": 1,
-                "title": "Technology",
-                "duration": "3 mins, 22 secs",
-                "poster": "",
-                "video": ""
+                "title": "Image tag",
+                "link": "904927a1-4a13-44c8-88bb-1b56a33b0628",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/01_Image-tag.jpg",
+                "video": "https://player.vimeo.com/external/725648893.m3u8?s=9b8fac4b0c033371f5416a0b56e73fbed38fd557"
+              },
+              {
+                "id": 2,
+                "title": "Display image using relative path",
+                "link": "2d0c8e89-be9d-4088-85aa-ad0944b0ac27",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/02_Display-image-using-relative-path.jpg",
+                "video": "https://player.vimeo.com/external/725648992.m3u8?s=69a59ca84a27cf1fab811321dfc87d9d8e1afa4f"
+              },
+              {
+                "id": 3,
+                "title": "Absolute path method",
+                "link": "2fd469ea-7ea8-461d-875c-17ccb6a6b57f",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/03_Absolute-path-method_nUkDc1T.jpg",
+                "video": "https://player.vimeo.com/external/725649233.m3u8?s=881527b5b0b256577cb3b8273b32e2adc7c8bada"
+              },
+              {
+                "id": 4,
+                "title": "Full url method",
+                "link": "9b081748-cc68-464f-a9d0-bd8b11f67eb2",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/04_Full_url_method.jpg",
+                "video": "https://player.vimeo.com/external/725649372.m3u8?s=475ec08e92c99dddbcdf2bf6422b919676441c4c"
+              },
+              {
+                "id": 5,
+                "title": "Br and hr",
+                "link": "805ac107-1b84-4d1e-8220-b03e1548a059",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/05_Br-and-hr-tags.jpg",
+                "video": "https://player.vimeo.com/external/725649482.m3u8?s=f2df7b7c187efde15dbf6fcc965a3a9312368906"
               }
             ]
           },
@@ -165,10 +344,43 @@
             "topicsList": [
               {
                 "id": 1,
-                "title": "Technology",
-                "duration": "3 mins, 22 secs",
-                "poster": "",
-                "video": ""
+                "title": "How to construct a tag?",
+                "link": "46e523a2-93b7-449b-aa8c-e4c2ebfb9c13",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/1_How_to_construct_a_tag_.jpg",
+                "video": "https://player.vimeo.com/external/725657062.m3u8?s=b17c20486318886e4c3d78dcdbdcf48d53c9971c"
+              },
+              {
+                "id": 2,
+                "title": "Formatting tags",
+                "link": "7ee04409-1dd4-40b6-8247-a2f850e91f75",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/02_Formatting-tags.jpg",
+                "video": "https://player.vimeo.com/external/725651359.m3u8?s=ae12b6ab4a4e057be8dbe4aea97b3c2e505faf79"
+              },
+              {
+                "id": 3,
+                "title": "Pre tag",
+                "link": "a28d9f15-57b7-49f3-9fe5-e74a022c8e8e",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/03_Pre-tag.jpg",
+                "video": "https://player.vimeo.com/external/725651526.m3u8?s=b1ca85d79813a7cef31b0b4e73e2056c8ad06760"
+              },
+              {
+                "id": 4,
+                "title": "Button tag",
+                "link": "8bcd4549-b1f7-4644-95a8-43c45a057d91",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/04_Button-tag.jpg",
+                "video": "https://player.vimeo.com/external/725651609.m3u8?s=b29958caa9f739cfea733ce3f735317719c008c2"
+              },
+              {
+                "id": 5,
+                "title": "Iframe tag",
+                "link": "9851a4bf-2a1b-4ff7-8a2b-ce2e74604816",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/05_I-frame.jpg",
+                "video": "https://player.vimeo.com/external/725651730.m3u8?s=a667aef7d9a94210644584b098b5d303fdcf5d82"
               }
             ]
           },
@@ -181,10 +393,35 @@
             "topicsList": [
               {
                 "id": 1,
-                "title": "Technology",
-                "duration": "3 mins, 22 secs",
-                "poster": "",
-                "video": ""
+                "title": "Group tags",
+                "link": "da7c7c73-dcae-4298-9fb4-fc631bf591e4",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/01_-_Group_tags_skK3Dlk.jpg",
+                "video": "https://player.vimeo.com/external/725660862.m3u8?s=bfee76cbecb33f5c1d9110f94efe74195122799a"
+              },
+              {
+                "id": 2,
+                "title": "Unordered list",
+                "link": "89befee4-c287-46c1-8803-2955268de936",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/02_-_Unordered_list_pE0Wr7Y.jpg",
+                "video": "https://player.vimeo.com/external/725661003.m3u8?s=08bf3f96803ef8f4d9ad800b772abbae40a8e194"
+              },
+              {
+                "id": 3,
+                "title": "Ordered list",
+                "link": "ffe57788-3ea4-404d-b70e-a6d9b39acb7b",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/03_-_Ordered_list_A8lkuuf.jpg",
+                "video": "https://player.vimeo.com/external/725661216.m3u8?s=6521a13aa98a9e423392333fd90030e0e368a3da"
+              },
+              {
+                "id": 4,
+                "title": "Definition list",
+                "link": "f17d8d2a-777d-415e-b68e-4fc616fb0592",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/04_-_Definition_list_ZGHIFFp.jpg",
+                "video": "https://player.vimeo.com/external/725661403.m3u8?s=7aed0b44dad84dd178f861925a9ff9e80a52ced4"
               }
             ]
           },
@@ -197,10 +434,27 @@
             "topicsList": [
               {
                 "id": 1,
-                "title": "Technology",
-                "duration": "3 mins, 22 secs",
-                "poster": "",
-                "video": ""
+                "title": "Introduction to table",
+                "link": "238e64f3-0cca-4b4f-ae08-d9f24706aa7d",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/01_-_Introduction_to_table.jpg",
+                "video": "https://player.vimeo.com/external/725663647.m3u8?s=7825d432c5b3419ef4bff8e75caefdc7d1cc2fef"
+              },
+              {
+                "id": 2,
+                "title": "Grouping table rows",
+                "link": "f769fafc-ffca-49fa-b39d-b26362f53108",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/02_-_Grouping_table_rows_yMe1tbd.jpg",
+                "video": "https://player.vimeo.com/external/725663767.m3u8?s=0b4ba7a493faf6ea0631bdd16f08d92510555814"
+              },
+              {
+                "id": 3,
+                "title": "Merging cells",
+                "link": "521f2ac2-8e11-4f11-95f2-7961fe54b198",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/03_-_Merging_cells.jpg",
+                "video": "https://player.vimeo.com/external/725663837.m3u8?s=ef9512b155079beba749e56e3a3ce25439a5fe3f"
               }
             ]
           },
@@ -213,10 +467,11 @@
             "topicsList": [
               {
                 "id": 1,
-                "title": "Technology",
-                "duration": "3 mins, 22 secs",
-                "poster": "",
-                "video": ""
+                "title": "Class and ID",
+                "link": "3886db61-0902-4af7-83e7-9fc8dc2b2a57",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/Class_and_ID.jpg",
+                "video": "https://player.vimeo.com/external/725664893.m3u8?s=e1783200c7f30a1042358419cb8387490d20cae7"
               }
             ]
           },
@@ -229,10 +484,99 @@
             "topicsList": [
               {
                 "id": 1,
-                "title": "Technology",
-                "duration": "3 mins, 22 secs",
-                "poster": "",
-                "video": ""
+                "title": "Forms",
+                "link": "e5c6af4d-c1aa-4794-8235-911e98b9822c",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/01_-_Forms.jpg",
+                "video": "https://player.vimeo.com/external/725669578.m3u8?s=b02cd5c6abfb41c07738a6a0e9a1e76dc21d0ad9"
+              },
+              {
+                "id": 2,
+                "title": "Input tag",
+                "link": "7e4e9035-9aba-48b9-9cea-76d1de84cde0",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/02_-_Input_tag.jpg",
+                "video": "https://player.vimeo.com/external/725670896.m3u8?s=23fb249ec7459754c63d29ab36a19736b38c3fc3"
+              },
+              {
+                "id": 3,
+                "title": "Input label",
+                "link": "3739c5f4-3859-4e71-97e3-1c400b38ad70",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/03_-_Input_label.jpg",
+                "video": "https://player.vimeo.com/external/725669460.m3u8?s=8fd3d07bd8aa65fd4df0fd452b28addf3cbbe183"
+              },
+              {
+                "id": 4,
+                "title": "Email Input",
+                "link": "2565e6b7-16c0-4ec7-aad0-d3293fde9452",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/04_-_Email_Input.jpg",
+                "video": "https://player.vimeo.com/external/725669842.m3u8?s=ee44ab899604f6908a406b08d8e1ef791f1ce719"
+              },
+              {
+                "id": 5,
+                "title": "Password Input",
+                "link": "dbe3a634-4ec4-4702-8fff-3aff2938dd7f",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/1_HTML_Thumbnail_Password-Input.jpg",
+                "video": "https://player.vimeo.com/external/725669973.m3u8?s=293f006ab05909eee399ecc1dcd94207f41819d8"
+              },
+              {
+                "id": 6,
+                "title": "Number input",
+                "link": "5fd1d29e-a309-4677-8eee-e59108c8dd83",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/06_-_Number_input.jpg",
+                "video": "https://player.vimeo.com/external/725670072.m3u8?s=58f2c113ee4c5b3a6ae04d8321b7412f5cf52dbe"
+              },
+              {
+                "id": 7,
+                "title": "Required and disabled attributes",
+                "link": "5281f518-b7da-45dc-8fa6-5ec17cb1cde2",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/07_-_Required_and_disabled_attributes.jpg",
+                "video": "https://player.vimeo.com/external/725670170.m3u8?s=4e99b27a48e8513d2a6627d5797bbbf9337d3258"
+              },
+              {
+                "id": 8,
+                "title": "Checkbox input",
+                "link": "4a3e5af4-9fbd-441e-94a7-af513db29a0e",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/08_-_Checkbox_input.jpg",
+                "video": "https://player.vimeo.com/external/725670287.m3u8?s=8a4c3399d89f93a8c27acc62f3a0b0056e9fc38c"
+              },
+              {
+                "id": 9,
+                "title": "Radio input",
+                "link": "6c97790e-cdf2-410a-9549-626aeda77bfb",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/09_-_Radio_input.jpg",
+                "video": "https://player.vimeo.com/external/725670358.m3u8?s=d4b1bee000a7e5fc6881dc917c205a227fc1495b"
+              },
+              {
+                "id": 10,
+                "title": "Submit a form",
+                "link": "68b6a66f-0eae-49e9-b673-68f5582a5b41",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/10_-_Submit_a_form.jpg",
+                "video": "https://player.vimeo.com/external/725670508.m3u8?s=e05522cdb040d3d470128e2ee73fb93468b0f017"
+              },
+              {
+                "id": 11,
+                "title": "Select field",
+                "link": "ec26d7d8-c6e5-4939-b1aa-848bc14914b7",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/11_-_Select_field.jpg",
+                "video": "https://player.vimeo.com/external/725670618.m3u8?s=dd84f74e8f9c5ae40571876def816e1c2e9c2d87"
+              },
+              {
+                "id": 12,
+                "title": "Text area",
+                "link": "7b059fac-356b-4904-aa0d-12d84c360e54",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/12_-_Text_area.jpg",
+                "video": "https://player.vimeo.com/external/725670773.m3u8?s=be42fcca33a6fe782e88cf0d5c4b1fa4edd8209b"
               }
             ]
           },
@@ -245,10 +589,11 @@
             "topicsList": [
               {
                 "id": 1,
-                "title": "Technology",
-                "duration": "3 mins, 22 secs",
-                "poster": "",
-                "video": ""
+                "title": "Grouping tag",
+                "link": "8462866b-0262-46bb-bb79-39e2f94667a0",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/01_-_Grouping_tag.jpg",
+                "video": "https://player.vimeo.com/external/725674871.m3u8?s=4167f0ac3415126a017ce8a8d36214a076a2d179"
               }
             ]
           },
@@ -261,10 +606,27 @@
             "topicsList": [
               {
                 "id": 1,
-                "title": "Technology",
-                "duration": "3 mins, 22 secs",
-                "poster": "",
-                "video": ""
+                "title": "Inline and Block",
+                "link": "c5eb0590-a251-420c-bc65-a3ca0d6cc7c5",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/01_-_Inline_and_block_fvChNaC.jpg",
+                "video": "https://player.vimeo.com/external/725681859.m3u8?s=dba9ee85947dfbbbe2d366427740c56c1c7fef38"
+              },
+              {
+                "id": 2,
+                "title": "Inline Element",
+                "link": "38819439-a78d-4713-8954-b66a7444673e",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/02_-_Inline_element_.jpg",
+                "video": "https://player.vimeo.com/external/725681237.m3u8?s=718e9300bca75496cb0f5258342fc6ad7798651e"
+              },
+              {
+                "id": 3,
+                "title": "Block elements",
+                "link": "7d1ee4f9-a455-48a1-9339-4b9147f58a12",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/03_-_Block_elements.jpg",
+                "video": "https://player.vimeo.com/external/725681391.m3u8?s=0ad1da64af5ea2e28cf06ae5acf84d1ede98a720"
               }
             ]
           },
@@ -277,10 +639,27 @@
             "topicsList": [
               {
                 "id": 1,
-                "title": "Technology",
-                "duration": "3 mins, 22 secs",
-                "poster": "",
-                "video": ""
+                "title": "Picture tag",
+                "link": "5a994640-c891-4a64-8464-af3147cd7707",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/6_HTML_Thumbnail_Picture-tag.jpg",
+                "video": "https://player.vimeo.com/external/725687079.m3u8?s=0f3c0e5d89f3c0f45f3c6e160dbffccb3040d173"
+              },
+              {
+                "id": 2,
+                "title": "Audio tag",
+                "link": "4c364115-a446-45f8-a73c-b5b8a06f8f6c",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/7_HTML_Thumbnail_Audio-tag.jpg",
+                "video": "https://player.vimeo.com/external/725687334.m3u8?s=845a1ebb2d562b879f6f822ccd1922e053895bf1"
+              },
+              {
+                "id": 3,
+                "title": "Video tag",
+                "link": "87a31adc-219f-49d6-b3de-1171162b6c89",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/8_HTML_Thumbnail_Video-tag.jpg",
+                "video": "https://player.vimeo.com/external/725687454.m3u8?s=f1db8c2237b7f567e9ac4a279a58c224909fd099"
               }
             ]
           },
@@ -293,10 +672,19 @@
             "topicsList": [
               {
                 "id": 1,
-                "title": "Technology",
-                "duration": "3 mins, 22 secs",
-                "poster": "",
-                "video": ""
+                "title": "Favicon",
+                "link": "f046a2ab-42d4-454c-960a-48942f03de0d",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/1_HTML_Thumbnail_Favicon.jpg",
+                "video": "https://player.vimeo.com/external/725688478.m3u8?s=eefecd5ac4d8e59237bdf420a7bd84a8289e56c2"
+              },
+              {
+                "id": 2,
+                "title": "Meta tag",
+                "link": "a06b3371-4b8f-4bd2-8c20-e175d50338db",
+                "duration": "0 mins, 0 seconds",
+                "poster": "https://d3mbaugvr53zg5.cloudfront.net/media/elearning/topic/2_HTML_Thumbnail_Meta-tag.jpg",
+                "video": "https://player.vimeo.com/external/725688645.m3u8?s=d0200c74259cd38346a6785fedb8dce9fff897cc"
               }
             ]
           }
