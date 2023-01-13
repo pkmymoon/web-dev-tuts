@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, useNavigate } from "react-router-dom";
 import AnimatedRoutes from "./components/includes/AnimatedRoutes";
 import Nav from "./components/includes/Nav";
 import ScrollToTop from "./components/includes/ScrollToTop";

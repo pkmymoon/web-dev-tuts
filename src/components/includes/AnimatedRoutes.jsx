@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation, useNavigate, useParams } from "react-router-dom";
 import React from "react";
 import Home from "../screens/Home";
 import LessonsView from "../screens/LessonsView";
@@ -8,8 +8,11 @@ import SkillView from "../screens/SkillView";
 import { motion, AnimatePresence } from "framer-motion";
 import VideoSkeleton from "./VideoSkeleton";
 import DataCollection from "../screens/DataCollection";
+import PageNotFound from "../screens/PageNotFound";
 function AnimatedRoutes() {
   const location = useLocation();
+
+
   return (
     <AnimatePresence classname="w-full">
       <motion.div
@@ -18,6 +21,7 @@ function AnimatedRoutes() {
         exit={{ x: -10, opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
+        
         <Routes location={location} key={location.pathname}>
           <Route path="web-dev-tuts/" element={<Home />} />
           <Route path="web-dev-tuts/data" element={<DataCollection />} />
@@ -27,7 +31,7 @@ function AnimatedRoutes() {
             path="web-dev-tuts/:proff/:skill/:lesson"
             element={<LessonsView />}
           >
-            <Route index element={<VideoSkeleton />} />
+            {/* <Route index element={<VideoSkeleton />} /> */}
             <Route path=":topic" element={<TopicView />} />
           </Route>
         </Routes>

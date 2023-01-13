@@ -46,6 +46,8 @@ function TopicView() {
           title={topicName.title}
           poster={topicName.poster}
           src={topicName.video}
+          previous={topicName.previous}
+          next={topicName.next}
         />
       </motion.div>
     </>

@@ -1,28 +1,43 @@
 import {
-  PlayPauseIcon,
-  SpeakerWaveIcon,
 } from "@heroicons/react/20/solid";
 import ReactHlsPlayer from "react-hls-player/dist";
 import React from "react";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
+import { Link, useNavigate, useParams } from "react-router-dom";
 
 function VideoPlayer(props) {
   
-  // const playerRef = React.useRef();
-  // function togglePlay() {
-  //   playerRef.current.paused
-  //     ? playerRef.current.play()
-  //     : playerRef.current.pause();
-  // }
+  const { proff, skill, lesson, topic } = useParams();
+  const navigate = useNavigate();
 
   return (
-    <div
-      key={props.id}
-      id="video-player"
-      className=""
-    >
-      
+    <div key={props.id} id="video-player" className="">
       <div>
-        <div id="video " className="relative">
+        <div className="flex items-center justify-between">
+          <div
+            onClick={() =>
+              navigate(
+                `/web-dev-tuts/${proff}/${skill}/${lesson}/${props.previous}`
+              )
+            }
+            className="cursor-pointer transition-all ease-linear hover:scale-[105%] flex items-center flex-wrap gap-1 rounded-full bg-surface-5 dark:bg-surface-5-dark pr-4 pl-2 py-2 text-lg"
+          >
+            <ChevronLeftIcon className=" w-5 h-5" />
+            Previous
+          </div>
+          <div
+            onClick={() =>
+              navigate(
+                `/web-dev-tuts/${proff}/${skill}/${lesson}/${props.next}`
+              )
+            }
+            className="cursor-pointer transition-all ease-linear hover:scale-[105%] flex items-center flex-wrap gap-1 rounded-full bg-surface-5 dark:bg-surface-5-dark pl-4 pr-2 py-2 text-lg"
+          >
+            Next
+            <ChevronRightIcon className=" w-5 h-5" />
+          </div>
+        </div>
+        <div id="video " className="relative mt-5 ">
           <ReactHlsPlayer
             poster={props.poster}
             className="w-full rounded-3xl "
@@ -57,9 +72,7 @@ function VideoPlayer(props) {
           </div> */}
         </div>
       </div>
-      <p className="text-3xl ml-5 mt-5 font-base ">
-        {props.title}
-      </p>
+      <p className="text-3xl ml-5 mt-5 font-base ">{props.title}</p>
     </div>
   );
 }

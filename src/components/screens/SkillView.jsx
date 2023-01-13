@@ -1,15 +1,21 @@
 import { ClockIcon, RectangleStackIcon } from "@heroicons/react/24/outline";
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import proffessions from "../../assets/data/proffessions.json";
 import { motion } from "framer-motion";
 
 function SkillView() {
-  const { skill } = useParams();
+  const { proff, skill } = useParams();
+  const navigate = useNavigate();
+
   let lessons = null;
   proffessions.map((prof) =>
     prof.skillsList.map((sk) => (sk.link === skill ? (lessons = sk) : null))
+  );
+  let proffession = null;
+  proffessions.map((prof) =>
+    prof.link === proff ? (proffession = prof) : null
   );
 
   return (
@@ -25,6 +31,30 @@ function SkillView() {
           <title>Tech Schooling | {lessons.title}</title>
         </Helmet>
         <section className=" w-full text-on-surface dark:text-on-surface-dark">
+          <div className="text-on-surface dark:text-on-surface-dark  px-10 py-4 z-10 sticky top-20 lg:top-0  border-b-2 border-surface-0 bg-surface-0 dark:bg-surface-0-dark">
+            <p>
+              <span
+                onClick={() => navigate("/web-dev-tuts")}
+                className="inline-block transition-all ease-linear hover:scale-[101%] text-md cursor-pointer md:text-md font-semibold "
+              >
+                Home
+              </span>{" "}
+              /{" "}
+              <span
+                onClick={() => navigate(`/web-dev-tuts/${proff}`)}
+                className="inline-block transition-all ease-linear hover:scale-[101%] text-md cursor-pointer md:text-md font-semibold "
+              >
+                {proffession.title}
+              </span>{" "}
+              /{" "}
+              <span
+                onClick={() => navigate(`/web-dev-tuts/${proff}/${skill}`)}
+                className="inline-block transition-all ease-linear hover:scale-[101%] text-md cursor-pointer md:text-md font-bold "
+              >
+                {lessons.title}
+              </span>
+            </p>
+          </div>
           <div className="p-10 z-10 sticky top-0 shadow-xl bg-surface-0 dark:bg-surface-0-dark">
             <h2 className=" text-3xl  md:text-4xl font-bold mb-5 text-on-surface dark:text-on-surface-dark ">
               {lessons.title}

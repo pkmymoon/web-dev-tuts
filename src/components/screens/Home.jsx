@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
 
 function Home() {
+
   return (
     <>
       <motion.div
@@ -19,6 +20,7 @@ function Home() {
         </Helmet>
         <div className="h-screen p-2">
           <section className=" py-10 px-0  xl:p-24 text-on-surface dark:text-on-surface-dark">
+            
             <div className=" w-[90%] mx-auto">
               <h2 className=" text-3xl md:text-5xl text-center font-bold mb-12 text-on-surface dark:text-on-surface-dark ">
                 Proffessions
