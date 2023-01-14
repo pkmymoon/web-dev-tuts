@@ -10,7 +10,7 @@ import ThemeBtn from "./ThemeBtn";
 import { HomeIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 import MenuBtn from "./MenuBtn";
-
+import 'tw-elements';
 function Nav() {
   const [navOpen, setNavOpen] = useState(false);
   return (
@@ -62,152 +62,20 @@ function Nav() {
             <div className="w-full  mb-3.5 group">
               <NavLink to="web-dev-tuts/ui-engineer">
                 {({ isActive }) => (
-                  <div className="flex rounded-full  items-center gap-4 ">
+                  <div
+                    type="button"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="#d9e7cb"
+                    className="inline-block  rounded-full w-full  transition duration-150 ease-in-out text-lg lg:text-sm  text-on-secondary-container dark:text-on-secondary-container-dark"
+                  >
                     <div
                       className={`${
                         isActive
-                          ? "group-hover:bg-none"
-                          : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center   w-full h-10   rounded-full relative  `}
+                          ? "group-hover:bg-none  font-bold"
+                          : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark font-normal"
+                      } flex items-center  px-6 py-3   rounded-full relative  `}
                     >
-                      <div
-                        className={`${
-                          isActive
-                            ? "opacity-100 scale-100 "
-                            : "opacity-0 scale "
-                        } w-full h-full transform absolute duration-300 transition-all ease-out rounded-full bg-secondary-container dark:bg-secondary-container-dark`}
-                      ></div>
-                      <span
-                        className={`${
-                          isActive ? "font-semibold" : "font-normal"
-                        }  ml-4 z-10 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
-                      >
-                        UI Engineer
-                      </span>
-                    </div>
-                  </div>
-                )}
-              </NavLink>
-            </div>
-            <div className="w-full  mb-3.5 group">
-              <NavLink to="">
-                {({ isActive }) => (
-                  <div className="flex rounded-full  items-center gap-4 ">
-                    <div
-                      className={`${
-                        isActive
-                          ? "group-hover:bg-none"
-                          : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center justify-center w-full h-10   rounded-full relative  `}
-                    >
-                      <div
-                        className={`${
-                          isActive
-                            ? "opacity-100 scale-100 "
-                            : "opacity-0 scale-x-50 "
-                        } w-full h-full transform absolute duration-300 transition-all ease-out rounded-full bg-secondary-container dark:bg-secondary-container-dark`}
-                      ></div>
-                      {/* <Html className="w-4 z-10 group-hover:scale-105 transition-all duration-200 ease-in-out fill-on-secondary-container dark:fill-on-secondary-container-dark" /> */}
-                      <span
-                        className={`${
-                          isActive ? "font-semibold" : "font-normal"
-                        } text-center mt-0 z-10 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
-                      >
-                        Backend Developer
-                      </span>
-                    </div>
-                  </div>
-                )}
-              </NavLink>
-            </div>
-            <div className="w-full  mb-3.5 group">
-              <NavLink to="">
-                {({ isActive }) => (
-                  <div className="flex rounded-full  items-center gap-4 ">
-                    <div
-                      className={`${
-                        isActive
-                          ? "group-hover:bg-none"
-                          : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center justify-center w-full h-10   rounded-full relative  `}
-                    >
-                      <div
-                        className={`${
-                          isActive
-                            ? "opacity-100 scale-100 "
-                            : "opacity-0 scale-x-50 "
-                        } w-full h-full transform absolute duration-300 transition-all ease-out rounded-full bg-secondary-container dark:bg-secondary-container-dark`}
-                      ></div>
-                      {/* <Html className="w-4 z-10 group-hover:scale-105 transition-all duration-200 ease-in-out fill-on-secondary-container dark:fill-on-secondary-container-dark" /> */}
-                      <span
-                        className={`${
-                          isActive ? "font-semibold" : "font-normal"
-                        } text-center mt-0 z-10 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
-                      >
-                        DevOps Engineer
-                      </span>
-                    </div>
-                  </div>
-                )}
-              </NavLink>
-            </div>
-            <div className="w-full  mb-3.5 group">
-              <NavLink to="">
-                {({ isActive }) => (
-                  <div className="flex rounded-full  items-center gap-4 ">
-                    <div
-                      className={`${
-                        isActive
-                          ? "group-hover:bg-none"
-                          : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center justify-center w-full h-10   rounded-full relative  `}
-                    >
-                      <div
-                        className={`${
-                          isActive
-                            ? "opacity-100 scale-100 "
-                            : "opacity-0 scale-x-50 "
-                        } w-full h-full transform absolute duration-300 transition-all ease-out rounded-full bg-secondary-container dark:bg-secondary-container-dark`}
-                      ></div>
-                      {/* <Html className="w-4 z-10 group-hover:scale-105 transition-all duration-200 ease-in-out fill-on-secondary-container dark:fill-on-secondary-container-dark" /> */}
-                      <span
-                        className={`${
-                          isActive ? "font-semibold" : "font-normal"
-                        } text-center mt-0 z-10 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
-                      >
-                        Web App Developer
-                      </span>
-                    </div>
-                  </div>
-                )}
-              </NavLink>
-            </div>
-            <div className="w-full  mb-3.5 group">
-              <NavLink to="">
-                {({ isActive }) => (
-                  <div className="flex rounded-full  items-center gap-4 ">
-                    <div
-                      className={`${
-                        isActive
-                          ? "group-hover:bg-none"
-                          : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center justify-center w-full h-10   rounded-full relative  `}
-                    >
-                      <div
-                        className={`${
-                          isActive
-                            ? "opacity-100 scale-100 "
-                            : "opacity-0 scale-x-50 "
-                        } w-full h-full transform absolute duration-300 transition-all ease-out rounded-full bg-secondary-container dark:bg-secondary-container-dark`}
-                      ></div>
-                      {/* <Html className="w-4 z-10 group-hover:scale-105 transition-all duration-200 ease-in-out fill-on-secondary-container dark:fill-on-secondary-container-dark" /> */}
-                      <span
-                        className={`${
-                          isActive ? "font-semibold" : "font-normal"
-                        } text-center mt-0 z-10 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
-                      >
-                        Mobile App Developer
-                      </span>
+                      UI Engineer
                     </div>
                   </div>
                 )}
@@ -216,34 +84,28 @@ function Nav() {
             <div className="w-full  mb-3.5 group">
               <NavLink to="web-dev-tuts/data">
                 {({ isActive }) => (
-                  <div className="flex rounded-full  items-center gap-4 ">
+                  <div
+                    type="button"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="#d9e7cb"
+                    className="inline-block  rounded-full w-full  transition duration-150 ease-in-out text-lg lg:text-sm  text-on-secondary-container dark:text-on-secondary-container-dark"
+                  >
                     <div
                       className={`${
                         isActive
-                          ? "group-hover:bg-none"
-                          : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark"
-                      } flex items-center justify-center w-full h-10   rounded-full relative  `}
+                          ? "group-hover:bg-none  font-bold"
+                          : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark font-normal"
+                      } flex items-center  px-6 py-3   rounded-full relative  `}
                     >
-                      <div
-                        className={`${
-                          isActive
-                            ? "opacity-100 scale-100 "
-                            : "opacity-0 scale-x-50 "
-                        } w-full h-full transform absolute duration-300 transition-all ease-out rounded-full bg-secondary-container dark:bg-secondary-container-dark`}
-                      ></div>
-                      {/* <Html className="w-4 z-10 group-hover:scale-105 transition-all duration-200 ease-in-out fill-on-secondary-container dark:fill-on-secondary-container-dark" /> */}
-                      <span
-                        className={`${
-                          isActive ? "font-semibold" : "font-normal"
-                        } text-center mt-0 z-10 lg:mt-1 text-lg lg:text-sm block text-on-secondary-container dark:text-on-secondary-container-dark`}
-                      >
-                        Data
-                      </span>
+                      Data
                     </div>
                   </div>
                 )}
               </NavLink>
             </div>
+            
+
+            
           </nav>
 
           <div>

@@ -2,19 +2,21 @@ import { ClockIcon, RectangleStackIcon } from "@heroicons/react/24/outline";
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import proffessions from "../../assets/data/proffessions.json";
+import data from "../../assets/data/data.json";
 import { motion } from "framer-motion";
+import CheckValidUrl from "../includes/CheckValidUrl";
+import { secondsTohms } from "../helpers/functions";
 
 function SkillView() {
   const { proff, skill } = useParams();
   const navigate = useNavigate();
 
   let lessons = null;
-  proffessions.map((prof) =>
-    prof.skillsList.map((sk) => (sk.link === skill ? (lessons = sk) : null))
+  data.map((prof) =>
+    prof.skillsList.map((sk) => (sk.id === skill ? (lessons = sk) : null))
   );
   let proffession = null;
-  proffessions.map((prof) =>
+  data.map((prof) =>
     prof.link === proff ? (proffession = prof) : null
   );
 
@@ -28,10 +30,12 @@ function SkillView() {
         transition={{ duration: 0.3 }}
       >
         <Helmet>
-          <title>Tech Schooling | {lessons.title}</title>
+          <title>Tech Schooling | {lessons.name}</title>
         </Helmet>
+        {/* <CheckValidUrl /> */}
+
         <section className=" w-full text-on-surface dark:text-on-surface-dark">
-          <div className="text-on-surface dark:text-on-surface-dark  px-10 py-4 z-10 sticky top-20 lg:top-0  border-b-2 border-surface-0 bg-surface-0 dark:bg-surface-0-dark">
+          <div className="text-on-surface dark:text-on-surface-dark sticky top-20 shadow-xl px-10 py-4 z-10 lg:top-0  bg-surface-1 dark:bg-surface-1-dark">
             <p>
               <span
                 onClick={() => navigate("/web-dev-tuts")}
@@ -51,30 +55,12 @@ function SkillView() {
                 onClick={() => navigate(`/web-dev-tuts/${proff}/${skill}`)}
                 className="inline-block transition-all ease-linear hover:scale-[101%] text-md cursor-pointer md:text-md font-bold "
               >
-                {lessons.title}
+                {lessons.name}
               </span>
             </p>
           </div>
-          <div className="p-10 z-10 sticky top-0 shadow-xl bg-surface-0 dark:bg-surface-0-dark">
-            <h2 className=" text-3xl  md:text-4xl font-bold mb-5 text-on-surface dark:text-on-surface-dark ">
-              {lessons.title}
-            </h2>
-            <div className=" inline-block mr-2">
-              <div className="flex items-center flex-wrap gap-4 mb-2 rounded-2xl bg-surface-5 dark:bg-surface-5-dark px-4 py-2">
-                <span className="flex items-center gap-2 text-sm">
-                  <RectangleStackIcon className="w-4 " />
-                  {lessons.lessons} Lessons
-                </span>
-              </div>
-            </div>
-            <div className=" inline-block">
-              <div className="flex items-center flex-wrap gap-4 rounded-2xl bg-surface-5 dark:bg-surface-5-dark px-4 py-2">
-                <span className="flex items-center gap-2 text-sm">
-                  <ClockIcon className="w-4 " /> {lessons.duration}
-                </span>
-              </div>
-            </div>
-            <h3 className="mt-6 text-xl underline font-semibold">
+          <div className="mx-10 mt-10">
+            <h3 className="text-xl underline font-semibold">
               Browse Lessons in {lessons.title}
             </h3>
           </div>
@@ -85,13 +71,15 @@ function SkillView() {
                   key={lesson.id}
                   className=" w-full md:w-[49%] group transition-all ease-linear  hover:scale-[101%] bg-surface-1 dark:bg-surface-1-dark hover:bg-secondary-container hover:dark:bg-secondary-container-dark rounded-2xl"
                 >
-                  <Link to={lesson.link} className="flex  items-start p-6">
+                  <Link to={lesson.id} className="flex  items-start p-6">
                     <div className="mr-5">
-                      <p className="text-xl font-bold italic">#{lesson.id}</p>
+                      <p className="text-xl font-bold italic">
+                        #{lesson.order_id}
+                      </p>
                     </div>
                     <div className="">
                       <h2 className="text-xl font-semibold group-hover:font-bold mb-3 text-on-surface dark:text-on-surface-dark hover:text-on-secondary-container group-hover:dark:text-on-secondary-container-dark">
-                        {lesson.title}
+                        {lesson.name}
                       </h2>
                       <div className="inline-block group-hover:font-normal">
                         <div className="flex items-center flex-wrap gap-4 mb-2 rounded-2xl bg-surface-0 dark:bg-surface-0-dark group-hover:bg-secondary group-hover:dark:bg-secondary-dark px-4 py-2 text-on-secondary-container dark:text-on-secondary-container-dark group-hover:text-on-secondary group-hover:dark:text-on-secondary-dark">
@@ -100,7 +88,8 @@ function SkillView() {
                             {lesson.topics} Topics
                           </span>
                           <span className="flex items-center gap-2 text-sm">
-                            <ClockIcon className="w-4 " /> {lesson.duration}
+                            <ClockIcon className="w-4 " />{" "}
+                            {secondsTohms(lesson.duration)}
                           </span>
                         </div>
                       </div>

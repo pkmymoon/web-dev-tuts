@@ -13,7 +13,9 @@ function VideoPlayer(props) {
   return (
     <div key={props.id} id="video-player" className="">
       <div>
-        <div className="flex items-center justify-between">
+
+        {/* prev and nex button */}
+        {/* <div className="flex items-center justify-between">
           <div
             onClick={() =>
               navigate(
@@ -36,13 +38,13 @@ function VideoPlayer(props) {
             Next
             <ChevronRightIcon className=" w-5 h-5" />
           </div>
-        </div>
+        </div> */}
         <div id="video " className="relative mt-5 ">
           <ReactHlsPlayer
             poster={props.poster}
             className="w-full rounded-3xl "
             src={props.src}
-            autoPlay={true}
+            autoPlay={false}
             controls={true}
             width="100%"
             height="auto"

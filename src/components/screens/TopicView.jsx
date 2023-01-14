@@ -1,31 +1,32 @@
 import React from "react";
-import proffessions from "../../assets/data/proffessions.json";
+import data from "../../assets/data/data.json";
 import { useParams } from "react-router-dom";
 import VideoPlayer from "../includes/VideoPlayer";
 import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
+import CheckValidUrl from "../includes/CheckValidUrl";
 
 function TopicView() {
   const { proff, skill, lesson, topic } = useParams();
 
   let proffession = null;
-  proffessions.map((prof) =>
+  data.map((prof) =>
     prof.link === proff ? (proffession = prof) : null
   );
 
   let skillsList = null;
   proffession.skillsList.map((ski) =>
-    ski.link === skill ? (skillsList = ski) : null
+    ski.id === skill ? (skillsList = ski) : null
   );
 
   let lessonsList = null;
   skillsList.lessonsList.map((lesso) =>
-    lesso.link === lesson ? (lessonsList = lesso) : null
+    lesso.id === lesson ? (lessonsList = lesso) : null
   );
 
   let topicName = null;
-  lessonsList.topicsList.map((top) =>
-    top.link === topic ? (topicName = top) : null
+  lessonsList.topicList.map((top) =>
+    top.id === topic ? (topicName = top) : null
   );
   console.log(topicName);
   return (
@@ -38,16 +39,18 @@ function TopicView() {
       >
         <Helmet>
           <title>
-            {skillsList.title} | {topicName.title}
+            {skillsList.name} | {topicName.name}
           </title>
         </Helmet>
+        {/* <CheckValidUrl /> */}
+
         <VideoPlayer
           id={topicName.id}
-          title={topicName.title}
-          poster={topicName.poster}
-          src={topicName.video}
-          previous={topicName.previous}
-          next={topicName.next}
+          title={topicName.name}
+          poster={topicName.image}
+          src={topicName.playlist.auto.playlist}
+          // previous={topicName.previous}
+          // next={topicName.next}
         />
       </motion.div>
     </>
