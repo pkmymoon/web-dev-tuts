@@ -1,20 +1,13 @@
 {
   "files": {
-    "main.css": "/web-dev-tuts/static/css/main.e69e6290.css",
-    "main.js": "/web-dev-tuts/static/js/main.f16d9a1f.js",
-    "static/media/jquery.svg": "/web-dev-tuts/static/media/jquery.437be6ae111b92380f470fd416dc4a6d.svg",
-    "static/media/sass.svg": "/web-dev-tuts/static/media/sass.28bf205813f852cbb1e3e79c5412ffbe.svg",
-    "static/media/react.svg": "/web-dev-tuts/static/media/react.d9ae6f722679b9a7bba83d0a9317f073.svg",
-    "static/media/bootstrap.svg": "/web-dev-tuts/static/media/bootstrap.40b4d47765b678d1a46ed464bf8aa827.svg",
-    "static/media/js.svg": "/web-dev-tuts/static/media/js.c72cc20f1cec4a3cfe934f96f8877609.svg",
+    "main.css": "/web-dev-tuts/static/css/main.4f825fc6.css",
+    "main.js": "/web-dev-tuts/static/js/main.e682e840.js",
     "index.html": "/web-dev-tuts/index.html",
-    "static/media/css.svg": "/web-dev-tuts/static/media/css.511a0f65e1c611ebccc9a8b4a5e5f3c1.svg",
-    "static/media/html.svg": "/web-dev-tuts/static/media/html.f3fc21436fc34a76e138a0da756074fe.svg",
-    "main.e69e6290.css.map": "/web-dev-tuts/static/css/main.e69e6290.css.map",
-    "main.f16d9a1f.js.map": "/web-dev-tuts/static/js/main.f16d9a1f.js.map"
+    "main.4f825fc6.css.map": "/web-dev-tuts/static/css/main.4f825fc6.css.map",
+    "main.e682e840.js.map": "/web-dev-tuts/static/js/main.e682e840.js.map"
   },
   "entrypoints": [
-    "static/css/main.e69e6290.css",
-    "static/js/main.f16d9a1f.js"
+    "static/css/main.4f825fc6.css",
+    "static/js/main.e682e840.js"
   ]
 }
