@@ -1,10 +1,4 @@
-import { ReactComponent as Html } from "../../assets/icons/html.svg";
-import { ReactComponent as Css } from "../../assets/icons/css.svg";
-import { ReactComponent as Js } from "../../assets/icons/js.svg";
-import { ReactComponent as Jquery } from "../../assets/icons/jquery.svg";
-import { ReactComponent as Bootstrap } from "../../assets/icons/bootstrap.svg";
-import { ReactComponent as Sass } from "../../assets/icons/sass.svg";
-import { ReactComponent as IconReact } from "../../assets/icons/react.svg";
+
 import { Link, NavLink } from "react-router-dom";
 import ThemeBtn from "./ThemeBtn";
 import { HomeIcon } from "@heroicons/react/24/solid";
@@ -82,7 +76,7 @@ function Nav() {
               </NavLink>
             </div>
             <div className="w-full  mb-3.5 group">
-              <NavLink to="web-dev-tuts/data">
+              <NavLink to="web-dev-tuts/backend-developer">
                 {({ isActive }) => (
                   <div
                     type="button"
@@ -97,15 +91,78 @@ function Nav() {
                           : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark font-normal"
                       } flex items-center  px-6 py-3   rounded-full relative  `}
                     >
-                      Data
+                      Backend Developer
                     </div>
                   </div>
                 )}
               </NavLink>
             </div>
-            
-
-            
+            <div className="w-full  mb-3.5 group">
+              <NavLink to="web-dev-tuts/devops-engineer">
+                {({ isActive }) => (
+                  <div
+                    type="button"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="#d9e7cb"
+                    className="inline-block  rounded-full w-full  transition duration-150 ease-in-out text-lg lg:text-sm  text-on-secondary-container dark:text-on-secondary-container-dark"
+                  >
+                    <div
+                      className={`${
+                        isActive
+                          ? "group-hover:bg-none  font-bold"
+                          : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark font-normal"
+                      } flex items-center  px-6 py-3   rounded-full relative  `}
+                    >
+                      DevOps Engineer
+                    </div>
+                  </div>
+                )}
+              </NavLink>
+            </div>
+            <div className="w-full  mb-3.5 group">
+              <NavLink to="web-dev-tuts/web-app-developer">
+                {({ isActive }) => (
+                  <div
+                    type="button"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="#d9e7cb"
+                    className="inline-block  rounded-full w-full  transition duration-150 ease-in-out text-lg lg:text-sm  text-on-secondary-container dark:text-on-secondary-container-dark"
+                  >
+                    <div
+                      className={`${
+                        isActive
+                          ? "group-hover:bg-none  font-bold"
+                          : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark font-normal"
+                      } flex items-center  px-6 py-3   rounded-full relative  `}
+                    >
+                      Web App Developer
+                    </div>
+                  </div>
+                )}
+              </NavLink>
+            </div>
+            {/* <div className="w-full  mb-3.5 group">
+              <NavLink to="web-dev-tuts/mobile-app-developer">
+                {({ isActive }) => (
+                  <div
+                    type="button"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="#d9e7cb"
+                    className="inline-block  rounded-full w-full  transition duration-150 ease-in-out text-lg lg:text-sm  text-on-secondary-container dark:text-on-secondary-container-dark"
+                  >
+                    <div
+                      className={`${
+                        isActive
+                          ? "group-hover:bg-none  font-bold"
+                          : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark font-normal"
+                      } flex items-center  px-6 py-3   rounded-full relative  `}
+                    >
+                      Mobile App Developer
+                    </div>
+                  </div>
+                )}
+              </NavLink>
+            </div> */}
           </nav>
 
           <div>

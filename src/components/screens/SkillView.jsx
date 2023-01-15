@@ -61,7 +61,7 @@ function SkillView() {
           </div>
           <div className="mx-10 mt-10">
             <h3 className="text-xl underline font-semibold">
-              Browse Lessons in {lessons.title}
+              Browse Lessons in {lessons.name}
             </h3>
           </div>
           <div className="p-10 z-0">

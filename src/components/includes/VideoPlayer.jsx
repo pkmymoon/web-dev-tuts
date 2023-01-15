@@ -39,7 +39,7 @@ function VideoPlayer(props) {
             <ChevronRightIcon className=" w-5 h-5" />
           </div>
         </div> */}
-        <div id="video " className="relative mt-5 ">
+        <div id="video " className="relative  ">
           <ReactHlsPlayer
             poster={props.poster}
             className="w-full rounded-3xl "
@@ -74,7 +74,7 @@ function VideoPlayer(props) {
           </div> */}
         </div>
       </div>
-      <p className="text-3xl ml-5 mt-5 font-base ">{props.title}</p>
+      <p className="text-2xl lg:text-3xl ml-5 mt-5 font-base ">{props.title}</p>
     </div>
   );
 }
