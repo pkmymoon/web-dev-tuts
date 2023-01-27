@@ -4,7 +4,7 @@ import Nav from "./components/includes/Nav";
 
 function App() {
   return (
-    <Router>
+    <Router >
       
       <div className="flex flex-col lg:flex-row">
         <div>
