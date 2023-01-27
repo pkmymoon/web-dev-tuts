@@ -1,19 +1,16 @@
-import {
-} from "@heroicons/react/20/solid";
+import {} from "@heroicons/react/20/solid";
 import ReactHlsPlayer from "react-hls-player/dist";
 import React from "react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 import { Link, useNavigate, useParams } from "react-router-dom";
 
 function VideoPlayer(props) {
-  
   const { proff, skill, lesson, topic } = useParams();
   const navigate = useNavigate();
 
   return (
     <div key={props.id} id="video-player" className="">
       <div>
-
         {/* prev and nex button */}
         {/* <div className="flex items-center justify-between">
           <div
@@ -42,9 +39,9 @@ function VideoPlayer(props) {
         <div id="video " className="relative  ">
           <ReactHlsPlayer
             poster={props.poster}
-            className="w-full rounded-3xl "
+            className="w-full shadow-xl rounded-2xl "
             src={props.src}
-            autoPlay={false}
+            autoPlay={true}
             controls={true}
             width="100%"
             height="auto"
@@ -74,7 +71,9 @@ function VideoPlayer(props) {
           </div> */}
         </div>
       </div>
-      <p className="text-2xl lg:text-3xl ml-5 mt-5 font-base ">{props.title}</p>
+      <p className="text-xl lg:text-2xl ml-5 mt-5 font-medium ">
+        {props.title}
+      </p>
     </div>
   );
 }

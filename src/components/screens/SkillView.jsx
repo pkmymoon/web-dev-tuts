@@ -35,7 +35,7 @@ function SkillView() {
         {/* <CheckValidUrl /> */}
 
         <section className=" w-full text-on-surface dark:text-on-surface-dark">
-          <div className="text-on-surface dark:text-on-surface-dark sticky top-20 shadow-xl px-10 py-4 z-10 lg:top-0  bg-surface-1 dark:bg-surface-1-dark">
+          <div className="text-on-surface dark:text-on-surface-dark sticky top-20 shadow-xl px-6 lg:px-10 py-4 z-10 lg:top-0  bg-surface-1 dark:bg-surface-1-dark">
             <p>
               <span
                 onClick={() => navigate("/web-dev-tuts")}
@@ -64,7 +64,7 @@ function SkillView() {
               Browse Lessons in {lessons.name}
             </h3>
           </div>
-          <div className="p-10 z-0">
+          <div className="p-6 lg:p-10 z-0">
             <div className="flex flex-wrap gap-4 ">
               {lessons.lessonsList.map((lesson) => (
                 <div

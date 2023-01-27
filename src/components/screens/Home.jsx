@@ -22,9 +22,9 @@ function Home() {
         {/* <CheckValidUrl /> */}
 
         <div className="h-screen p-2">
-          <section className=" py-10 px-0  xl:p-24 text-on-surface dark:text-on-surface-dark">
+          <section className="p-6 lg:p-10 px-0  xl:p-24 text-on-surface dark:text-on-surface-dark">
             <div className=" w-[90%] mx-auto">
-              <h2 className=" text-3xl md:text-5xl text-center font-bold mb-12 text-on-surface dark:text-on-surface-dark ">
+              <h2 className=" text-3xl md:text-5xl text-center underline font-bold mb-12 text-on-surface dark:text-on-surface-dark ">
                 Proffessions
               </h2>
               <ol className="relative border-l-0 border-utility-outline dark:border-utility-outline-dark">

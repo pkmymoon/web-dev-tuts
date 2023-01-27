@@ -99,8 +99,8 @@ function Proffession(props) {
                       leaveFrom="opacity-100 scale-100"
                       leaveTo="opacity-0 scale-95"
                     >
-                      <Dialog.Panel className="shadow-2xl rounded-3xl transform overflow-hidden p-8 bg-surface-1 dark:bg-surface-1-dark text-left  align-middle transition-all  text-on-surface dark:text-on-surface-dark">
-                        <div className=" inline-block absolute right-8 top-8 rounded-full">
+                      <Dialog.Panel className="shadow-2xl rounded-3xl transform overflow-hidden p-6 lg:p-8 bg-surface-1 dark:bg-surface-1-dark text-left  align-middle transition-all  text-on-surface dark:text-on-surface-dark">
+                        <div className=" inline-block absolute right-6 top-6 rounded-full">
                           <XCircleIcon
                             className="w-8 h-8 text-on-surface-variant dark:text-on-surface-variant-dark cursor-pointer"
                             onClick={closeModal}
@@ -108,28 +108,30 @@ function Proffession(props) {
                         </div>
                         <Dialog.Title
                           as="h3"
-                          className=" text-2xl font-medium mb-6 flex items-center"
+                          className=" text-xl font-medium mb-6"
                         >
                           {props.title}
-                          <Link
-                            to={props.link}
-                            className="ml-5  transition-all ease-linear hover:scale-[105%] flex items-center flex-wrap gap-1 rounded-full bg-surface-5 dark:bg-surface-5-dark px-3 py-2 text-xs"
-                          >
-                            Learn More
-                            <ChevronRightIcon className=" w-3 h-3" />
-                          </Link>
                         </Dialog.Title>
                         <div className="mt-2 w-full max-w-2xl">
                           <ReactHlsPlayer
                             className="shadow-2xl rounded-3xl"
                             src={props.video}
-                            autoPlay={true}
+                            autoPlay={false}
                             controls={true}
                             clip-path
                             width="100%"
                             height="100%"
                           />
-                          <p className="mt-6 text-lg">{props.answer}</p>
+                          <p className="mt-6 text-md lg:text-lg">
+                            {props.answer}
+                          </p>
+                          <Link
+                            to={props.link}
+                            className="mt-2 transition-all ease-linear hover:scale-[105%] flex items-center w-max flex-wrap gap-1 rounded-full bg-surface-5 dark:bg-surface-5-dark px-3 py-2 text-sm"
+                          >
+                            Learn More
+                            <ChevronRightIcon className=" w-3 h-3" />
+                          </Link>
                         </div>
                       </Dialog.Panel>
                     </Transition.Child>
@@ -141,7 +143,7 @@ function Proffession(props) {
           <div className="flex items-center justify-center">
             <Link
               to={props.link}
-              className="ml-5 transition-all ease-linear hover:scale-[105%] flex mt-10 items-center flex-wrap gap-1 rounded-full bg-surface-5 dark:bg-surface-5-dark px-6 py-3 text-lg"
+              className=" transition-all ease-linear hover:scale-[105%] flex mt-10 items-center flex-wrap gap-1 rounded-full bg-surface-5 dark:bg-surface-5-dark px-6 py-3 text-lg"
             >
               Learn More
               <ChevronRightIcon className=" w-5 h-5" />

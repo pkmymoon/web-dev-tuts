@@ -10,7 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 *::-webkit-scrollbar{
-  width: 8px;
+  width: 5px;
 
 }
 *::-webkit-scrollbar-track {

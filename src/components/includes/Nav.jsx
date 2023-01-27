@@ -20,7 +20,7 @@ function Nav() {
           ""
         )}
 
-        <header className="flex lg:flex-col fixed  items-center justify-between px-5 py-3 lg:py-5  w-full lg:w-60  h-20 lg:h-screen bg-surface-0 lg:bg-surface-2 dark:bg-surface-0-dark lg:dark:bg-surface-2-dark drop-shadow-sm ">
+        <header className="flex lg:flex-col fixed  items-center justify-between px-5 py-3 lg:py-5  w-full lg:w-60  h-20 lg:h-screen bg-surface-1 lg:bg-surface-2 dark:bg-surface-1-dark lg:dark:bg-surface-2-dark drop-shadow-sm ">
           {/* MenuBtn */}
           <div className=" relative lg:hidden">
             <div
@@ -163,6 +163,29 @@ function Nav() {
                 )}
               </NavLink>
             </div> */}
+
+            <div className="w-full  mb-3.5 group">
+              <NavLink to="web-dev-tuts/practices">
+                {({ isActive }) => (
+                  <div
+                    type="button"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="#d9e7cb"
+                    className="inline-block  rounded-full w-full  transition duration-150 ease-in-out text-lg lg:text-sm  text-on-secondary-container dark:text-on-secondary-container-dark"
+                  >
+                    <div
+                      className={`${
+                        isActive
+                          ? "group-hover:bg-none  font-bold"
+                          : "group-hover:bg-surface-5 dark:group-hover:bg-surface-5-dark font-normal"
+                      } flex items-center  px-6 py-3   rounded-full relative  `}
+                    >
+                      Practices
+                    </div>
+                  </div>
+                )}
+              </NavLink>
+            </div>
           </nav>
 
           <div>

@@ -1,4 +1,10 @@
-import { Routes, Route, useLocation, useNavigate, useParams } from "react-router-dom";
+import {
+  Routes,
+  Route,
+  useLocation,
+  useNavigate,
+  useParams,
+} from "react-router-dom";
 import React from "react";
 import Home from "../screens/Home";
 import LessonsView from "../screens/LessonsView";
@@ -9,9 +15,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import VideoSkeleton from "./VideoSkeleton";
 import DataCollection from "../screens/DataCollection";
 import PageNotFound from "../screens/PageNotFound";
+import Practices from "../screens/Practices";
+import PracticeView from "../screens/PracticeView";
+import WorkshopView from "../screens/WorkshopView";
 function AnimatedRoutes() {
   const location = useLocation();
-
 
   return (
     <AnimatePresence classname="w-full">
@@ -21,17 +29,20 @@ function AnimatedRoutes() {
         exit={{ x: -10, opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
-        
         <Routes location={location} key={location.pathname}>
           <Route path="web-dev-tuts/" element={<Home />} />
-          <Route path="web-dev-tuts/data" element={<DataCollection />} />
+          <Route path="web-dev-tuts/practices" element={<Practices />} />
+          <Route
+            path="web-dev-tuts/practices/:practice"
+            element={<PracticeView />}
+          ><Route path=":workshop" element={<WorkshopView/> } /></Route>
+
           <Route path="web-dev-tuts/:proff" element={<ProffessionView />} />
           <Route path="web-dev-tuts/:proff/:skill" element={<SkillView />} />
           <Route
             path="web-dev-tuts/:proff/:skill/:lesson"
             element={<LessonsView />}
           >
-            {/* <Route index element={<VideoSkeleton />} /> */}
             <Route path=":topic" element={<TopicView />} />
           </Route>
         </Routes>
