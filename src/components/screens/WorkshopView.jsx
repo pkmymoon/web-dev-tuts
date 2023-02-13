@@ -16,7 +16,6 @@ function WorkshopView() {
 
   let topic = null;
   Workshop.topics.map((item) => (item.id === workshop ? (topic = item) : null));
-  console.log(topic);
   return (
     <>
       <motion.div

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import data from "../../assets/data/data.json";
 import { useParams } from "react-router-dom";
 import VideoPlayer from "../includes/VideoPlayer";
@@ -7,6 +7,9 @@ import { motion } from "framer-motion";
 import CheckValidUrl from "../includes/CheckValidUrl";
 
 function TopicView() {
+  
+  
+  
   const { proff, skill, lesson, topic } = useParams();
 
   let proffession = null;
@@ -28,7 +31,6 @@ function TopicView() {
   lessonsList.topicList.map((top) =>
     top.id === topic ? (topicName = top) : null
   );
-  console.log(topicName);
   return (
     <>
       <motion.div
@@ -42,15 +44,12 @@ function TopicView() {
             {skillsList.name} | {topicName.name}
           </title>
         </Helmet>
-        {/* <CheckValidUrl /> */}
 
         <VideoPlayer
           id={topicName.id}
           title={topicName.name}
           poster={topicName.image}
           src={topicName.playlist.auto.playlist}
-          // previous={topicName.previous}
-          // next={topicName.next}
         />
       </motion.div>
     </>

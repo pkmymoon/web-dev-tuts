@@ -1,1855 +1,2070 @@
 [
-  {
-    "id": "f9c6f3d6-682e-4335-86a4-7b8efd52a35d",
-    "auto_id": 99,
-    "title": "Caching Post Page",
-    "description": "Cache the single page of this website",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/caching_post_page.png",
-    "topic_count": 1,
-    "duration": 271.566,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Advanced Cache Features",
-    "lesson_pk": "831c7f78-254a-4d2c-95c0-bae1b2eec6f1",
-    "skill": "Progressive Web Apps",
-    "skill_pk": "95f00af3-e218-43a2-8293-3cb25ebac1cd",
-    "current_topic": "dbbe24c2-28d8-4754-9431-3b4558d9c67d",
-    "topics": [
-      {
-        "id": "dbbe24c2-28d8-4754-9431-3b4558d9c67d",
-        "order_id": 1,
+    {
+        "id": "83e7aaf6-6143-4b8f-ada7-36d0c8884c98",
+        "auto_id": 111,
+        "title": "Develop an e-commerce app",
+        "description": "Develop an e-commerce app",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Category_Section.jpg",
+        "topic_count": 6,
+        "duration": 5143.2,
+        "designation": "Mobile Application Developer",
+        "designation_pk": "6624a46e-d8b5-4b60-bf37-e22aef17a5c4",
+        "lesson": "Custom Fonts",
+        "lesson_pk": "0b1bc0c9-629e-4281-8a60-23d4f7c9d6bf",
+        "skill": "React Native",
+        "skill_pk": "e69e496b-4b40-4a29-a587-4e19da41eca7",
+        "current_topic": "13f87f0a-9dcc-46d2-afb7-76350faa79f1",
+        "topics": [
+            {
+                "id": "13f87f0a-9dcc-46d2-afb7-76350faa79f1",
+                "order_id": 1,
+                "title": "Initial Setup and Structuring",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Initial_Setup_and_Structuring.jpg",
+                "playlist": "https://player.vimeo.com/external/795486774.m3u8?s=33e4a3cb67c4b998d8537e8bab3db6ebd2cd85ad",
+                "duration": 273,
+                "designation": "Mobile Application Developer",
+                "skill_name": "React Native",
+                "status": "completed"
+            },
+            {
+                "id": "da5f7bbb-d082-4732-8b4c-e925f1399c7c",
+                "order_id": 2,
+                "title": "Header Section",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Header_Section.jpg",
+                "playlist": "https://player.vimeo.com/external/795489164.m3u8?s=357e291dd00d06cee735f264aeb60bf7834c9d83",
+                "duration": 860.4,
+                "designation": "Mobile Application Developer",
+                "skill_name": "React Native",
+                "status": "completed"
+            },
+            {
+                "id": "44f3d328-b620-459b-bf94-7d974c24381f",
+                "order_id": 3,
+                "title": "Spotlight Section",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_Section.jpg",
+                "playlist": "https://player.vimeo.com/external/795489229.m3u8?s=ac71f19b867ed4c3ec9dacc2d59f32e3b9769b55",
+                "duration": 1050.6,
+                "designation": "Mobile Application Developer",
+                "skill_name": "React Native",
+                "status": "completed"
+            },
+            {
+                "id": "e96dd78f-457c-44ea-be9d-1e784b165fef",
+                "order_id": 4,
+                "title": "Category Section",
+                "image": null,
+                "playlist": "https://player.vimeo.com/external/795489311.m3u8?s=ce3c1d6517e26b7ad8bf8e2a6c4c0004c39870e0",
+                "duration": 678,
+                "designation": "Mobile Application Developer",
+                "skill_name": "React Native",
+                "status": "completed"
+            },
+            {
+                "id": "4e7fbf40-82c3-44ec-9a22-a386fcca506b",
+                "order_id": 5,
+                "title": "Product List Section Part A",
+                "image": null,
+                "playlist": "https://player.vimeo.com/external/795489355.m3u8?s=5bfad155a84baa5b5f7abcec43c55829e2019bd7",
+                "duration": 1106.4,
+                "designation": "Mobile Application Developer",
+                "skill_name": "React Native",
+                "status": "completed"
+            },
+            {
+                "id": "cc400b10-04c2-4097-bc4c-1ba040cbdc1c",
+                "order_id": 6,
+                "title": "Product List Section Part B",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Product_List_Section_Part_B.jpg",
+                "playlist": "https://player.vimeo.com/external/795489410.m3u8?s=3755280fe5bc950bf5c7cb41c5a39e9647cbc483",
+                "duration": 1174.8,
+                "designation": "Mobile Application Developer",
+                "skill_name": "React Native",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "717d2bee-c9a5-4a00-b605-4677774969c8",
+        "auto_id": 107,
+        "title": "Implement like functionality",
+        "description": "In this section you have to implement like functionality",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/02_-_Implement_like_functionality.jpg",
+        "topic_count": 2,
+        "duration": 920.8,
+        "designation": "Web Application Developer",
+        "designation_pk": "8f5c51c5-f8b7-42d4-8885-0df78cb0caf9",
+        "lesson": "Search and Pagination",
+        "lesson_pk": "f2a23892-1ba9-411a-ade5-1d16eb547e33",
+        "skill": "API Development",
+        "skill_pk": "9518450d-9fdf-420e-b02f-64cfda544f7a",
+        "current_topic": "ba5ee92d-1544-430f-a1d0-c6fe2ecaefb5",
+        "topics": [
+            {
+                "id": "ba5ee92d-1544-430f-a1d0-c6fe2ecaefb5",
+                "order_id": 1,
+                "title": "Adding like",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_adding_like.jpg",
+                "playlist": "https://player.vimeo.com/external/754662736.m3u8?s=acc38b5d0c88f8c7ea614ed83f5c64bbfc5f3671",
+                "duration": 547,
+                "designation": "Web Application Developer",
+                "skill_name": "API Development",
+                "status": "completed"
+            },
+            {
+                "id": "190490f0-6b81-4c62-b624-d88f7e9eb756",
+                "order_id": 2,
+                "title": "Find like status",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_find_like_status.jpg",
+                "playlist": "https://player.vimeo.com/external/754662400.m3u8?s=c5f923c427b27c5afd1d16f12d8e9c25fe469fb2",
+                "duration": 373.8,
+                "designation": "Web Application Developer",
+                "skill_name": "API Development",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "bc729abc-9def-4503-b983-58b4a2a7497a",
+        "auto_id": 106,
+        "title": "Reply comments",
+        "description": "In this section you need reply comments",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/03_-_reply_comments_1.jpg",
+        "topic_count": 1,
+        "duration": 998.8,
+        "designation": "Web Application Developer",
+        "designation_pk": "8f5c51c5-f8b7-42d4-8885-0df78cb0caf9",
+        "lesson": "Search and Pagination",
+        "lesson_pk": "f2a23892-1ba9-411a-ade5-1d16eb547e33",
+        "skill": "API Development",
+        "skill_pk": "9518450d-9fdf-420e-b02f-64cfda544f7a",
+        "current_topic": "e75f9a71-7266-44fe-ab7a-c55b42224e0e",
+        "topics": [
+            {
+                "id": "e75f9a71-7266-44fe-ab7a-c55b42224e0e",
+                "order_id": 1,
+                "title": "Reply comments",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_reply_comments.jpg",
+                "playlist": "https://player.vimeo.com/external/754663067.m3u8?s=99e04a84d69ac735ee424acc78b32c8d4efb33d2",
+                "duration": 998.8,
+                "designation": "Web Application Developer",
+                "skill_name": "API Development",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "30507754-4a3f-4ff7-afbf-9c9095ebc024",
+        "auto_id": 101,
+        "title": "Create comment section",
+        "description": "In this section you need  create comment section",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_Create_comment_section.jpg",
+        "topic_count": 4,
+        "duration": 1477.2,
+        "designation": "Web Application Developer",
+        "designation_pk": "8f5c51c5-f8b7-42d4-8885-0df78cb0caf9",
+        "lesson": "Search and Pagination",
+        "lesson_pk": "f2a23892-1ba9-411a-ade5-1d16eb547e33",
+        "skill": "API Development",
+        "skill_pk": "9518450d-9fdf-420e-b02f-64cfda544f7a",
+        "current_topic": "92bbdecc-1da8-484d-bb39-e9738089348f",
+        "topics": [
+            {
+                "id": "92bbdecc-1da8-484d-bb39-e9738089348f",
+                "order_id": 1,
+                "title": "Model structure",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01-model_structure_kzK844X.jpg",
+                "playlist": "https://player.vimeo.com/external/754661138.m3u8?s=b455fa5e01103c1d559dbe4e3d87cb7ffcfa66e5",
+                "duration": 324.6,
+                "designation": "Web Application Developer",
+                "skill_name": "API Development",
+                "status": "completed"
+            },
+            {
+                "id": "bbbdd7a3-27fe-4bc6-9e40-f08362dc9dce",
+                "order_id": 2,
+                "title": "Create comment",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02-create_comment_ggdnf3F.jpg",
+                "playlist": "https://player.vimeo.com/external/754661078.m3u8?s=4dc6f47903c548a973c400df3dc9a9c0aeec70e2",
+                "duration": 565.2,
+                "designation": "Web Application Developer",
+                "skill_name": "API Development",
+                "status": "completed"
+            },
+            {
+                "id": "1950a36b-0946-4228-bf28-f7b2d0d5f48c",
+                "order_id": 3,
+                "title": "List comments",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_list_comments_KkcgU32.jpg",
+                "playlist": "https://player.vimeo.com/external/754661012.m3u8?s=3a8982761f53787d861c26c1215f54383502d512",
+                "duration": 374.4,
+                "designation": "Web Application Developer",
+                "skill_name": "API Development",
+                "status": "completed"
+            },
+            {
+                "id": "1f2aefe7-717b-48d9-9d13-1f48630daf63",
+                "order_id": 4,
+                "title": "Format data",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04_-_format_data_c3oohBH.jpg",
+                "playlist": "https://player.vimeo.com/external/754660951.m3u8?s=8482e5cb9ae07f7e69988e9866c05c170b10a409",
+                "duration": 213,
+                "designation": "Web Application Developer",
+                "skill_name": "API Development",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "f9c6f3d6-682e-4335-86a4-7b8efd52a35d",
+        "auto_id": 99,
         "title": "Caching Post Page",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/caching_post_page.png",
-        "playlist": "https://player.vimeo.com/external/684510684.m3u8?s=39da789d58adcf59ccc7274e1c6a013b66ceb558",
+        "description": "Cache the single page of this website",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/caching_post_page.png",
+        "topic_count": 1,
         "duration": 271.566,
         "designation": "UI Engineer",
-        "skill_name": "Progressive Web Apps",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "401dd075-f6c8-4f58-9c77-ed171e1cba3b",
-    "auto_id": 98,
-    "title": "Wibbitz Middle Section",
-    "description": "Wibbitz Middle Section",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/03_-_Wibbitz_Middle_section.jpg",
-    "topic_count": 4,
-    "duration": 1766.798,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Wibbitz Model Structuring",
-    "lesson_pk": "a522d8f5-f77e-4ea3-bf34-4a44190638ae",
-    "skill": "Django",
-    "skill_pk": "f09f60fc-8f65-4d9c-89b5-5ebb2885819c",
-    "current_topic": "c958f7ac-3e5a-4957-ab0b-e778dbf8c4d6",
-    "topics": [
-      {
-        "id": "c958f7ac-3e5a-4957-ab0b-e778dbf8c4d6",
-        "order_id": 1,
-        "title": "Model for Video Blog and Testimonial",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Model_for_Video_Blog_and_Testimonial.jpg",
-        "playlist": "https://player.vimeo.com/external/684177617.m3u8?s=1679db3d46fdab76f0ee44ec083be074e84d1656",
-        "duration": 371.366,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Advanced Cache Features",
+        "lesson_pk": "831c7f78-254a-4d2c-95c0-bae1b2eec6f1",
+        "skill": "Progressive Web Apps",
+        "skill_pk": "95f00af3-e218-43a2-8293-3cb25ebac1cd",
+        "current_topic": "dbbe24c2-28d8-4754-9431-3b4558d9c67d",
+        "topics": [
+            {
+                "id": "dbbe24c2-28d8-4754-9431-3b4558d9c67d",
+                "order_id": 1,
+                "title": "Caching Post Page",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/caching_post_page.png",
+                "playlist": "https://player.vimeo.com/external/684510684.m3u8?s=39da789d58adcf59ccc7274e1c6a013b66ceb558",
+                "duration": 271.566,
+                "designation": "UI Engineer",
+                "skill_name": "Progressive Web Apps",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "401dd075-f6c8-4f58-9c77-ed171e1cba3b",
+        "auto_id": 98,
+        "title": "Wibbitz Middle Section",
+        "description": "Wibbitz Middle Section",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/03_-_Wibbitz_Middle_section.jpg",
+        "topic_count": 4,
+        "duration": 1766.798,
         "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      },
-      {
-        "id": "e789d796-5cc0-41ac-b4d4-5ec855819a55",
-        "order_id": 2,
-        "title": "Showing Video Blog and Testimonial in html template",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_Showing_Video_Blog_and_Testimonial_in_html_template.jpg",
-        "playlist": "https://player.vimeo.com/external/684176982.m3u8?s=e169d2a46b01f75cf12750df8865d1c31355afae",
-        "duration": 545.133,
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Wibbitz Model Structuring",
+        "lesson_pk": "a522d8f5-f77e-4ea3-bf34-4a44190638ae",
+        "skill": "Django",
+        "skill_pk": "f09f60fc-8f65-4d9c-89b5-5ebb2885819c",
+        "current_topic": "c958f7ac-3e5a-4957-ab0b-e778dbf8c4d6",
+        "topics": [
+            {
+                "id": "c958f7ac-3e5a-4957-ab0b-e778dbf8c4d6",
+                "order_id": 1,
+                "title": "Model for Video Blog and Testimonial",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Model_for_Video_Blog_and_Testimonial.jpg",
+                "playlist": "https://player.vimeo.com/external/684177617.m3u8?s=1679db3d46fdab76f0ee44ec083be074e84d1656",
+                "duration": 371.366,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            },
+            {
+                "id": "e789d796-5cc0-41ac-b4d4-5ec855819a55",
+                "order_id": 2,
+                "title": "Showing Video Blog and Testimonial in html template",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_Showing_Video_Blog_and_Testimonial_in_html_template.jpg",
+                "playlist": "https://player.vimeo.com/external/684176982.m3u8?s=e169d2a46b01f75cf12750df8865d1c31355afae",
+                "duration": 545.133,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            },
+            {
+                "id": "0f0f07bb-e4a7-49b9-8731-ff06984c7408",
+                "order_id": 3,
+                "title": "Model for Blog and products",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_Model_for_Blog_and_products.jpg",
+                "playlist": "https://player.vimeo.com/external/684176499.m3u8?s=573c5e2d8257cf0923cab9784c6d3b693e351ff7",
+                "duration": 385.766,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            },
+            {
+                "id": "4d71a32f-67ba-4340-b1e3-dc63bada69a9",
+                "order_id": 4,
+                "title": "Showing prodcts and blog in template",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04_-_Showing_prodcts_and_blog_in_template.jpg",
+                "playlist": "https://player.vimeo.com/external/684175668.m3u8?s=840a4332a152b8ba85d2b8062188200235029107",
+                "duration": 464.533,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "f35f97ee-ac4c-49e4-bc71-6c452c8cc63a",
+        "auto_id": 97,
+        "title": "Wibbitz Feature Section",
+        "description": "Wibbitz Feature Section",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/02_-_Wibbitz_features_Section.jpg",
+        "topic_count": 2,
+        "duration": 707.366,
         "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      },
-      {
-        "id": "0f0f07bb-e4a7-49b9-8731-ff06984c7408",
-        "order_id": 3,
-        "title": "Model for Blog and products",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_Model_for_Blog_and_products.jpg",
-        "playlist": "https://player.vimeo.com/external/684176499.m3u8?s=573c5e2d8257cf0923cab9784c6d3b693e351ff7",
-        "duration": 385.766,
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Wibbitz Model Structuring",
+        "lesson_pk": "a522d8f5-f77e-4ea3-bf34-4a44190638ae",
+        "skill": "Django",
+        "skill_pk": "f09f60fc-8f65-4d9c-89b5-5ebb2885819c",
+        "current_topic": "bae967ce-094b-43f5-8ed6-581a3c19cb7e",
+        "topics": [
+            {
+                "id": "bae967ce-094b-43f5-8ed6-581a3c19cb7e",
+                "order_id": 1,
+                "title": "Create Model and register in admin",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Create_Model_and_register_in_admin.jpg",
+                "playlist": "https://player.vimeo.com/external/684164838.m3u8?s=c6ad93b6bddb89290213054750287ae7a1415487",
+                "duration": 398.9,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            },
+            {
+                "id": "858e4989-cacd-4471-a2ab-72ff01bea510",
+                "order_id": 2,
+                "title": "Display on template",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_Display_on_template.jpg",
+                "playlist": "https://player.vimeo.com/external/684164568.m3u8?s=2b766b40b7850f5e258cad01cee8735587abcc18",
+                "duration": 308.466,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "7d528941-ecc2-48de-889d-c592acca82d9",
+        "auto_id": 96,
+        "title": "Wibbitz Spotlight Section",
+        "description": "Wibbitz Spotlight Section",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_Wibbitz_Spotlight.jpg",
+        "topic_count": 6,
+        "duration": 2043.943,
         "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      },
-      {
-        "id": "4d71a32f-67ba-4340-b1e3-dc63bada69a9",
-        "order_id": 4,
-        "title": "Showing prodcts and blog in template",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04_-_Showing_prodcts_and_blog_in_template.jpg",
-        "playlist": "https://player.vimeo.com/external/684175668.m3u8?s=840a4332a152b8ba85d2b8062188200235029107",
-        "duration": 464.533,
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Wibbitz Model Structuring",
+        "lesson_pk": "a522d8f5-f77e-4ea3-bf34-4a44190638ae",
+        "skill": "Django",
+        "skill_pk": "f09f60fc-8f65-4d9c-89b5-5ebb2885819c",
+        "current_topic": "6abc24b6-ce4c-48db-98b0-63d7fe71ba63",
+        "topics": [
+            {
+                "id": "6abc24b6-ce4c-48db-98b0-63d7fe71ba63",
+                "order_id": 1,
+                "title": "Project configuration",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Project_configuration.jpg",
+                "playlist": "https://player.vimeo.com/external/684153583.m3u8?s=5d0622104656ed6c8c3b3ec9360fde511e3c1454",
+                "duration": 509.3,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            },
+            {
+                "id": "1afa261c-51f9-43a2-8c5d-ccb777517007",
+                "order_id": 2,
+                "title": "Connecting static",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_Connecting_static.jpg",
+                "playlist": "https://player.vimeo.com/external/684153771.m3u8?s=893ba06734405465f10fb95e1a5450706bfdf8ee",
+                "duration": 197.13,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            },
+            {
+                "id": "cc995478-8c72-4e0f-a8eb-948110e7e995",
+                "order_id": 3,
+                "title": "Creating models",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03---Creating-models.jpg",
+                "playlist": "https://player.vimeo.com/external/684153872.m3u8?s=77bfce3d709488c646461f88eba445ce2ce8c199",
+                "duration": 281.681,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            },
+            {
+                "id": "517a2f58-17ca-405d-87d6-ef630c5f8258",
+                "order_id": 4,
+                "title": "Register in Admin site",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04_-_Register_in_Admin_site.jpg",
+                "playlist": "https://player.vimeo.com/external/684153966.m3u8?s=f69d304b772f03e6b7c7adcdc44db19e54b72085",
+                "duration": 276.033,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            },
+            {
+                "id": "b299bd33-b814-4744-8d75-5c70292dbc98",
+                "order_id": 5,
+                "title": "Display customers on template",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/05_-_Display_customers_on_template.jpg",
+                "playlist": "https://player.vimeo.com/external/684154047.m3u8?s=50adac7af32bbecc11f50d10fd4f094c88dda8a1",
+                "duration": 143.833,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            },
+            {
+                "id": "031f5ed2-8f03-473a-9eb6-b8220b67e11e",
+                "order_id": 6,
+                "title": "Subscribe form submission",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/06_-_Subscribe_form_submission.jpg",
+                "playlist": "https://player.vimeo.com/external/684152361.m3u8?s=f820f8e6a5b0ab3fbf2cd10c5fd9e80357f81e4e",
+                "duration": 635.966,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "eda0e695-3d48-48e9-8bba-2c72b449002b",
+        "auto_id": 93,
+        "title": "Create a Portfolio Website",
+        "description": "Create a Portfolio Website",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/07_-_Create_Portfolio-website.jpg",
+        "topic_count": 3,
+        "duration": 778.973,
         "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "f35f97ee-ac4c-49e4-bc71-6c452c8cc63a",
-    "auto_id": 97,
-    "title": "Wibbitz Feature Section",
-    "description": "Wibbitz Feature Section",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/02_-_Wibbitz_features_Section.jpg",
-    "topic_count": 2,
-    "duration": 707.366,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Wibbitz Model Structuring",
-    "lesson_pk": "a522d8f5-f77e-4ea3-bf34-4a44190638ae",
-    "skill": "Django",
-    "skill_pk": "f09f60fc-8f65-4d9c-89b5-5ebb2885819c",
-    "current_topic": "bae967ce-094b-43f5-8ed6-581a3c19cb7e",
-    "topics": [
-      {
-        "id": "bae967ce-094b-43f5-8ed6-581a3c19cb7e",
-        "order_id": 1,
-        "title": "Create Model and register in admin",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Create_Model_and_register_in_admin.jpg",
-        "playlist": "https://player.vimeo.com/external/684164838.m3u8?s=c6ad93b6bddb89290213054750287ae7a1415487",
-        "duration": 398.9,
-        "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      },
-      {
-        "id": "858e4989-cacd-4471-a2ab-72ff01bea510",
-        "order_id": 2,
-        "title": "Display on template",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_Display_on_template.jpg",
-        "playlist": "https://player.vimeo.com/external/684164568.m3u8?s=2b766b40b7850f5e258cad01cee8735587abcc18",
-        "duration": 308.466,
-        "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "7d528941-ecc2-48de-889d-c592acca82d9",
-    "auto_id": 96,
-    "title": "Wibbitz Spotlight Section",
-    "description": "Wibbitz Spotlight Section",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_Wibbitz_Spotlight.jpg",
-    "topic_count": 6,
-    "duration": 2043.943,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Wibbitz Model Structuring",
-    "lesson_pk": "a522d8f5-f77e-4ea3-bf34-4a44190638ae",
-    "skill": "Django",
-    "skill_pk": "f09f60fc-8f65-4d9c-89b5-5ebb2885819c",
-    "current_topic": "6abc24b6-ce4c-48db-98b0-63d7fe71ba63",
-    "topics": [
-      {
-        "id": "6abc24b6-ce4c-48db-98b0-63d7fe71ba63",
-        "order_id": 1,
-        "title": "Project configuration",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Project_configuration.jpg",
-        "playlist": "https://player.vimeo.com/external/684153583.m3u8?s=5d0622104656ed6c8c3b3ec9360fde511e3c1454",
-        "duration": 509.3,
-        "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      },
-      {
-        "id": "1afa261c-51f9-43a2-8c5d-ccb777517007",
-        "order_id": 2,
-        "title": "Connecting static",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_Connecting_static.jpg",
-        "playlist": "https://player.vimeo.com/external/684153771.m3u8?s=893ba06734405465f10fb95e1a5450706bfdf8ee",
-        "duration": 197.13,
-        "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      },
-      {
-        "id": "cc995478-8c72-4e0f-a8eb-948110e7e995",
-        "order_id": 3,
-        "title": "Creating models",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03---Creating-models.jpg",
-        "playlist": "https://player.vimeo.com/external/684153872.m3u8?s=77bfce3d709488c646461f88eba445ce2ce8c199",
-        "duration": 281.681,
-        "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      },
-      {
-        "id": "517a2f58-17ca-405d-87d6-ef630c5f8258",
-        "order_id": 4,
-        "title": "Register in Admin site",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04_-_Register_in_Admin_site.jpg",
-        "playlist": "https://player.vimeo.com/external/684153966.m3u8?s=f69d304b772f03e6b7c7adcdc44db19e54b72085",
-        "duration": 276.033,
-        "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      },
-      {
-        "id": "b299bd33-b814-4744-8d75-5c70292dbc98",
-        "order_id": 5,
-        "title": "Display customers on template",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/05_-_Display_customers_on_template.jpg",
-        "playlist": "https://player.vimeo.com/external/684154047.m3u8?s=50adac7af32bbecc11f50d10fd4f094c88dda8a1",
-        "duration": 143.833,
-        "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      },
-      {
-        "id": "031f5ed2-8f03-473a-9eb6-b8220b67e11e",
-        "order_id": 6,
-        "title": "Subscribe form submission",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/06_-_Subscribe_form_submission.jpg",
-        "playlist": "https://player.vimeo.com/external/684152361.m3u8?s=f820f8e6a5b0ab3fbf2cd10c5fd9e80357f81e4e",
-        "duration": 635.966,
-        "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "eda0e695-3d48-48e9-8bba-2c72b449002b",
-    "auto_id": 93,
-    "title": "Create a Portfolio Website",
-    "description": "Create a Portfolio Website",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/07_-_Create_Portfolio-website.jpg",
-    "topic_count": 3,
-    "duration": 778.973,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Create Space Website",
-    "lesson_pk": "ef7e654b-9e3c-4b89-94e9-104ccc202bce",
-    "skill": "Django",
-    "skill_pk": "f09f60fc-8f65-4d9c-89b5-5ebb2885819c",
-    "current_topic": "b5d34740-0c91-409a-968d-aac130f1630d",
-    "topics": [
-      {
-        "id": "b5d34740-0c91-409a-968d-aac130f1630d",
-        "order_id": 1,
-        "title": "Configuration",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Configuration-1.jpg",
-        "playlist": "https://player.vimeo.com/external/684135096.m3u8?s=51c33ef647063344eb36bf250e1c6ecb3f2aefb2",
-        "duration": 181.24,
-        "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      },
-      {
-        "id": "3bf6e7cd-ec59-41d7-bb16-91963dfae7ce",
-        "order_id": 2,
-        "title": "showing helloworld",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_showing_helloworld.jpg",
-        "playlist": "https://player.vimeo.com/external/684135140.m3u8?s=bb9181cb49c9b8d58ddbf5ad1d742d79bbbb3a7d",
-        "duration": 336,
-        "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      },
-      {
-        "id": "0295fb58-0515-4e85-9bea-49a232f05ac1",
-        "order_id": 3,
-        "title": "Loading html page",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_Loading_html_page.jpg",
-        "playlist": "https://player.vimeo.com/external/684134958.m3u8?s=4a6d32cdeda08e0fad7265ef01e55705768b22fb",
-        "duration": 261.733,
-        "designation": "Backend Developer",
-        "skill_name": "Django",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "9f8e26d6-d921-47be-bd40-3e5a00a9f6b3",
-    "auto_id": 92,
-    "title": "Rock Paper Scissor Game",
-    "description": "Rock Paper Scissor Game",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/10_-_Rock_Paper_Scissor_Game.jpg",
-    "topic_count": 1,
-    "duration": 493.2,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Virtual Environment",
-    "lesson_pk": "c43518c0-9438-4dc8-a634-02781de72a8c",
-    "skill": "Python",
-    "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
-    "current_topic": "86085b88-c859-4aaf-be13-c219e7665c05",
-    "topics": [
-      {
-        "id": "86085b88-c859-4aaf-be13-c219e7665c05",
-        "order_id": 1,
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Create Space Website",
+        "lesson_pk": "ef7e654b-9e3c-4b89-94e9-104ccc202bce",
+        "skill": "Django",
+        "skill_pk": "f09f60fc-8f65-4d9c-89b5-5ebb2885819c",
+        "current_topic": "b5d34740-0c91-409a-968d-aac130f1630d",
+        "topics": [
+            {
+                "id": "b5d34740-0c91-409a-968d-aac130f1630d",
+                "order_id": 1,
+                "title": "Configuration",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Configuration-1.jpg",
+                "playlist": "https://player.vimeo.com/external/684135096.m3u8?s=51c33ef647063344eb36bf250e1c6ecb3f2aefb2",
+                "duration": 181.24,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            },
+            {
+                "id": "3bf6e7cd-ec59-41d7-bb16-91963dfae7ce",
+                "order_id": 2,
+                "title": "showing helloworld",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_showing_helloworld.jpg",
+                "playlist": "https://player.vimeo.com/external/684135140.m3u8?s=bb9181cb49c9b8d58ddbf5ad1d742d79bbbb3a7d",
+                "duration": 336,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            },
+            {
+                "id": "0295fb58-0515-4e85-9bea-49a232f05ac1",
+                "order_id": 3,
+                "title": "Loading html page",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_Loading_html_page.jpg",
+                "playlist": "https://player.vimeo.com/external/684134958.m3u8?s=4a6d32cdeda08e0fad7265ef01e55705768b22fb",
+                "duration": 261.733,
+                "designation": "Backend Developer",
+                "skill_name": "Django",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "9f8e26d6-d921-47be-bd40-3e5a00a9f6b3",
+        "auto_id": 92,
         "title": "Rock Paper Scissor Game",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/10_-_Rock_Paper_Scissor_Game.jpg",
-        "playlist": "https://player.vimeo.com/external/684121448.m3u8?s=035b304f5a22906f49397a27c47796829b95f147",
+        "description": "Rock Paper Scissor Game",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/10_-_Rock_Paper_Scissor_Game.jpg",
+        "topic_count": 1,
         "duration": 493.2,
         "designation": "Backend Developer",
-        "skill_name": "Python",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "32811740-902e-474e-8ac3-f2d9b82bf66e",
-    "auto_id": 91,
-    "title": "Convert python dictionary to JSON object",
-    "description": "Convert python dictionary to JSON object",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/07_-_Convert_dictionary_to_JSON_string.jpg",
-    "topic_count": 1,
-    "duration": 67.7,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Virtual Environment",
-    "lesson_pk": "c43518c0-9438-4dc8-a634-02781de72a8c",
-    "skill": "Python",
-    "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
-    "current_topic": "2930e5a6-e3d2-4a79-a3d3-8d1bc3c7293c",
-    "topics": [
-      {
-        "id": "2930e5a6-e3d2-4a79-a3d3-8d1bc3c7293c",
-        "order_id": 1,
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Virtual Environment",
+        "lesson_pk": "c43518c0-9438-4dc8-a634-02781de72a8c",
+        "skill": "Python",
+        "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
+        "current_topic": "86085b88-c859-4aaf-be13-c219e7665c05",
+        "topics": [
+            {
+                "id": "86085b88-c859-4aaf-be13-c219e7665c05",
+                "order_id": 1,
+                "title": "Rock Paper Scissor Game",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/10_-_Rock_Paper_Scissor_Game.jpg",
+                "playlist": "https://player.vimeo.com/external/684121448.m3u8?s=035b304f5a22906f49397a27c47796829b95f147",
+                "duration": 493.2,
+                "designation": "Backend Developer",
+                "skill_name": "Python",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "32811740-902e-474e-8ac3-f2d9b82bf66e",
+        "auto_id": 91,
         "title": "Convert python dictionary to JSON object",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/07_-_COnvert_python_dictionary_to_JSON_object.jpg",
-        "playlist": "https://player.vimeo.com/external/684121370.m3u8?s=0d2859eca990b6d084fb5f0ec317b5361e0552c9",
+        "description": "Convert python dictionary to JSON object",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/07_-_Convert_dictionary_to_JSON_string.jpg",
+        "topic_count": 1,
         "duration": 67.7,
         "designation": "Backend Developer",
-        "skill_name": "Python",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "0571a0c7-8015-4a53-9b00-5177ab9ce318",
-    "auto_id": 90,
-    "title": "Creating Digital Clock",
-    "description": "Creating Digital Clock",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/04_-_Creating_digital_Clock.jpg",
-    "topic_count": 1,
-    "duration": 163.633,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Datetime Module",
-    "lesson_pk": "645045c9-64b1-45c8-b8fc-6d4bc79f1fe1",
-    "skill": "Python",
-    "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
-    "current_topic": "56f4b0dd-c6dd-4cdb-9f8e-66e401dc3175",
-    "topics": [
-      {
-        "id": "56f4b0dd-c6dd-4cdb-9f8e-66e401dc3175",
-        "order_id": 1,
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Virtual Environment",
+        "lesson_pk": "c43518c0-9438-4dc8-a634-02781de72a8c",
+        "skill": "Python",
+        "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
+        "current_topic": "2930e5a6-e3d2-4a79-a3d3-8d1bc3c7293c",
+        "topics": [
+            {
+                "id": "2930e5a6-e3d2-4a79-a3d3-8d1bc3c7293c",
+                "order_id": 1,
+                "title": "Convert python dictionary to JSON object",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/07_-_COnvert_python_dictionary_to_JSON_object.jpg",
+                "playlist": "https://player.vimeo.com/external/684121370.m3u8?s=0d2859eca990b6d084fb5f0ec317b5361e0552c9",
+                "duration": 67.7,
+                "designation": "Backend Developer",
+                "skill_name": "Python",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "0571a0c7-8015-4a53-9b00-5177ab9ce318",
+        "auto_id": 90,
         "title": "Creating Digital Clock",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04_-_Creating_digital_Clock.jpg",
-        "playlist": "https://player.vimeo.com/external/684102742.m3u8?s=28edad84cbeb3ee1e7bd14b9c47472f38fdb2381",
+        "description": "Creating Digital Clock",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/04_-_Creating_digital_Clock.jpg",
+        "topic_count": 1,
         "duration": 163.633,
         "designation": "Backend Developer",
-        "skill_name": "Python",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "f35d54e9-9061-441b-b4e0-d0280ba82a5e",
-    "auto_id": 89,
-    "title": "Calculator Function",
-    "description": "Calculator Function",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/03_-_Calculator_Function.jpg",
-    "topic_count": 1,
-    "duration": 168.733,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Datetime Module",
-    "lesson_pk": "645045c9-64b1-45c8-b8fc-6d4bc79f1fe1",
-    "skill": "Python",
-    "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
-    "current_topic": "da001c2e-9017-4e37-acdd-8bbeff871bc5",
-    "topics": [
-      {
-        "id": "da001c2e-9017-4e37-acdd-8bbeff871bc5",
-        "order_id": 1,
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Datetime Module",
+        "lesson_pk": "645045c9-64b1-45c8-b8fc-6d4bc79f1fe1",
+        "skill": "Python",
+        "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
+        "current_topic": "56f4b0dd-c6dd-4cdb-9f8e-66e401dc3175",
+        "topics": [
+            {
+                "id": "56f4b0dd-c6dd-4cdb-9f8e-66e401dc3175",
+                "order_id": 1,
+                "title": "Creating Digital Clock",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04_-_Creating_digital_Clock.jpg",
+                "playlist": "https://player.vimeo.com/external/684102742.m3u8?s=28edad84cbeb3ee1e7bd14b9c47472f38fdb2381",
+                "duration": 163.633,
+                "designation": "Backend Developer",
+                "skill_name": "Python",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "f35d54e9-9061-441b-b4e0-d0280ba82a5e",
+        "auto_id": 89,
         "title": "Calculator Function",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_Calculator_Function.jpg",
-        "playlist": "https://player.vimeo.com/external/684102708.m3u8?s=129641cb50fd4b12b5c28cf20dc1b7580e282d30",
+        "description": "Calculator Function",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/03_-_Calculator_Function.jpg",
+        "topic_count": 1,
         "duration": 168.733,
         "designation": "Backend Developer",
-        "skill_name": "Python",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "c596bc5b-ac58-4b4c-9f78-878dea17f9fc",
-    "auto_id": 88,
-    "title": "Remove even numbers from list",
-    "description": "Remove even numbers from list",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/09_-_Remove_even_numbers_from_list.jpg",
-    "topic_count": 1,
-    "duration": 79.133,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Control Flow Statements",
-    "lesson_pk": "d6d5b39c-e8cd-4228-b7ad-b067f695bf99",
-    "skill": "Python",
-    "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
-    "current_topic": "7995177a-6ee8-4a66-817a-132bdf08bfff",
-    "topics": [
-      {
-        "id": "7995177a-6ee8-4a66-817a-132bdf08bfff",
-        "order_id": 1,
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Datetime Module",
+        "lesson_pk": "645045c9-64b1-45c8-b8fc-6d4bc79f1fe1",
+        "skill": "Python",
+        "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
+        "current_topic": "da001c2e-9017-4e37-acdd-8bbeff871bc5",
+        "topics": [
+            {
+                "id": "da001c2e-9017-4e37-acdd-8bbeff871bc5",
+                "order_id": 1,
+                "title": "Calculator Function",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_Calculator_Function.jpg",
+                "playlist": "https://player.vimeo.com/external/684102708.m3u8?s=129641cb50fd4b12b5c28cf20dc1b7580e282d30",
+                "duration": 168.733,
+                "designation": "Backend Developer",
+                "skill_name": "Python",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "c596bc5b-ac58-4b4c-9f78-878dea17f9fc",
+        "auto_id": 88,
         "title": "Remove even numbers from list",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/09_-_Remove_even_numbers_from_list.jpg",
-        "playlist": "https://player.vimeo.com/external/684102775.m3u8?s=dfa186e76fa1e3601722cc8d834e047b739c4865",
+        "description": "Remove even numbers from list",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/09_-_Remove_even_numbers_from_list.jpg",
+        "topic_count": 1,
         "duration": 79.133,
         "designation": "Backend Developer",
-        "skill_name": "Python",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "7d67cc54-dd71-4b18-877c-5ee293f432f8",
-    "auto_id": 87,
-    "title": "Sum of Elements in a list",
-    "description": "Sum of Elements in a list",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/08_-_Find_sum_of_elements_in_a_list.jpg",
-    "topic_count": 1,
-    "duration": 48.433,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Control Flow Statements",
-    "lesson_pk": "d6d5b39c-e8cd-4228-b7ad-b067f695bf99",
-    "skill": "Python",
-    "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
-    "current_topic": "19419d7c-782c-45d0-8b75-bb99ab4eb60b",
-    "topics": [
-      {
-        "id": "19419d7c-782c-45d0-8b75-bb99ab4eb60b",
-        "order_id": 1,
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Control Flow Statements",
+        "lesson_pk": "d6d5b39c-e8cd-4228-b7ad-b067f695bf99",
+        "skill": "Python",
+        "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
+        "current_topic": "7995177a-6ee8-4a66-817a-132bdf08bfff",
+        "topics": [
+            {
+                "id": "7995177a-6ee8-4a66-817a-132bdf08bfff",
+                "order_id": 1,
+                "title": "Remove even numbers from list",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/09_-_Remove_even_numbers_from_list.jpg",
+                "playlist": "https://player.vimeo.com/external/684102775.m3u8?s=dfa186e76fa1e3601722cc8d834e047b739c4865",
+                "duration": 79.133,
+                "designation": "Backend Developer",
+                "skill_name": "Python",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "7d67cc54-dd71-4b18-877c-5ee293f432f8",
+        "auto_id": 87,
         "title": "Sum of Elements in a list",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/08_-_Find_sum_of_elements_in_a_list.jpg",
-        "playlist": "https://player.vimeo.com/external/684102677.m3u8?s=710adbb0a871a8262dc5eb67ba8022289c751a88",
+        "description": "Sum of Elements in a list",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/08_-_Find_sum_of_elements_in_a_list.jpg",
+        "topic_count": 1,
         "duration": 48.433,
         "designation": "Backend Developer",
-        "skill_name": "Python",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "e554cad9-f809-424d-a629-9c9b3d485e62",
-    "auto_id": 86,
-    "title": "Calculate the sum of digits from a given string",
-    "description": "Calculate the sum of digits from a given string",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/02_-_Calculate_Sum_of_digits_from_a_given_string.jpg",
-    "topic_count": 1,
-    "duration": 235.6,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Control Flow Statements",
-    "lesson_pk": "d6d5b39c-e8cd-4228-b7ad-b067f695bf99",
-    "skill": "Python",
-    "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
-    "current_topic": "9bdef203-131c-442b-a45e-afbb855f0a8a",
-    "topics": [
-      {
-        "id": "9bdef203-131c-442b-a45e-afbb855f0a8a",
-        "order_id": 1,
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Control Flow Statements",
+        "lesson_pk": "d6d5b39c-e8cd-4228-b7ad-b067f695bf99",
+        "skill": "Python",
+        "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
+        "current_topic": "19419d7c-782c-45d0-8b75-bb99ab4eb60b",
+        "topics": [
+            {
+                "id": "19419d7c-782c-45d0-8b75-bb99ab4eb60b",
+                "order_id": 1,
+                "title": "Sum of Elements in a list",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/08_-_Find_sum_of_elements_in_a_list.jpg",
+                "playlist": "https://player.vimeo.com/external/684102677.m3u8?s=710adbb0a871a8262dc5eb67ba8022289c751a88",
+                "duration": 48.433,
+                "designation": "Backend Developer",
+                "skill_name": "Python",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "e554cad9-f809-424d-a629-9c9b3d485e62",
+        "auto_id": 86,
         "title": "Calculate the sum of digits from a given string",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_Calculate_Sum_of_digits_from_a_given_string.jpg",
-        "playlist": "https://player.vimeo.com/external/684102625.m3u8?s=81bdb093cf80418a8031eb5b2ca2b25ebb1e72ee",
+        "description": "Calculate the sum of digits from a given string",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/02_-_Calculate_Sum_of_digits_from_a_given_string.jpg",
+        "topic_count": 1,
         "duration": 235.6,
         "designation": "Backend Developer",
-        "skill_name": "Python",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "df203ff0-d312-4ebd-a695-d138c361a934",
-    "auto_id": 85,
-    "title": "Swap first and last elements in list",
-    "description": "Swap first and last elements in list",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/06_-_Swap_first_and_Last_Elements_in_a_list.jpg",
-    "topic_count": 1,
-    "duration": 84.433,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Data Types and Operations",
-    "lesson_pk": "8696caba-5a10-4a47-9f00-95bebdee8fea",
-    "skill": "Python",
-    "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
-    "current_topic": "5600b435-2773-454d-89a8-87a071b9b96a",
-    "topics": [
-      {
-        "id": "5600b435-2773-454d-89a8-87a071b9b96a",
-        "order_id": 1,
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Control Flow Statements",
+        "lesson_pk": "d6d5b39c-e8cd-4228-b7ad-b067f695bf99",
+        "skill": "Python",
+        "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
+        "current_topic": "9bdef203-131c-442b-a45e-afbb855f0a8a",
+        "topics": [
+            {
+                "id": "9bdef203-131c-442b-a45e-afbb855f0a8a",
+                "order_id": 1,
+                "title": "Calculate the sum of digits from a given string",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_Calculate_Sum_of_digits_from_a_given_string.jpg",
+                "playlist": "https://player.vimeo.com/external/684102625.m3u8?s=81bdb093cf80418a8031eb5b2ca2b25ebb1e72ee",
+                "duration": 235.6,
+                "designation": "Backend Developer",
+                "skill_name": "Python",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "df203ff0-d312-4ebd-a695-d138c361a934",
+        "auto_id": 85,
         "title": "Swap first and last elements in list",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/06_-_Swap_first_and_Last_Elements_in_a_list_JRTaYSK.jpg",
-        "playlist": "https://player.vimeo.com/external/684102811.m3u8?s=fd4d49a73a1765d3fc3851a0199c5a52820c2846",
+        "description": "Swap first and last elements in list",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/06_-_Swap_first_and_Last_Elements_in_a_list.jpg",
+        "topic_count": 1,
         "duration": 84.433,
         "designation": "Backend Developer",
-        "skill_name": "Python",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "eaf3c3d1-a7c9-4636-b01e-cbcca4597cb2",
-    "auto_id": 84,
-    "title": "Find Odd or Even",
-    "description": "Find Odd or Even",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/05_-_Checking_odd_or_even.jpg",
-    "topic_count": 1,
-    "duration": 139.766,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Data Types and Operations",
-    "lesson_pk": "8696caba-5a10-4a47-9f00-95bebdee8fea",
-    "skill": "Python",
-    "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
-    "current_topic": "9cd77f11-c689-46ba-909a-4be099c12903",
-    "topics": [
-      {
-        "id": "9cd77f11-c689-46ba-909a-4be099c12903",
-        "order_id": 1,
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Data Types and Operations",
+        "lesson_pk": "8696caba-5a10-4a47-9f00-95bebdee8fea",
+        "skill": "Python",
+        "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
+        "current_topic": "5600b435-2773-454d-89a8-87a071b9b96a",
+        "topics": [
+            {
+                "id": "5600b435-2773-454d-89a8-87a071b9b96a",
+                "order_id": 1,
+                "title": "Swap first and last elements in list",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/06_-_Swap_first_and_Last_Elements_in_a_list_JRTaYSK.jpg",
+                "playlist": "https://player.vimeo.com/external/684102811.m3u8?s=fd4d49a73a1765d3fc3851a0199c5a52820c2846",
+                "duration": 84.433,
+                "designation": "Backend Developer",
+                "skill_name": "Python",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "eaf3c3d1-a7c9-4636-b01e-cbcca4597cb2",
+        "auto_id": 84,
         "title": "Find Odd or Even",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/05_-_Checking_odd_or_even_kRoHCV6.jpg",
-        "playlist": "https://player.vimeo.com/external/684102343.m3u8?s=6ecad9ce41dc32d0517123d4e1781c7246ebd0b7",
+        "description": "Find Odd or Even",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/05_-_Checking_odd_or_even.jpg",
+        "topic_count": 1,
         "duration": 139.766,
         "designation": "Backend Developer",
-        "skill_name": "Python",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "45667c5b-5d12-495b-a760-7333bf9a6207",
-    "auto_id": 83,
-    "title": "String Operations",
-    "description": "String Operations",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_String_Operations.jpg",
-    "topic_count": 1,
-    "duration": 132.766,
-    "designation": "Backend Developer",
-    "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
-    "lesson": "Data Types and Operations",
-    "lesson_pk": "8696caba-5a10-4a47-9f00-95bebdee8fea",
-    "skill": "Python",
-    "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
-    "current_topic": "31776cce-a28f-4693-b817-4c3e428be8b4",
-    "topics": [
-      {
-        "id": "31776cce-a28f-4693-b817-4c3e428be8b4",
-        "order_id": 1,
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Data Types and Operations",
+        "lesson_pk": "8696caba-5a10-4a47-9f00-95bebdee8fea",
+        "skill": "Python",
+        "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
+        "current_topic": "9cd77f11-c689-46ba-909a-4be099c12903",
+        "topics": [
+            {
+                "id": "9cd77f11-c689-46ba-909a-4be099c12903",
+                "order_id": 1,
+                "title": "Find Odd or Even",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/05_-_Checking_odd_or_even_kRoHCV6.jpg",
+                "playlist": "https://player.vimeo.com/external/684102343.m3u8?s=6ecad9ce41dc32d0517123d4e1781c7246ebd0b7",
+                "duration": 139.766,
+                "designation": "Backend Developer",
+                "skill_name": "Python",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "45667c5b-5d12-495b-a760-7333bf9a6207",
+        "auto_id": 83,
         "title": "String Operations",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_String_Operations_b2Qv3gm.jpg",
-        "playlist": "https://player.vimeo.com/external/684102864.m3u8?s=10b2c912f171f03fd43a2605d80273f3d7ef93d4",
+        "description": "String Operations",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_String_Operations.jpg",
+        "topic_count": 1,
         "duration": 132.766,
         "designation": "Backend Developer",
-        "skill_name": "Python",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "f76f92d5-f922-413f-ad82-ae474adfa916",
-    "auto_id": 26,
-    "title": "Creating a Travel App",
-    "description": "In this practice, you'll learn how to create a travel app using jQuery",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_Creating_travel_app_1_vcH6DMr.jpg",
-    "topic_count": 1,
-    "duration": 467.4,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Adding jQuery to Patch",
-    "lesson_pk": "e65622db-bd8b-4eeb-baa2-9d0aa3aaaeb3",
-    "skill": "jQuery",
-    "skill_pk": "2319e1a4-dee0-4164-8d3d-137dcc7a95f0",
-    "current_topic": "e08b19e7-f87e-42aa-9459-99af75994aef",
-    "topics": [
-      {
-        "id": "e08b19e7-f87e-42aa-9459-99af75994aef",
-        "order_id": 1,
-        "title": "Create Travel App",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_create_travel_app.jpg",
-        "playlist": "https://player.vimeo.com/external/683777077.m3u8?s=acdb407883ee78818bac7854d411f2099ddd3edc",
+        "designation_pk": "5f7a461a-e769-4411-b434-f47ad73ebd4d",
+        "lesson": "Data Types and Operations",
+        "lesson_pk": "8696caba-5a10-4a47-9f00-95bebdee8fea",
+        "skill": "Python",
+        "skill_pk": "a5760fd1-e1e1-4c15-9e98-30264c11627e",
+        "current_topic": "31776cce-a28f-4693-b817-4c3e428be8b4",
+        "topics": [
+            {
+                "id": "31776cce-a28f-4693-b817-4c3e428be8b4",
+                "order_id": 1,
+                "title": "String Operations",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_String_Operations_b2Qv3gm.jpg",
+                "playlist": "https://player.vimeo.com/external/684102864.m3u8?s=10b2c912f171f03fd43a2605d80273f3d7ef93d4",
+                "duration": 132.766,
+                "designation": "Backend Developer",
+                "skill_name": "Python",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "f76f92d5-f922-413f-ad82-ae474adfa916",
+        "auto_id": 26,
+        "title": "Creating a Travel App",
+        "description": "In this practice, you'll learn how to create a travel app using jQuery",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_Creating_travel_app_1_vcH6DMr.jpg",
+        "topic_count": 1,
         "duration": 467.4,
         "designation": "UI Engineer",
-        "skill_name": "jQuery",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "0e568bf4-1e69-4ad3-8893-9c00eae25159",
-    "auto_id": 25,
-    "title": "Buliding a Website",
-    "description": "In this workshop, you'll learn how to create a website using bootstrap",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_building_a_website__1.jpg",
-    "topic_count": 7,
-    "duration": 1904.292,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Form Elements",
-    "lesson_pk": "a1da1527-8cea-45a9-8162-03a33c46e421",
-    "skill": "Bootstrap",
-    "skill_pk": "65176e78-0c6a-4348-b36b-16ea8f9469ec",
-    "current_topic": "0ffc4834-d002-4ead-a7ea-50bcec3648de",
-    "topics": [
-      {
-        "id": "0ffc4834-d002-4ead-a7ea-50bcec3648de",
-        "order_id": 1,
-        "title": "Creating Navbar",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Creating_navbar.jpg",
-        "playlist": "https://player.vimeo.com/external/683701780.m3u8?s=13769cefe15d0d961799fbae34b9372623a3c47a",
-        "duration": 486.085,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Adding jQuery to Patch",
+        "lesson_pk": "e65622db-bd8b-4eeb-baa2-9d0aa3aaaeb3",
+        "skill": "jQuery",
+        "skill_pk": "2319e1a4-dee0-4164-8d3d-137dcc7a95f0",
+        "current_topic": "e08b19e7-f87e-42aa-9459-99af75994aef",
+        "topics": [
+            {
+                "id": "e08b19e7-f87e-42aa-9459-99af75994aef",
+                "order_id": 1,
+                "title": "Create Travel App",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_create_travel_app.jpg",
+                "playlist": "https://player.vimeo.com/external/683777077.m3u8?s=acdb407883ee78818bac7854d411f2099ddd3edc",
+                "duration": 467.4,
+                "designation": "UI Engineer",
+                "skill_name": "jQuery",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "0e568bf4-1e69-4ad3-8893-9c00eae25159",
+        "auto_id": 25,
+        "title": "Buliding a Website",
+        "description": "In this workshop, you'll learn how to create a website using bootstrap",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_building_a_website__1.jpg",
+        "topic_count": 7,
+        "duration": 1904.292,
         "designation": "UI Engineer",
-        "skill_name": "Bootstrap",
-        "status": "completed"
-      },
-      {
-        "id": "99a2706d-a7ec-4fd0-b1ee-d01dca41256d",
-        "order_id": 2,
-        "title": "Creating Carousel",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_Creating_Carousel.jpg",
-        "playlist": "https://player.vimeo.com/external/683701854.m3u8?s=9cf644e318d31fd39e02d1972981bbc6722bcde5",
-        "duration": 365,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Form Elements",
+        "lesson_pk": "a1da1527-8cea-45a9-8162-03a33c46e421",
+        "skill": "Bootstrap",
+        "skill_pk": "65176e78-0c6a-4348-b36b-16ea8f9469ec",
+        "current_topic": "0ffc4834-d002-4ead-a7ea-50bcec3648de",
+        "topics": [
+            {
+                "id": "0ffc4834-d002-4ead-a7ea-50bcec3648de",
+                "order_id": 1,
+                "title": "Creating Navbar",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Creating_navbar.jpg",
+                "playlist": "https://player.vimeo.com/external/683701780.m3u8?s=13769cefe15d0d961799fbae34b9372623a3c47a",
+                "duration": 486.085,
+                "designation": "UI Engineer",
+                "skill_name": "Bootstrap",
+                "status": "completed"
+            },
+            {
+                "id": "99a2706d-a7ec-4fd0-b1ee-d01dca41256d",
+                "order_id": 2,
+                "title": "Creating Carousel",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_Creating_Carousel.jpg",
+                "playlist": "https://player.vimeo.com/external/683701854.m3u8?s=9cf644e318d31fd39e02d1972981bbc6722bcde5",
+                "duration": 365,
+                "designation": "UI Engineer",
+                "skill_name": "Bootstrap",
+                "status": "completed"
+            },
+            {
+                "id": "34a82468-5773-407c-840c-dd53522dcbc1",
+                "order_id": 3,
+                "title": "Top Section",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_Top_section.jpg",
+                "playlist": "https://player.vimeo.com/external/683701924.m3u8?s=20c0d1e6c966a0f9d52b115c77e8dedea75d990b",
+                "duration": 128.791,
+                "designation": "UI Engineer",
+                "skill_name": "Bootstrap",
+                "status": "completed"
+            },
+            {
+                "id": "674bf97f-516b-4152-9f9f-c42cc4375831",
+                "order_id": 4,
+                "title": "Widget Section",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04_-_Widget_section.jpg",
+                "playlist": "https://player.vimeo.com/external/683702022.m3u8?s=f372f3b1a15b9f316bf293b98cab3614945f2f9b",
+                "duration": 214.708,
+                "designation": "UI Engineer",
+                "skill_name": "Bootstrap",
+                "status": "completed"
+            },
+            {
+                "id": "72ec43fd-4979-4a9a-889b-65b0cc2bf4ff",
+                "order_id": 5,
+                "title": "Content Section",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/05_-_content-section.jpg",
+                "playlist": "https://player.vimeo.com/external/683702126.m3u8?s=e702616d52ae487a94b244ad615fe739d69b2824",
+                "duration": 162.958,
+                "designation": "UI Engineer",
+                "skill_name": "Bootstrap",
+                "status": "completed"
+            },
+            {
+                "id": "587ae73d-431a-41b0-87b0-daa41099026b",
+                "order_id": 6,
+                "title": "Team Section",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/06_-_team_section.jpg",
+                "playlist": "https://player.vimeo.com/external/683702220.m3u8?s=728b71d89698b814c6ebbe56d04e30276dc34029",
+                "duration": 296.5,
+                "designation": "UI Engineer",
+                "skill_name": "Bootstrap",
+                "status": "completed"
+            },
+            {
+                "id": "071a2cfe-5abb-4a1a-9ed4-0bbfb747e294",
+                "order_id": 7,
+                "title": "Bottom and Footer Section",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/07_-_bottom_and_footer_section.jpg",
+                "playlist": "https://player.vimeo.com/external/683701678.m3u8?s=c148caae965c7993a14dbbd0c3e9fed20a2501cf",
+                "duration": 250.25,
+                "designation": "UI Engineer",
+                "skill_name": "Bootstrap",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "9c366cf1-9a13-4902-b05f-f9a609a675fe",
+        "auto_id": 24,
+        "title": "Building a Travel Guide Application",
+        "description": "In this workshop, you'll learn how to build a travel guide application",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/02_-_build_a_travel_guide_app_iNlswKm.jpg",
+        "topic_count": 5,
+        "duration": 3244.288,
         "designation": "UI Engineer",
-        "skill_name": "Bootstrap",
-        "status": "completed"
-      },
-      {
-        "id": "34a82468-5773-407c-840c-dd53522dcbc1",
-        "order_id": 3,
-        "title": "Top Section",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_Top_section.jpg",
-        "playlist": "https://player.vimeo.com/external/683701924.m3u8?s=20c0d1e6c966a0f9d52b115c77e8dedea75d990b",
-        "duration": 128.791,
-        "designation": "UI Engineer",
-        "skill_name": "Bootstrap",
-        "status": "completed"
-      },
-      {
-        "id": "674bf97f-516b-4152-9f9f-c42cc4375831",
-        "order_id": 4,
-        "title": "Widget Section",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04_-_Widget_section.jpg",
-        "playlist": "https://player.vimeo.com/external/683702022.m3u8?s=f372f3b1a15b9f316bf293b98cab3614945f2f9b",
-        "duration": 214.708,
-        "designation": "UI Engineer",
-        "skill_name": "Bootstrap",
-        "status": "completed"
-      },
-      {
-        "id": "72ec43fd-4979-4a9a-889b-65b0cc2bf4ff",
-        "order_id": 5,
-        "title": "Content Section",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/05_-_content-section.jpg",
-        "playlist": "https://player.vimeo.com/external/683702126.m3u8?s=e702616d52ae487a94b244ad615fe739d69b2824",
-        "duration": 162.958,
-        "designation": "UI Engineer",
-        "skill_name": "Bootstrap",
-        "status": "completed"
-      },
-      {
-        "id": "587ae73d-431a-41b0-87b0-daa41099026b",
-        "order_id": 6,
-        "title": "Team Section",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/06_-_team_section.jpg",
-        "playlist": "https://player.vimeo.com/external/683702220.m3u8?s=728b71d89698b814c6ebbe56d04e30276dc34029",
-        "duration": 296.5,
-        "designation": "UI Engineer",
-        "skill_name": "Bootstrap",
-        "status": "completed"
-      },
-      {
-        "id": "071a2cfe-5abb-4a1a-9ed4-0bbfb747e294",
-        "order_id": 7,
-        "title": "Bottom and Footer Section",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/07_-_bottom_and_footer_section.jpg",
-        "playlist": "https://player.vimeo.com/external/683701678.m3u8?s=c148caae965c7993a14dbbd0c3e9fed20a2501cf",
-        "duration": 250.25,
-        "designation": "UI Engineer",
-        "skill_name": "Bootstrap",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "9c366cf1-9a13-4902-b05f-f9a609a675fe",
-    "auto_id": 24,
-    "title": "Building a Travel Guide Application",
-    "description": "In this workshop, you'll learn how to build a travel guide application",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/02_-_build_a_travel_guide_app_iNlswKm.jpg",
-    "topic_count": 5,
-    "duration": 3244.288,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Build and Deploy",
-    "lesson_pk": "58083d94-97b4-400e-9738-4902329eb60e",
-    "skill": "React",
-    "skill_pk": "4066e85f-9aee-4a7c-992c-4163912556ab",
-    "current_topic": "6df8f127-b28e-4c59-a300-ab9f763240ab",
-    "topics": [
-      {
-        "id": "6df8f127-b28e-4c59-a300-ab9f763240ab",
-        "order_id": 1,
-        "title": "Project Configuration",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_project_configuration_tsQQi5i.jpg",
-        "playlist": "https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/workshop-topics/6df8f127-b28e-4c59-a300-ab9f763240ab/HLS/6df8f127-b28e-4c59-a300-ab9f763240ab.m3u8",
-        "duration": 381.125,
-        "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      },
-      {
-        "id": "8d46b31d-e46b-4ebd-91d7-535a271cf56c",
-        "order_id": 2,
-        "title": "Creating places page structure",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_creating_places_page_structure_Fpn2AcV.jpg",
-        "playlist": "https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/workshop-topics/8d46b31d-e46b-4ebd-91d7-535a271cf56c/HLS/8d46b31d-e46b-4ebd-91d7-535a271cf56c.m3u8",
-        "duration": 701.875,
-        "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      },
-      {
-        "id": "3777a059-6e87-4694-b631-d60fd514b1ea",
-        "order_id": 3,
-        "title": "Places page styling",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03-_places_page_styling_BESukAr.jpg",
-        "playlist": "https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/workshop-topics/3777a059-6e87-4694-b631-d60fd514b1ea/HLS/3777a059-6e87-4694-b631-d60fd514b1ea.m3u8",
-        "duration": 805.458,
-        "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      },
-      {
-        "id": "91305b6f-0e61-49ee-8da8-c28ca31fed34",
-        "order_id": 4,
-        "title": "Place single page structure",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04_-_place_single_page_structure_GatNZvg.jpg",
-        "playlist": "https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/workshop-topics/91305b6f-0e61-49ee-8da8-c28ca31fed34/HLS/91305b6f-0e61-49ee-8da8-c28ca31fed34.m3u8",
-        "duration": 574.08,
-        "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      },
-      {
-        "id": "fff617bd-336b-4f8c-a98f-69dd7b9df384",
-        "order_id": 5,
-        "title": "Styling place single page",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/05_-_styling_place_single_page_aGL7ndz.jpg",
-        "playlist": "https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/workshop-topics/fff617bd-336b-4f8c-a98f-69dd7b9df384/HLS/fff617bd-336b-4f8c-a98f-69dd7b9df384.m3u8",
-        "duration": 781.75,
-        "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "71cdac4c-7ca7-4b84-a05b-aac0658d0303",
-    "auto_id": 23,
-    "title": "Analysing cricket player's score card",
-    "description": "In this workshop, you'll learn how to analyze the statistics of cricket player's score card",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_analysing_cricket_players_score_card.jpg",
-    "topic_count": 1,
-    "duration": 678.477,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "JSON",
-    "lesson_pk": "91482f9a-12c1-44f0-97d6-aee27652e9a6",
-    "skill": "JavaScript",
-    "skill_pk": "7a94758f-a7a2-49cd-88eb-745e7b68093b",
-    "current_topic": "84ed43e8-4038-4557-bbc6-3f7fda14a4ce",
-    "topics": [
-      {
-        "id": "84ed43e8-4038-4557-bbc6-3f7fda14a4ce",
-        "order_id": 1,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Build and Deploy",
+        "lesson_pk": "58083d94-97b4-400e-9738-4902329eb60e",
+        "skill": "React",
+        "skill_pk": "4066e85f-9aee-4a7c-992c-4163912556ab",
+        "current_topic": "6df8f127-b28e-4c59-a300-ab9f763240ab",
+        "topics": [
+            {
+                "id": "6df8f127-b28e-4c59-a300-ab9f763240ab",
+                "order_id": 1,
+                "title": "Project Configuration",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_project_configuration_tsQQi5i.jpg",
+                "playlist": "https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/workshop-topics/6df8f127-b28e-4c59-a300-ab9f763240ab/HLS/6df8f127-b28e-4c59-a300-ab9f763240ab.m3u8",
+                "duration": 381.125,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            },
+            {
+                "id": "8d46b31d-e46b-4ebd-91d7-535a271cf56c",
+                "order_id": 2,
+                "title": "Creating places page structure",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_creating_places_page_structure_Fpn2AcV.jpg",
+                "playlist": "https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/workshop-topics/8d46b31d-e46b-4ebd-91d7-535a271cf56c/HLS/8d46b31d-e46b-4ebd-91d7-535a271cf56c.m3u8",
+                "duration": 701.875,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            },
+            {
+                "id": "3777a059-6e87-4694-b631-d60fd514b1ea",
+                "order_id": 3,
+                "title": "Places page styling",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03-_places_page_styling_BESukAr.jpg",
+                "playlist": "https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/workshop-topics/3777a059-6e87-4694-b631-d60fd514b1ea/HLS/3777a059-6e87-4694-b631-d60fd514b1ea.m3u8",
+                "duration": 805.458,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            },
+            {
+                "id": "91305b6f-0e61-49ee-8da8-c28ca31fed34",
+                "order_id": 4,
+                "title": "Place single page structure",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04_-_place_single_page_structure_GatNZvg.jpg",
+                "playlist": "https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/workshop-topics/91305b6f-0e61-49ee-8da8-c28ca31fed34/HLS/91305b6f-0e61-49ee-8da8-c28ca31fed34.m3u8",
+                "duration": 574.08,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            },
+            {
+                "id": "fff617bd-336b-4f8c-a98f-69dd7b9df384",
+                "order_id": 5,
+                "title": "Styling place single page",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/05_-_styling_place_single_page_aGL7ndz.jpg",
+                "playlist": "https://talrop-learn-converted-hls-videos.s3.ap-south-1.amazonaws.com/videos/e-learning/workshop-topics/fff617bd-336b-4f8c-a98f-69dd7b9df384/HLS/fff617bd-336b-4f8c-a98f-69dd7b9df384.m3u8",
+                "duration": 781.75,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "71cdac4c-7ca7-4b84-a05b-aac0658d0303",
+        "auto_id": 23,
         "title": "Analysing cricket player's score card",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_analysing_cricket_players_score_card.jpg",
-        "playlist": "https://player.vimeo.com/external/683650111.m3u8?s=e1fe5ba89c9f7fb9903d58b9f70f38f3b6658de1",
+        "description": "In this workshop, you'll learn how to analyze the statistics of cricket player's score card",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_analysing_cricket_players_score_card.jpg",
+        "topic_count": 1,
         "duration": 678.477,
         "designation": "UI Engineer",
-        "skill_name": "JavaScript",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "3237910e-006c-4432-ac32-2d7d1917b4d5",
-    "auto_id": 22,
-    "title": "Build a Website Spotlight",
-    "description": "In this workshop, you'll learn how to build a website spotlight",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_Build_a_website_spotlight.jpg",
-    "topic_count": 1,
-    "duration": 845.25,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Basic About SASS",
-    "lesson_pk": "ee3a6b07-1fa7-48d2-9934-70ef0e0e0a67",
-    "skill": "SASS",
-    "skill_pk": "c1dc5684-32b4-4895-98eb-9506ea1e977d",
-    "current_topic": "1466228c-7d7f-49ad-8ad9-42902dfc3e5f",
-    "topics": [
-      {
-        "id": "1466228c-7d7f-49ad-8ad9-42902dfc3e5f",
-        "order_id": 1,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "JSON",
+        "lesson_pk": "91482f9a-12c1-44f0-97d6-aee27652e9a6",
+        "skill": "JavaScript",
+        "skill_pk": "7a94758f-a7a2-49cd-88eb-745e7b68093b",
+        "current_topic": "84ed43e8-4038-4557-bbc6-3f7fda14a4ce",
+        "topics": [
+            {
+                "id": "84ed43e8-4038-4557-bbc6-3f7fda14a4ce",
+                "order_id": 1,
+                "title": "Analysing cricket player's score card",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_analysing_cricket_players_score_card.jpg",
+                "playlist": "https://player.vimeo.com/external/683650111.m3u8?s=e1fe5ba89c9f7fb9903d58b9f70f38f3b6658de1",
+                "duration": 678.477,
+                "designation": "UI Engineer",
+                "skill_name": "JavaScript",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "3237910e-006c-4432-ac32-2d7d1917b4d5",
+        "auto_id": 22,
         "title": "Build a Website Spotlight",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Build_a_website_spotlight.jpg",
-        "playlist": "https://player.vimeo.com/external/683262504.m3u8?s=d93bb621a06657da3ecf821bbc92803e567b9b7a",
+        "description": "In this workshop, you'll learn how to build a website spotlight",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_Build_a_website_spotlight.jpg",
+        "topic_count": 1,
         "duration": 845.25,
         "designation": "UI Engineer",
-        "skill_name": "SASS",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "c069bd92-71e8-463f-883c-7e1fc16956e4",
-    "auto_id": 20,
-    "title": "Building a Todo Application",
-    "description": "In this workshop, you'll learn how to build a todo application",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-__Building_a_todo_application.jpg",
-    "topic_count": 9,
-    "duration": 3263.788,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Working with Images",
-    "lesson_pk": "e7b01c4e-abad-43a9-bb54-11f40a28deb9",
-    "skill": "React",
-    "skill_pk": "4066e85f-9aee-4a7c-992c-4163912556ab",
-    "current_topic": "d140e392-5abb-457c-9de8-b464e6426c34",
-    "topics": [
-      {
-        "id": "d140e392-5abb-457c-9de8-b464e6426c34",
-        "order_id": 1,
-        "title": "create jsx structure",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_create_jsx_structure.jpg",
-        "playlist": "https://player.vimeo.com/external/683670477.m3u8?s=4eb6b6447794cadea3d54a1b424d55634aa7f058",
-        "duration": 764.291,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Basic About SASS",
+        "lesson_pk": "ee3a6b07-1fa7-48d2-9934-70ef0e0e0a67",
+        "skill": "SASS",
+        "skill_pk": "c1dc5684-32b4-4895-98eb-9506ea1e977d",
+        "current_topic": "1466228c-7d7f-49ad-8ad9-42902dfc3e5f",
+        "topics": [
+            {
+                "id": "1466228c-7d7f-49ad-8ad9-42902dfc3e5f",
+                "order_id": 1,
+                "title": "Build a Website Spotlight",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Build_a_website_spotlight.jpg",
+                "playlist": "https://player.vimeo.com/external/683262504.m3u8?s=d93bb621a06657da3ecf821bbc92803e567b9b7a",
+                "duration": 845.25,
+                "designation": "UI Engineer",
+                "skill_name": "SASS",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "c069bd92-71e8-463f-883c-7e1fc16956e4",
+        "auto_id": 20,
+        "title": "Building a Todo Application",
+        "description": "In this workshop, you'll learn how to build a todo application",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-__Building_a_todo_application.jpg",
+        "topic_count": 9,
+        "duration": 3263.788,
         "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      },
-      {
-        "id": "fc5a4a98-0d49-4a83-8017-a3ca2dbb1a9e",
-        "order_id": 2,
-        "title": "Write all the selector variables",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_write_all_the_selector_variables.jpg",
-        "playlist": "https://player.vimeo.com/external/683670404.m3u8?s=68af7219b69fdc9da95bcf7a556117bce7215b7b",
-        "duration": 188.666,
-        "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      },
-      {
-        "id": "d2516f5b-ae27-4b7c-a7b0-8715eae0db61",
-        "order_id": 3,
-        "title": "Adding style",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_adding_style.jpg",
-        "playlist": "https://player.vimeo.com/external/683670273.m3u8?s=93c155266a3ccea379ed8e7593ff306ef8b47e9a",
-        "duration": 1001.333,
-        "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      },
-      {
-        "id": "7ea89fff-b812-46db-84ba-8fd0154a4b51",
-        "order_id": 4,
-        "title": "Setting state",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04_-_setting_state.jpg",
-        "playlist": "https://player.vimeo.com/external/683670564.m3u8?s=70d146c2e78eb6c32bf5669e7e186b22045d40f1",
-        "duration": 260.958,
-        "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      },
-      {
-        "id": "6fb595cb-e3f2-4e85-be7a-e565360fe1bf",
-        "order_id": 5,
-        "title": "Adding new element",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/05_-_adding-new-element.jpg",
-        "playlist": "https://player.vimeo.com/external/683670641.m3u8?s=65d19f2755cae8e335948142f833a9c870fd2a50",
-        "duration": 362.541,
-        "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      },
-      {
-        "id": "35278986-4c74-4183-9a45-6f39d0b0e4af",
-        "order_id": 6,
-        "title": "Add item count",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/06_-_add_item_count.jpg",
-        "playlist": "https://player.vimeo.com/external/683670705.m3u8?s=7576e17033b5eb92632d3a8b7b05c418ab564959",
-        "duration": 178.458,
-        "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      },
-      {
-        "id": "c82384d6-53c0-433c-aa59-325a6f6f5cf2",
-        "order_id": 7,
-        "title": "Delete task",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/07_-_delete_task.jpg",
-        "playlist": "https://player.vimeo.com/external/683670776.m3u8?s=b60ac157b2b00c119a0f57f69b7fbb4664f90863",
-        "duration": 181.25,
-        "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      },
-      {
-        "id": "b8f4ee22-d469-4947-a85e-a8d74325ccd0",
-        "order_id": 8,
-        "title": "Implement mark as complete",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/08_-_Implement_markas_complete.jpg",
-        "playlist": "https://player.vimeo.com/external/683670827.m3u8?s=09c775af720a30fe8ae93ae73f5031db9fbde91f",
-        "duration": 213.041,
-        "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      },
-      {
-        "id": "bd23cbb3-d53e-487d-b28c-71d1366f372b",
-        "order_id": 9,
-        "title": "Implementing revert",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/09_-_implementing_revert.jpg",
-        "playlist": "https://player.vimeo.com/external/683670210.m3u8?s=6896ad959d74496291660da7587866a32e29b700",
-        "duration": 113.25,
-        "designation": "UI Engineer",
-        "skill_name": "React",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "ed6b1ee4-b9eb-4d7a-af6f-7df46ba60c4c",
-    "auto_id": 19,
-    "title": "Create a Student Class",
-    "description": "In this workshop, you will learn how to create a student class",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_create_student_class.jpg",
-    "topic_count": 1,
-    "duration": 189.989,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Object-oriented Programming in JavaScript",
-    "lesson_pk": "2affc745-06ad-4491-9957-a1eee3c309be",
-    "skill": "JavaScript",
-    "skill_pk": "7a94758f-a7a2-49cd-88eb-745e7b68093b",
-    "current_topic": "d4f960d1-2c06-410a-9483-149052d27e60",
-    "topics": [
-      {
-        "id": "d4f960d1-2c06-410a-9483-149052d27e60",
-        "order_id": 1,
-        "title": "Create Student Class",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_create_student_class.jpg",
-        "playlist": "https://player.vimeo.com/external/683649864.m3u8?s=dcfcc677dc29ec6342066809097f1cf7b679f25f",
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Working with Images",
+        "lesson_pk": "e7b01c4e-abad-43a9-bb54-11f40a28deb9",
+        "skill": "React",
+        "skill_pk": "4066e85f-9aee-4a7c-992c-4163912556ab",
+        "current_topic": "d140e392-5abb-457c-9de8-b464e6426c34",
+        "topics": [
+            {
+                "id": "d140e392-5abb-457c-9de8-b464e6426c34",
+                "order_id": 1,
+                "title": "create jsx structure",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_create_jsx_structure.jpg",
+                "playlist": "https://player.vimeo.com/external/683670477.m3u8?s=4eb6b6447794cadea3d54a1b424d55634aa7f058",
+                "duration": 764.291,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            },
+            {
+                "id": "fc5a4a98-0d49-4a83-8017-a3ca2dbb1a9e",
+                "order_id": 2,
+                "title": "Write all the selector variables",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_write_all_the_selector_variables.jpg",
+                "playlist": "https://player.vimeo.com/external/683670404.m3u8?s=68af7219b69fdc9da95bcf7a556117bce7215b7b",
+                "duration": 188.666,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            },
+            {
+                "id": "d2516f5b-ae27-4b7c-a7b0-8715eae0db61",
+                "order_id": 3,
+                "title": "Adding style",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_adding_style.jpg",
+                "playlist": "https://player.vimeo.com/external/683670273.m3u8?s=93c155266a3ccea379ed8e7593ff306ef8b47e9a",
+                "duration": 1001.333,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            },
+            {
+                "id": "7ea89fff-b812-46db-84ba-8fd0154a4b51",
+                "order_id": 4,
+                "title": "Setting state",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04_-_setting_state.jpg",
+                "playlist": "https://player.vimeo.com/external/683670564.m3u8?s=70d146c2e78eb6c32bf5669e7e186b22045d40f1",
+                "duration": 260.958,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            },
+            {
+                "id": "6fb595cb-e3f2-4e85-be7a-e565360fe1bf",
+                "order_id": 5,
+                "title": "Adding new element",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/05_-_adding-new-element.jpg",
+                "playlist": "https://player.vimeo.com/external/683670641.m3u8?s=65d19f2755cae8e335948142f833a9c870fd2a50",
+                "duration": 362.541,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            },
+            {
+                "id": "35278986-4c74-4183-9a45-6f39d0b0e4af",
+                "order_id": 6,
+                "title": "Add item count",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/06_-_add_item_count.jpg",
+                "playlist": "https://player.vimeo.com/external/683670705.m3u8?s=7576e17033b5eb92632d3a8b7b05c418ab564959",
+                "duration": 178.458,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            },
+            {
+                "id": "c82384d6-53c0-433c-aa59-325a6f6f5cf2",
+                "order_id": 7,
+                "title": "Delete task",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/07_-_delete_task.jpg",
+                "playlist": "https://player.vimeo.com/external/683670776.m3u8?s=b60ac157b2b00c119a0f57f69b7fbb4664f90863",
+                "duration": 181.25,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            },
+            {
+                "id": "b8f4ee22-d469-4947-a85e-a8d74325ccd0",
+                "order_id": 8,
+                "title": "Implement mark as complete",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/08_-_Implement_markas_complete.jpg",
+                "playlist": "https://player.vimeo.com/external/683670827.m3u8?s=09c775af720a30fe8ae93ae73f5031db9fbde91f",
+                "duration": 213.041,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            },
+            {
+                "id": "bd23cbb3-d53e-487d-b28c-71d1366f372b",
+                "order_id": 9,
+                "title": "Implementing revert",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/09_-_implementing_revert.jpg",
+                "playlist": "https://player.vimeo.com/external/683670210.m3u8?s=6896ad959d74496291660da7587866a32e29b700",
+                "duration": 113.25,
+                "designation": "UI Engineer",
+                "skill_name": "React",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "ed6b1ee4-b9eb-4d7a-af6f-7df46ba60c4c",
+        "auto_id": 19,
+        "title": "Create a Student Class",
+        "description": "In this workshop, you will learn how to create a student class",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_create_student_class.jpg",
+        "topic_count": 1,
         "duration": 189.989,
         "designation": "UI Engineer",
-        "skill_name": "JavaScript",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "59fd6627-8f9b-444e-be33-d8a467838bf5",
-    "auto_id": 18,
-    "title": "Create a Mobile Menu",
-    "description": "In this workshop, you will learn how to create a mobile menu",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_creating_mobile_menu.jpg",
-    "topic_count": 1,
-    "duration": 405.505,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Event Listeners",
-    "lesson_pk": "22772f56-de2b-44ed-8048-c50742832fda",
-    "skill": "JavaScript",
-    "skill_pk": "7a94758f-a7a2-49cd-88eb-745e7b68093b",
-    "current_topic": "4b5715e4-36b0-4338-9db4-c4da82d8e91f",
-    "topics": [
-      {
-        "id": "4b5715e4-36b0-4338-9db4-c4da82d8e91f",
-        "order_id": 1,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Object-oriented Programming in JavaScript",
+        "lesson_pk": "2affc745-06ad-4491-9957-a1eee3c309be",
+        "skill": "JavaScript",
+        "skill_pk": "7a94758f-a7a2-49cd-88eb-745e7b68093b",
+        "current_topic": "d4f960d1-2c06-410a-9483-149052d27e60",
+        "topics": [
+            {
+                "id": "d4f960d1-2c06-410a-9483-149052d27e60",
+                "order_id": 1,
+                "title": "Create Student Class",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_create_student_class.jpg",
+                "playlist": "https://player.vimeo.com/external/683649864.m3u8?s=dcfcc677dc29ec6342066809097f1cf7b679f25f",
+                "duration": 189.989,
+                "designation": "UI Engineer",
+                "skill_name": "JavaScript",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "59fd6627-8f9b-444e-be33-d8a467838bf5",
+        "auto_id": 18,
         "title": "Create a Mobile Menu",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_creating_mobile_menu.jpg",
-        "playlist": "https://player.vimeo.com/external/683650047.m3u8?s=4fd9eae4ebfd37d8e8d7364290a243179be48e15",
+        "description": "In this workshop, you will learn how to create a mobile menu",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_creating_mobile_menu.jpg",
+        "topic_count": 1,
         "duration": 405.505,
         "designation": "UI Engineer",
-        "skill_name": "JavaScript",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "a487a02c-6c50-43aa-81f5-8667133d8025",
-    "auto_id": 17,
-    "title": "Find the total value of the store",
-    "description": "In this workshop, you will learn how to find the total value of three stores",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/02_-_finding_store_total.jpg",
-    "topic_count": 1,
-    "duration": 180.747,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Iterations",
-    "lesson_pk": "aca6e51c-4e8c-4289-89ae-51d47699424f",
-    "skill": "JavaScript",
-    "skill_pk": "7a94758f-a7a2-49cd-88eb-745e7b68093b",
-    "current_topic": "feac676d-1bc3-4738-aac2-ce1a66e731f9",
-    "topics": [
-      {
-        "id": "feac676d-1bc3-4738-aac2-ce1a66e731f9",
-        "order_id": 1,
-        "title": "Find the Store Total",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_finding_store_total.jpg",
-        "playlist": "https://player.vimeo.com/external/683649996.m3u8?s=c683c829f099a8703c9b87dba518e05843e05913",
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Event Listeners",
+        "lesson_pk": "22772f56-de2b-44ed-8048-c50742832fda",
+        "skill": "JavaScript",
+        "skill_pk": "7a94758f-a7a2-49cd-88eb-745e7b68093b",
+        "current_topic": "4b5715e4-36b0-4338-9db4-c4da82d8e91f",
+        "topics": [
+            {
+                "id": "4b5715e4-36b0-4338-9db4-c4da82d8e91f",
+                "order_id": 1,
+                "title": "Create a Mobile Menu",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_creating_mobile_menu.jpg",
+                "playlist": "https://player.vimeo.com/external/683650047.m3u8?s=4fd9eae4ebfd37d8e8d7364290a243179be48e15",
+                "duration": 405.505,
+                "designation": "UI Engineer",
+                "skill_name": "JavaScript",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "a487a02c-6c50-43aa-81f5-8667133d8025",
+        "auto_id": 17,
+        "title": "Find the total value of the store",
+        "description": "In this workshop, you will learn how to find the total value of three stores",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/02_-_finding_store_total.jpg",
+        "topic_count": 1,
         "duration": 180.747,
         "designation": "UI Engineer",
-        "skill_name": "JavaScript",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "09e9554c-0046-4fc8-b6ad-f80fb72e1ad1",
-    "auto_id": 16,
-    "title": "Find topper student in a class",
-    "description": "In this workshop, you will learn how to find a topper student in a class.",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_find_topper_in_a_class.jpg",
-    "topic_count": 1,
-    "duration": 337.537,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Iterations",
-    "lesson_pk": "aca6e51c-4e8c-4289-89ae-51d47699424f",
-    "skill": "JavaScript",
-    "skill_pk": "7a94758f-a7a2-49cd-88eb-745e7b68093b",
-    "current_topic": "faeec54a-0dec-4136-91dd-af287983293c",
-    "topics": [
-      {
-        "id": "faeec54a-0dec-4136-91dd-af287983293c",
-        "order_id": 1,
-        "title": "Find Topper Student in a Class",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_find_topper_in_a_class.jpg",
-        "playlist": "https://player.vimeo.com/external/683649935.m3u8?s=8539c793de8f522e8402ce7b8222eb0b7e8b6f54",
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Iterations",
+        "lesson_pk": "aca6e51c-4e8c-4289-89ae-51d47699424f",
+        "skill": "JavaScript",
+        "skill_pk": "7a94758f-a7a2-49cd-88eb-745e7b68093b",
+        "current_topic": "feac676d-1bc3-4738-aac2-ce1a66e731f9",
+        "topics": [
+            {
+                "id": "feac676d-1bc3-4738-aac2-ce1a66e731f9",
+                "order_id": 1,
+                "title": "Find the Store Total",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02_-_finding_store_total.jpg",
+                "playlist": "https://player.vimeo.com/external/683649996.m3u8?s=c683c829f099a8703c9b87dba518e05843e05913",
+                "duration": 180.747,
+                "designation": "UI Engineer",
+                "skill_name": "JavaScript",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "09e9554c-0046-4fc8-b6ad-f80fb72e1ad1",
+        "auto_id": 16,
+        "title": "Find topper student in a class",
+        "description": "In this workshop, you will learn how to find a topper student in a class.",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_find_topper_in_a_class.jpg",
+        "topic_count": 1,
         "duration": 337.537,
         "designation": "UI Engineer",
-        "skill_name": "JavaScript",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "b3a4f2e2-6e5c-472f-a8a1-0d156548f571",
-    "auto_id": 15,
-    "title": "Create a football score calculator",
-    "description": "This workshop explains how to create a football score calculator",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_score_calculator.jpg",
-    "topic_count": 1,
-    "duration": 142.175,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Functions",
-    "lesson_pk": "87d5cd2f-9624-4c82-89a8-f8475cddad19",
-    "skill": "JavaScript",
-    "skill_pk": "7a94758f-a7a2-49cd-88eb-745e7b68093b",
-    "current_topic": "2638a41b-4bbf-4ca7-9618-40784e441001",
-    "topics": [
-      {
-        "id": "2638a41b-4bbf-4ca7-9618-40784e441001",
-        "order_id": 1,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Iterations",
+        "lesson_pk": "aca6e51c-4e8c-4289-89ae-51d47699424f",
+        "skill": "JavaScript",
+        "skill_pk": "7a94758f-a7a2-49cd-88eb-745e7b68093b",
+        "current_topic": "faeec54a-0dec-4136-91dd-af287983293c",
+        "topics": [
+            {
+                "id": "faeec54a-0dec-4136-91dd-af287983293c",
+                "order_id": 1,
+                "title": "Find Topper Student in a Class",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_find_topper_in_a_class.jpg",
+                "playlist": "https://player.vimeo.com/external/683649935.m3u8?s=8539c793de8f522e8402ce7b8222eb0b7e8b6f54",
+                "duration": 337.537,
+                "designation": "UI Engineer",
+                "skill_name": "JavaScript",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "b3a4f2e2-6e5c-472f-a8a1-0d156548f571",
+        "auto_id": 15,
         "title": "Create a football score calculator",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_score_calculator.jpg",
-        "playlist": "https://player.vimeo.com/external/683650201.m3u8?s=a7a7d84f1e92fe2c7f12a1189b873cd9f48a16a5",
+        "description": "This workshop explains how to create a football score calculator",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_score_calculator.jpg",
+        "topic_count": 1,
         "duration": 142.175,
         "designation": "UI Engineer",
-        "skill_name": "JavaScript",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "5952c6a8-c2f0-4772-9a50-340582de7adb",
-    "auto_id": 14,
-    "title": "Wibbitz Website",
-    "description": "In this workshop session, you will learn to create a complete website.",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/06-wibbitz.jpg",
-    "topic_count": 20,
-    "duration": 9881.99,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Bitbucket",
-    "lesson_pk": "143920b4-dfcf-4c5e-8376-7547074228c7",
-    "skill": "Cascading Style Sheets",
-    "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
-    "current_topic": "53b268e6-8b4d-4c20-8f2b-be4cfa6a420d",
-    "topics": [
-      {
-        "id": "53b268e6-8b4d-4c20-8f2b-be4cfa6a420d",
-        "order_id": 1,
-        "title": "Header and Spotlight - html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_header-and-spotlight-html_1.jpg",
-        "playlist": "https://player.vimeo.com/external/683169669.m3u8?s=d9808a1e001371f13125d07f687499ae3381e0ea",
-        "duration": 305.133,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Functions",
+        "lesson_pk": "87d5cd2f-9624-4c82-89a8-f8475cddad19",
+        "skill": "JavaScript",
+        "skill_pk": "7a94758f-a7a2-49cd-88eb-745e7b68093b",
+        "current_topic": "2638a41b-4bbf-4ca7-9618-40784e441001",
+        "topics": [
+            {
+                "id": "2638a41b-4bbf-4ca7-9618-40784e441001",
+                "order_id": 1,
+                "title": "Create a football score calculator",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_score_calculator.jpg",
+                "playlist": "https://player.vimeo.com/external/683650201.m3u8?s=a7a7d84f1e92fe2c7f12a1189b873cd9f48a16a5",
+                "duration": 142.175,
+                "designation": "UI Engineer",
+                "skill_name": "JavaScript",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "5952c6a8-c2f0-4772-9a50-340582de7adb",
+        "auto_id": 14,
+        "title": "Wibbitz Website",
+        "description": "In this workshop session, you will learn to create a complete website.",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/06-wibbitz.jpg",
+        "topic_count": 20,
+        "duration": 9881.99,
         "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "09ae86ab-4de2-45a5-baf5-cf1126dc09f8",
-        "order_id": 2,
-        "title": "Header Section - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02-header-section-css_1.jpg",
-        "playlist": "https://player.vimeo.com/external/683169722.m3u8?s=5785e92483f64ce637a759ba30c293aef7549fc8",
-        "duration": 722.066,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Bitbucket",
+        "lesson_pk": "143920b4-dfcf-4c5e-8376-7547074228c7",
+        "skill": "Cascading Style Sheets",
+        "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
+        "current_topic": "53b268e6-8b4d-4c20-8f2b-be4cfa6a420d",
+        "topics": [
+            {
+                "id": "53b268e6-8b4d-4c20-8f2b-be4cfa6a420d",
+                "order_id": 1,
+                "title": "Header and Spotlight - html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_header-and-spotlight-html_1.jpg",
+                "playlist": "https://player.vimeo.com/external/683169669.m3u8?s=d9808a1e001371f13125d07f687499ae3381e0ea",
+                "duration": 305.133,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "09ae86ab-4de2-45a5-baf5-cf1126dc09f8",
+                "order_id": 2,
+                "title": "Header Section - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/02-header-section-css_1.jpg",
+                "playlist": "https://player.vimeo.com/external/683169722.m3u8?s=5785e92483f64ce637a759ba30c293aef7549fc8",
+                "duration": 722.066,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "d786b730-985e-46d9-9b62-27ef15431858",
+                "order_id": 3,
+                "title": "Adding Spotlight Image",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_adding-spotlight-image_1.jpg",
+                "playlist": "https://player.vimeo.com/external/683169860.m3u8?s=50272eac210f8b6ece3e59cc41f07ab1921c656a",
+                "duration": 642.266,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "b565c79d-7cb3-4abb-bf7e-db2f4d272e2f",
+                "order_id": 4,
+                "title": "Brands Section",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04-brands_section_1.jpg",
+                "playlist": "https://player.vimeo.com/external/683170046.m3u8?s=f5ba6e25ffea1e942cc569a70f29f2b0a6de9646",
+                "duration": 217.2,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "664eff3b-e395-4043-8bb6-716075ed822d",
+                "order_id": 5,
+                "title": "Features Section - Html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/07_-_features_section_html.jpg",
+                "playlist": "https://player.vimeo.com/external/683170107.m3u8?s=16deba170f5a841369723162e61692c4c6714125",
+                "duration": 409.4,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "92215665-74b3-4b10-ba8b-14b9223b0127",
+                "order_id": 6,
+                "title": "Features Section -  css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/06_-_features_section_css.jpg",
+                "playlist": "https://player.vimeo.com/external/683170410.m3u8?s=4ed1f18820b4152a3063097b0ff262bb556a366c",
+                "duration": 1178.933,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "2f5b8049-e104-47db-9f23-1b460a88e00a",
+                "order_id": 7,
+                "title": "Reviews and About Section - Html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/07_-_reviews_and_about_section_html.jpg",
+                "playlist": "https://player.vimeo.com/external/683170248.m3u8?s=d267efff09c83e4ac7777dcf02785a4749b16c40",
+                "duration": 264.166,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "9a7cb7b9-7aba-4705-85f2-25c6f88793d6",
+                "order_id": 8,
+                "title": "Reviews Section - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/08-reviews-section-css_XsIHQll.jpg",
+                "playlist": "https://player.vimeo.com/external/683171099.m3u8?s=fcb8fa96f77b1cf064a49f0e648f000efe6cd723",
+                "duration": 612.033,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "17c84259-5819-4c54-bc0d-960a2668fa9b",
+                "order_id": 9,
+                "title": "About Section - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/09_-about_section_css.jpg",
+                "playlist": "https://player.vimeo.com/external/683171216.m3u8?s=4c116b0f084c5a0c6689d584f5b2a4066c028cc8",
+                "duration": 313.666,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "678d817a-95a9-49b3-9965-d31a76a6fca9",
+                "order_id": 10,
+                "title": "Options Section - Html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/10_-_options_section_html_1.jpg",
+                "playlist": "https://player.vimeo.com/external/683171347.m3u8?s=fa18815e20ac4c8836d9d5245a7913a7acb97415",
+                "duration": 249.633,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "a1aef573-310a-424b-9bdf-50cfc325af7e",
+                "order_id": 11,
+                "title": "Options Section - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/11_-_options_section_css.jpg",
+                "playlist": "https://player.vimeo.com/external/683179045.m3u8?s=2e41618cd842aa525face69f47f5df63e6771390",
+                "duration": 883.666,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "fb186d3b-3bbc-4d7e-8b9a-307f5bff3b18",
+                "order_id": 12,
+                "title": "Products Section - Html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/12_-_products-section-html.jpg",
+                "playlist": "https://player.vimeo.com/external/683171429.m3u8?s=c7a63764bf8bfe70b721a9339ad8b627ddcd0ca4",
+                "duration": 192.866,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "6b3857b0-9dda-4496-ae84-0062d4ed657d",
+                "order_id": 13,
+                "title": "Products Section - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/13-products-section-css.jpg",
+                "playlist": "https://player.vimeo.com/external/683178445.m3u8?s=ca4c95e09330ea2b2da91fd820df04f983fd314d",
+                "duration": 450.366,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "bb1c57ad-6889-4b3c-b144-5cae334b39a5",
+                "order_id": 14,
+                "title": "Blog Section - Html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/14-blog_section_html.jpg",
+                "playlist": "https://player.vimeo.com/external/683178917.m3u8?s=1eeca395d31ced5d4fc845761494b97df53eb5bc",
+                "duration": 182.966,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "2025e8c9-a9d3-4d4e-a212-d3d108937a4a",
+                "order_id": 15,
+                "title": "Blog Section - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/15_-_blog_section_css.jpg",
+                "playlist": "https://player.vimeo.com/external/683168635.m3u8?s=e272556e1830d2ad3c25d4c48a0ada964eb3f4f9",
+                "duration": 372.566,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "9e79dc82-958c-4fe1-a35f-5642aebfc69c",
+                "order_id": 16,
+                "title": "Contact Section - Html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/16_-_contact_section_html.jpg",
+                "playlist": "https://player.vimeo.com/external/683168959.m3u8?s=ba7e853fe16cbc82a73e6cb029ab7022f0310185",
+                "duration": 374.166,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "b0409482-b6df-41f5-af90-331e4ef70731",
+                "order_id": 17,
+                "title": "Contact left section - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/17_-contact_left_section_css.jpg",
+                "playlist": "https://player.vimeo.com/external/683169070.m3u8?s=97d86c176008f7bb7b4222799b14cdeb0afb2379",
+                "duration": 397.266,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "1599427f-95a6-4223-9ba9-dbdcd6645f74",
+                "order_id": 18,
+                "title": "Contact right section - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/18_-_contact_right_section_css.jpg",
+                "playlist": "https://player.vimeo.com/external/683169276.m3u8?s=1ad8609b32c87ae6f9e8405be5d0895cc918ad8e",
+                "duration": 1343.766,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "8fd7bbcf-c0c8-4d41-a5e0-0bd5ba680c2b",
+                "order_id": 19,
+                "title": "Footer - Html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/19_-_footer_html.jpg",
+                "playlist": "https://player.vimeo.com/external/683169188.m3u8?s=f619f5f1ace7ef59e60d51dbcd444977f88a3d18",
+                "duration": 291.133,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "f3eee68e-d4bd-4518-a149-2a47664357ec",
+                "order_id": 20,
+                "title": "Footer - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/20_-_footer_css.jpg",
+                "playlist": "https://player.vimeo.com/external/683169578.m3u8?s=a27fbcf60ead02e105561b7b3ff5330ac010faa4",
+                "duration": 478.733,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "67affb7d-04a1-4579-b61f-2104782cd0d8",
+        "auto_id": 13,
+        "title": "Shipping Website",
+        "description": "In this Workshop session, you will learn to create a spotlight on a normal website. This spotlight section includes a header section in which a logo is placed, background image, h1, h2 and a paragraph.",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/shipping_website_1.jpg",
+        "topic_count": 5,
+        "duration": 1462.398,
         "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "d786b730-985e-46d9-9b62-27ef15431858",
-        "order_id": 3,
-        "title": "Adding Spotlight Image",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/03_-_adding-spotlight-image_1.jpg",
-        "playlist": "https://player.vimeo.com/external/683169860.m3u8?s=50272eac210f8b6ece3e59cc41f07ab1921c656a",
-        "duration": 642.266,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Bitbucket",
+        "lesson_pk": "143920b4-dfcf-4c5e-8376-7547074228c7",
+        "skill": "Cascading Style Sheets",
+        "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
+        "current_topic": "fe31001b-fdae-455a-9e9d-506b5043f30e",
+        "topics": [
+            {
+                "id": "fe31001b-fdae-455a-9e9d-506b5043f30e",
+                "order_id": 1,
+                "title": "Header - html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Header_html_nsTSb5L.jpg",
+                "playlist": "https://player.vimeo.com/external/683162826.m3u8?s=3d690a17d0f1cedbc8b7715c9e1a581e15921122",
+                "duration": 116.666,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "2039b94a-5ea4-4a5e-b794-c0740fd1c7b6",
+                "order_id": 2,
+                "title": "Header - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Header_css_CsyLpu4.jpg",
+                "playlist": "https://player.vimeo.com/external/683163279.m3u8?s=81d8141e33c8c42897043b5e13dce3b800b391e6",
+                "duration": 251.566,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "8b4a8be6-9bb6-4b8e-b233-3d029716744a",
+                "order_id": 3,
+                "title": "Spotlight - html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_html_1G9SaeW.jpg",
+                "playlist": "https://player.vimeo.com/external/683162380.m3u8?s=16a5fcbb11d0a02eb129b146875eeb61ed802b8a",
+                "duration": 215.933,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "12e8e832-f25c-47af-8bea-06a486608d39",
+                "order_id": 4,
+                "title": "Spotlight - left section css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_left_section_css_zEL7zFW.jpg",
+                "playlist": "https://player.vimeo.com/external/683162420.m3u8?s=50e1c8e52801f41f6c320c1f450ba33b304b8f58",
+                "duration": 301.7,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "1d3ba815-9af5-4fa4-9ce0-691a772fbf55",
+                "order_id": 5,
+                "title": "Spotlight - right section",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_right_section_zImSW4N.jpg",
+                "playlist": "https://player.vimeo.com/external/683162670.m3u8?s=d16fd9a1bd8e0cccae4f1b180b584660ac636a93",
+                "duration": 576.533,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "96db7331-b3d1-456e-945f-4dd0717ea564",
+        "auto_id": 12,
+        "title": "Website main section",
+        "description": "In this Workshop session, you will learn to create a main section of the website. .",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/website_main_section.jpg",
+        "topic_count": 2,
+        "duration": 496.399,
         "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "b565c79d-7cb3-4abb-bf7e-db2f4d272e2f",
-        "order_id": 4,
-        "title": "Brands Section",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/04-brands_section_1.jpg",
-        "playlist": "https://player.vimeo.com/external/683170046.m3u8?s=f5ba6e25ffea1e942cc569a70f29f2b0a6de9646",
-        "duration": 217.2,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Bitbucket",
+        "lesson_pk": "143920b4-dfcf-4c5e-8376-7547074228c7",
+        "skill": "Cascading Style Sheets",
+        "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
+        "current_topic": "b35106dd-da7b-42a8-9808-4a2f8c86f3d5",
+        "topics": [
+            {
+                "id": "b35106dd-da7b-42a8-9808-4a2f8c86f3d5",
+                "order_id": 1,
+                "title": "Main section - html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Main_section_html_YmyCOQb.jpg",
+                "playlist": "https://player.vimeo.com/external/683160612.m3u8?s=1267cf217afcca85be9b85f9bb8e468f8cf64c79",
+                "duration": 137.066,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "becfebf3-bc23-4eb7-99a9-9b3320363b8b",
+                "order_id": 2,
+                "title": "Main section - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Main_section_css_Zf1jhNi.jpg",
+                "playlist": "https://player.vimeo.com/external/683160459.m3u8?s=ba95976882b87aa3978f0356acc7c2ae1cb9c80d",
+                "duration": 359.333,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "161c2cbd-ca3d-4d5a-a86e-588257629056",
+        "auto_id": 11,
+        "title": "Shake website spotlight",
+        "description": "In this Workshop session, you will learn to create a home section of the Shake website.",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Shake_Website_Spotlight.jpg",
+        "topic_count": 4,
+        "duration": 909.966,
         "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "664eff3b-e395-4043-8bb6-716075ed822d",
-        "order_id": 5,
-        "title": "Features Section - Html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/07_-_features_section_html.jpg",
-        "playlist": "https://player.vimeo.com/external/683170107.m3u8?s=16deba170f5a841369723162e61692c4c6714125",
-        "duration": 409.4,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Bitbucket",
+        "lesson_pk": "143920b4-dfcf-4c5e-8376-7547074228c7",
+        "skill": "Cascading Style Sheets",
+        "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
+        "current_topic": "3b4a68a6-fd19-45f1-ac80-495e0f316879",
+        "topics": [
+            {
+                "id": "3b4a68a6-fd19-45f1-ac80-495e0f316879",
+                "order_id": 1,
+                "title": "Header - html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Header_html_1.jpg",
+                "playlist": "https://player.vimeo.com/external/683157864.m3u8?s=84981124021777828bb64f01953fdec187485bbf",
+                "duration": 125.3,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "2fa1c9da-10de-41f7-84aa-c8e813570005",
+                "order_id": 2,
+                "title": "Header - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Header_css_1.jpg",
+                "playlist": "https://player.vimeo.com/external/683157680.m3u8?s=c7b738bc8a4ed7fb723115233010abe37692477f",
+                "duration": 305.6,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "5a109d0b-3176-4968-8102-c5443e54ebd3",
+                "order_id": 3,
+                "title": "Spotlight - html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_html_1.jpg",
+                "playlist": "https://player.vimeo.com/external/683157767.m3u8?s=d0d2528d4cfa15d6034bc0071a2217f811f7ae3d",
+                "duration": 152.733,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "0e49f269-39d5-49ad-949d-97f7e45b10fb",
+                "order_id": 4,
+                "title": "Spotlight - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_css_1.jpg",
+                "playlist": "https://player.vimeo.com/external/683157806.m3u8?s=312bd5468b74033a173b888cdbcf1c9cce68aaef",
+                "duration": 326.333,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "bf950d6f-c6f8-4b5f-9e6b-e7ce27bf936b",
+        "auto_id": 10,
+        "title": "Rental space website spotlight",
+        "description": "In this Workshop session, you will learn to create a home section of a rental space website which contains a background portion, header and spotlight sections.",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Rental_Space_Website_Spotlight.jpg",
+        "topic_count": 4,
+        "duration": 1158.665,
         "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "92215665-74b3-4b10-ba8b-14b9223b0127",
-        "order_id": 6,
-        "title": "Features Section -  css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/06_-_features_section_css.jpg",
-        "playlist": "https://player.vimeo.com/external/683170410.m3u8?s=4ed1f18820b4152a3063097b0ff262bb556a366c",
-        "duration": 1178.933,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "2f5b8049-e104-47db-9f23-1b460a88e00a",
-        "order_id": 7,
-        "title": "Reviews and About Section - Html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/07_-_reviews_and_about_section_html.jpg",
-        "playlist": "https://player.vimeo.com/external/683170248.m3u8?s=d267efff09c83e4ac7777dcf02785a4749b16c40",
-        "duration": 264.166,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "9a7cb7b9-7aba-4705-85f2-25c6f88793d6",
-        "order_id": 8,
-        "title": "Reviews Section - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/08-reviews-section-css_XsIHQll.jpg",
-        "playlist": "https://player.vimeo.com/external/683171099.m3u8?s=fcb8fa96f77b1cf064a49f0e648f000efe6cd723",
-        "duration": 612.033,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "17c84259-5819-4c54-bc0d-960a2668fa9b",
-        "order_id": 9,
-        "title": "About Section - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/09_-about_section_css.jpg",
-        "playlist": "https://player.vimeo.com/external/683171216.m3u8?s=4c116b0f084c5a0c6689d584f5b2a4066c028cc8",
-        "duration": 313.666,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "678d817a-95a9-49b3-9965-d31a76a6fca9",
-        "order_id": 10,
-        "title": "Options Section - Html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/10_-_options_section_html_1.jpg",
-        "playlist": "https://player.vimeo.com/external/683171347.m3u8?s=fa18815e20ac4c8836d9d5245a7913a7acb97415",
-        "duration": 249.633,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "a1aef573-310a-424b-9bdf-50cfc325af7e",
-        "order_id": 11,
-        "title": "Options Section - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/11_-_options_section_css.jpg",
-        "playlist": "https://player.vimeo.com/external/683179045.m3u8?s=2e41618cd842aa525face69f47f5df63e6771390",
-        "duration": 883.666,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "fb186d3b-3bbc-4d7e-8b9a-307f5bff3b18",
-        "order_id": 12,
-        "title": "Products Section - Html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/12_-_products-section-html.jpg",
-        "playlist": "https://player.vimeo.com/external/683171429.m3u8?s=c7a63764bf8bfe70b721a9339ad8b627ddcd0ca4",
-        "duration": 192.866,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "6b3857b0-9dda-4496-ae84-0062d4ed657d",
-        "order_id": 13,
-        "title": "Products Section - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/13-products-section-css.jpg",
-        "playlist": "https://player.vimeo.com/external/683178445.m3u8?s=ca4c95e09330ea2b2da91fd820df04f983fd314d",
-        "duration": 450.366,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "bb1c57ad-6889-4b3c-b144-5cae334b39a5",
-        "order_id": 14,
-        "title": "Blog Section - Html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/14-blog_section_html.jpg",
-        "playlist": "https://player.vimeo.com/external/683178917.m3u8?s=1eeca395d31ced5d4fc845761494b97df53eb5bc",
-        "duration": 182.966,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "2025e8c9-a9d3-4d4e-a212-d3d108937a4a",
-        "order_id": 15,
-        "title": "Blog Section - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/15_-_blog_section_css.jpg",
-        "playlist": "https://player.vimeo.com/external/683168635.m3u8?s=e272556e1830d2ad3c25d4c48a0ada964eb3f4f9",
-        "duration": 372.566,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "9e79dc82-958c-4fe1-a35f-5642aebfc69c",
-        "order_id": 16,
-        "title": "Contact Section - Html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/16_-_contact_section_html.jpg",
-        "playlist": "https://player.vimeo.com/external/683168959.m3u8?s=ba7e853fe16cbc82a73e6cb029ab7022f0310185",
-        "duration": 374.166,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "b0409482-b6df-41f5-af90-331e4ef70731",
-        "order_id": 17,
-        "title": "Contact left section - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/17_-contact_left_section_css.jpg",
-        "playlist": "https://player.vimeo.com/external/683169070.m3u8?s=97d86c176008f7bb7b4222799b14cdeb0afb2379",
-        "duration": 397.266,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "1599427f-95a6-4223-9ba9-dbdcd6645f74",
-        "order_id": 18,
-        "title": "Contact right section - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/18_-_contact_right_section_css.jpg",
-        "playlist": "https://player.vimeo.com/external/683169276.m3u8?s=1ad8609b32c87ae6f9e8405be5d0895cc918ad8e",
-        "duration": 1343.766,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "8fd7bbcf-c0c8-4d41-a5e0-0bd5ba680c2b",
-        "order_id": 19,
-        "title": "Footer - Html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/19_-_footer_html.jpg",
-        "playlist": "https://player.vimeo.com/external/683169188.m3u8?s=f619f5f1ace7ef59e60d51dbcd444977f88a3d18",
-        "duration": 291.133,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "f3eee68e-d4bd-4518-a149-2a47664357ec",
-        "order_id": 20,
-        "title": "Footer - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/20_-_footer_css.jpg",
-        "playlist": "https://player.vimeo.com/external/683169578.m3u8?s=a27fbcf60ead02e105561b7b3ff5330ac010faa4",
-        "duration": 478.733,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "67affb7d-04a1-4579-b61f-2104782cd0d8",
-    "auto_id": 13,
-    "title": "Shipping Website",
-    "description": "In this Workshop session, you will learn to create a spotlight on a normal website. This spotlight section includes a header section in which a logo is placed, background image, h1, h2 and a paragraph.",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/shipping_website_1.jpg",
-    "topic_count": 5,
-    "duration": 1462.398,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Bitbucket",
-    "lesson_pk": "143920b4-dfcf-4c5e-8376-7547074228c7",
-    "skill": "Cascading Style Sheets",
-    "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
-    "current_topic": "fe31001b-fdae-455a-9e9d-506b5043f30e",
-    "topics": [
-      {
-        "id": "fe31001b-fdae-455a-9e9d-506b5043f30e",
-        "order_id": 1,
-        "title": "Header - html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Header_html_nsTSb5L.jpg",
-        "playlist": "https://player.vimeo.com/external/683162826.m3u8?s=3d690a17d0f1cedbc8b7715c9e1a581e15921122",
-        "duration": 116.666,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "2039b94a-5ea4-4a5e-b794-c0740fd1c7b6",
-        "order_id": 2,
-        "title": "Header - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Header_css_CsyLpu4.jpg",
-        "playlist": "https://player.vimeo.com/external/683163279.m3u8?s=81d8141e33c8c42897043b5e13dce3b800b391e6",
-        "duration": 251.566,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "8b4a8be6-9bb6-4b8e-b233-3d029716744a",
-        "order_id": 3,
-        "title": "Spotlight - html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_html_1G9SaeW.jpg",
-        "playlist": "https://player.vimeo.com/external/683162380.m3u8?s=16a5fcbb11d0a02eb129b146875eeb61ed802b8a",
-        "duration": 215.933,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "12e8e832-f25c-47af-8bea-06a486608d39",
-        "order_id": 4,
-        "title": "Spotlight - left section css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_left_section_css_zEL7zFW.jpg",
-        "playlist": "https://player.vimeo.com/external/683162420.m3u8?s=50e1c8e52801f41f6c320c1f450ba33b304b8f58",
-        "duration": 301.7,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "1d3ba815-9af5-4fa4-9ce0-691a772fbf55",
-        "order_id": 5,
-        "title": "Spotlight - right section",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_right_section_zImSW4N.jpg",
-        "playlist": "https://player.vimeo.com/external/683162670.m3u8?s=d16fd9a1bd8e0cccae4f1b180b584660ac636a93",
-        "duration": 576.533,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "96db7331-b3d1-456e-945f-4dd0717ea564",
-    "auto_id": 12,
-    "title": "Website main section",
-    "description": "In this Workshop session, you will learn to create a main section of the website. .",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/website_main_section.jpg",
-    "topic_count": 2,
-    "duration": 496.399,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Bitbucket",
-    "lesson_pk": "143920b4-dfcf-4c5e-8376-7547074228c7",
-    "skill": "Cascading Style Sheets",
-    "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
-    "current_topic": "b35106dd-da7b-42a8-9808-4a2f8c86f3d5",
-    "topics": [
-      {
-        "id": "b35106dd-da7b-42a8-9808-4a2f8c86f3d5",
-        "order_id": 1,
-        "title": "Main section - html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Main_section_html_YmyCOQb.jpg",
-        "playlist": "https://player.vimeo.com/external/683160612.m3u8?s=1267cf217afcca85be9b85f9bb8e468f8cf64c79",
-        "duration": 137.066,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "becfebf3-bc23-4eb7-99a9-9b3320363b8b",
-        "order_id": 2,
-        "title": "Main section - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Main_section_css_Zf1jhNi.jpg",
-        "playlist": "https://player.vimeo.com/external/683160459.m3u8?s=ba95976882b87aa3978f0356acc7c2ae1cb9c80d",
-        "duration": 359.333,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "161c2cbd-ca3d-4d5a-a86e-588257629056",
-    "auto_id": 11,
-    "title": "Shake website spotlight",
-    "description": "In this Workshop session, you will learn to create a home section of the Shake website.",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Shake_Website_Spotlight.jpg",
-    "topic_count": 4,
-    "duration": 909.966,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Bitbucket",
-    "lesson_pk": "143920b4-dfcf-4c5e-8376-7547074228c7",
-    "skill": "Cascading Style Sheets",
-    "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
-    "current_topic": "3b4a68a6-fd19-45f1-ac80-495e0f316879",
-    "topics": [
-      {
-        "id": "3b4a68a6-fd19-45f1-ac80-495e0f316879",
-        "order_id": 1,
-        "title": "Header - html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Header_html_1.jpg",
-        "playlist": "https://player.vimeo.com/external/683157864.m3u8?s=84981124021777828bb64f01953fdec187485bbf",
-        "duration": 125.3,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "2fa1c9da-10de-41f7-84aa-c8e813570005",
-        "order_id": 2,
-        "title": "Header - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Header_css_1.jpg",
-        "playlist": "https://player.vimeo.com/external/683157680.m3u8?s=c7b738bc8a4ed7fb723115233010abe37692477f",
-        "duration": 305.6,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "5a109d0b-3176-4968-8102-c5443e54ebd3",
-        "order_id": 3,
-        "title": "Spotlight - html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_html_1.jpg",
-        "playlist": "https://player.vimeo.com/external/683157767.m3u8?s=d0d2528d4cfa15d6034bc0071a2217f811f7ae3d",
-        "duration": 152.733,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "0e49f269-39d5-49ad-949d-97f7e45b10fb",
-        "order_id": 4,
-        "title": "Spotlight - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_css_1.jpg",
-        "playlist": "https://player.vimeo.com/external/683157806.m3u8?s=312bd5468b74033a173b888cdbcf1c9cce68aaef",
-        "duration": 326.333,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "bf950d6f-c6f8-4b5f-9e6b-e7ce27bf936b",
-    "auto_id": 10,
-    "title": "Rental space website spotlight",
-    "description": "In this Workshop session, you will learn to create a home section of a rental space website which contains a background portion, header and spotlight sections.",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Rental_Space_Website_Spotlight.jpg",
-    "topic_count": 4,
-    "duration": 1158.665,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Bitbucket",
-    "lesson_pk": "143920b4-dfcf-4c5e-8376-7547074228c7",
-    "skill": "Cascading Style Sheets",
-    "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
-    "current_topic": "b9d0cd99-7b39-4caf-818a-add2173f44cb",
-    "topics": [
-      {
-        "id": "b9d0cd99-7b39-4caf-818a-add2173f44cb",
-        "order_id": 1,
-        "title": "Header - html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Header_html_jTfXE3r.jpg",
-        "playlist": "https://player.vimeo.com/external/683156682.m3u8?s=f75363bcc4802f0a5d6fa50265f47309d60e5815",
-        "duration": 247.866,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "a57a4099-4cd3-465f-9881-0c43c541d518",
-        "order_id": 2,
-        "title": "Header - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Header_css_pyruQNY.jpg",
-        "playlist": "https://player.vimeo.com/external/683156481.m3u8?s=c8b566608959d0f3c5a9189ad47bba5792e0f908",
-        "duration": 421.133,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "aef5d0ca-0658-4388-a92a-58d3c77ea401",
-        "order_id": 3,
-        "title": "Spotlight - html",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_html_fluEq1t.jpg",
-        "playlist": "https://player.vimeo.com/external/683156743.m3u8?s=5a87e0fa5229cf954a432b1c5deaadc770d3747f",
-        "duration": 130.8,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "e3bfc58f-48e9-4913-a4da-8007f67bc790",
-        "order_id": 4,
-        "title": "Spotlight - css",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_css_lkYqYBH.jpg",
-        "playlist": "https://player.vimeo.com/external/683156788.m3u8?s=c52568981d083b3ef35debabc66b83207fc42866",
-        "duration": 358.866,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "f56de538-10bd-4ea6-a916-15a6339b71f1",
-    "auto_id": 9,
-    "title": "Create header",
-    "description": "In this workshop section you will learn to create a Header section of a website",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Create_header.png",
-    "topic_count": 1,
-    "duration": 382.566,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Flexbox Layout",
-    "lesson_pk": "38e35824-4ca2-4ccd-ba98-880425eed570",
-    "skill": "Cascading Style Sheets",
-    "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
-    "current_topic": "c72f97b2-7d4c-43b6-aa7e-47d86137d5ec",
-    "topics": [
-      {
-        "id": "c72f97b2-7d4c-43b6-aa7e-47d86137d5ec",
-        "order_id": 1,
-        "title": "Header",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/header.jpg",
-        "playlist": "https://player.vimeo.com/external/683153626.m3u8?s=20ed36f664159bffeb19c3898c52720a69cdda43",
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Bitbucket",
+        "lesson_pk": "143920b4-dfcf-4c5e-8376-7547074228c7",
+        "skill": "Cascading Style Sheets",
+        "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
+        "current_topic": "b9d0cd99-7b39-4caf-818a-add2173f44cb",
+        "topics": [
+            {
+                "id": "b9d0cd99-7b39-4caf-818a-add2173f44cb",
+                "order_id": 1,
+                "title": "Header - html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Header_html_jTfXE3r.jpg",
+                "playlist": "https://player.vimeo.com/external/683156682.m3u8?s=f75363bcc4802f0a5d6fa50265f47309d60e5815",
+                "duration": 247.866,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "a57a4099-4cd3-465f-9881-0c43c541d518",
+                "order_id": 2,
+                "title": "Header - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Header_css_pyruQNY.jpg",
+                "playlist": "https://player.vimeo.com/external/683156481.m3u8?s=c8b566608959d0f3c5a9189ad47bba5792e0f908",
+                "duration": 421.133,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "aef5d0ca-0658-4388-a92a-58d3c77ea401",
+                "order_id": 3,
+                "title": "Spotlight - html",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_html_fluEq1t.jpg",
+                "playlist": "https://player.vimeo.com/external/683156743.m3u8?s=5a87e0fa5229cf954a432b1c5deaadc770d3747f",
+                "duration": 130.8,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "e3bfc58f-48e9-4913-a4da-8007f67bc790",
+                "order_id": 4,
+                "title": "Spotlight - css",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Spotlight_css_lkYqYBH.jpg",
+                "playlist": "https://player.vimeo.com/external/683156788.m3u8?s=c52568981d083b3ef35debabc66b83207fc42866",
+                "duration": 358.866,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "f56de538-10bd-4ea6-a916-15a6339b71f1",
+        "auto_id": 9,
+        "title": "Create header",
+        "description": "In this workshop section you will learn to create a Header section of a website",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Create_header.png",
+        "topic_count": 1,
         "duration": 382.566,
         "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "e08055c4-c2f2-4085-92ce-b845d09462fa",
-    "auto_id": 8,
-    "title": "Create a gallery",
-    "description": "In this workshop, you should create a gallery grid using flex method. In order to start, you need to create a section id gallery and then apply a list of images.",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Create_a_gallery_z6u3yWR.png",
-    "topic_count": 1,
-    "duration": 463.8,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Flexbox Layout",
-    "lesson_pk": "38e35824-4ca2-4ccd-ba98-880425eed570",
-    "skill": "Cascading Style Sheets",
-    "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
-    "current_topic": "a2f15bb4-c02a-43d9-adfa-5e5f318295b3",
-    "topics": [
-      {
-        "id": "a2f15bb4-c02a-43d9-adfa-5e5f318295b3",
-        "order_id": 1,
-        "title": "Gallery section",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/gallery.jpg",
-        "playlist": "https://player.vimeo.com/external/683152343.m3u8?s=699826523c09fa2fdcb04a23c67edfecb159449e",
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Flexbox Layout",
+        "lesson_pk": "38e35824-4ca2-4ccd-ba98-880425eed570",
+        "skill": "Cascading Style Sheets",
+        "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
+        "current_topic": "c72f97b2-7d4c-43b6-aa7e-47d86137d5ec",
+        "topics": [
+            {
+                "id": "c72f97b2-7d4c-43b6-aa7e-47d86137d5ec",
+                "order_id": 1,
+                "title": "Header",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/header.jpg",
+                "playlist": "https://player.vimeo.com/external/683153626.m3u8?s=20ed36f664159bffeb19c3898c52720a69cdda43",
+                "duration": 382.566,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "e08055c4-c2f2-4085-92ce-b845d09462fa",
+        "auto_id": 8,
+        "title": "Create a gallery",
+        "description": "In this workshop, you should create a gallery grid using flex method. In order to start, you need to create a section id gallery and then apply a list of images.",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Create_a_gallery_z6u3yWR.png",
+        "topic_count": 1,
         "duration": 463.8,
         "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "27956d42-3e34-4da3-adaf-f3218e79ee87",
-    "auto_id": 7,
-    "title": "Develop a website using flexbox layout",
-    "description": "In this workshop section you will learn to create a website by using the flexbox method. There is a spotlight section, the middle section which contains section class-left and section class-right, gallery section and footer.",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Develop_a_website_using_flexbox_layout.jpg",
-    "topic_count": 2,
-    "duration": 797.666,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Flexbox Layout",
-    "lesson_pk": "38e35824-4ca2-4ccd-ba98-880425eed570",
-    "skill": "Cascading Style Sheets",
-    "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
-    "current_topic": "9ca8991b-3921-4fc0-b8df-bbbe6fe22012",
-    "topics": [
-      {
-        "id": "9ca8991b-3921-4fc0-b8df-bbbe6fe22012",
-        "order_id": 1,
-        "title": "Website top portion",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Website_top_portion.jpg",
-        "playlist": "https://player.vimeo.com/external/683151369.m3u8?s=96fbb3293ffb47e90f3d771b79ffb2a5cfe01c97",
-        "duration": 467.766,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Flexbox Layout",
+        "lesson_pk": "38e35824-4ca2-4ccd-ba98-880425eed570",
+        "skill": "Cascading Style Sheets",
+        "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
+        "current_topic": "a2f15bb4-c02a-43d9-adfa-5e5f318295b3",
+        "topics": [
+            {
+                "id": "a2f15bb4-c02a-43d9-adfa-5e5f318295b3",
+                "order_id": 1,
+                "title": "Gallery section",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/gallery.jpg",
+                "playlist": "https://player.vimeo.com/external/683152343.m3u8?s=699826523c09fa2fdcb04a23c67edfecb159449e",
+                "duration": 463.8,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "27956d42-3e34-4da3-adaf-f3218e79ee87",
+        "auto_id": 7,
+        "title": "Develop a website using flexbox layout",
+        "description": "In this workshop section you will learn to create a website by using the flexbox method. There is a spotlight section, the middle section which contains section class-left and section class-right, gallery section and footer.",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Develop_a_website_using_flexbox_layout.jpg",
+        "topic_count": 2,
+        "duration": 797.666,
         "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      },
-      {
-        "id": "2ceb6f5d-38bb-424d-95a3-1af6315b36b2",
-        "order_id": 2,
-        "title": "Website bottom portion",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Website_bottom_portion.jpg",
-        "playlist": "https://player.vimeo.com/external/683151249.m3u8?s=9b55cb92b7f0e8d7616784d6955c1505016a19f4",
-        "duration": 329.9,
-        "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "e4a5f78e-053b-48f6-9801-c4ccf4ed9102",
-    "auto_id": 6,
-    "title": "Create a spotlight with background",
-    "description": "In this Workshop, you will learn to create a spotlight section with background",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/create_a_spotlight_with_background_6XrBFuc.png",
-    "topic_count": 1,
-    "duration": 315.833,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "CSS Function",
-    "lesson_pk": "53456fc2-cc71-45c0-8a1e-455f7271b04e",
-    "skill": "Cascading Style Sheets",
-    "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
-    "current_topic": "175d64e3-dba4-41d8-84ef-eac7b51ac2fa",
-    "topics": [
-      {
-        "id": "175d64e3-dba4-41d8-84ef-eac7b51ac2fa",
-        "order_id": 1,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Flexbox Layout",
+        "lesson_pk": "38e35824-4ca2-4ccd-ba98-880425eed570",
+        "skill": "Cascading Style Sheets",
+        "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
+        "current_topic": "9ca8991b-3921-4fc0-b8df-bbbe6fe22012",
+        "topics": [
+            {
+                "id": "9ca8991b-3921-4fc0-b8df-bbbe6fe22012",
+                "order_id": 1,
+                "title": "Website top portion",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Website_top_portion.jpg",
+                "playlist": "https://player.vimeo.com/external/683151369.m3u8?s=96fbb3293ffb47e90f3d771b79ffb2a5cfe01c97",
+                "duration": 467.766,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            },
+            {
+                "id": "2ceb6f5d-38bb-424d-95a3-1af6315b36b2",
+                "order_id": 2,
+                "title": "Website bottom portion",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Website_bottom_portion.jpg",
+                "playlist": "https://player.vimeo.com/external/683151249.m3u8?s=9b55cb92b7f0e8d7616784d6955c1505016a19f4",
+                "duration": 329.9,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "e4a5f78e-053b-48f6-9801-c4ccf4ed9102",
+        "auto_id": 6,
         "title": "Create a spotlight with background",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/create_a_spotlight_with_background_l0Nj8mm.png",
-        "playlist": "https://player.vimeo.com/external/683149475.m3u8?s=35fbf36cca28958531d1bbc386b633c04393f4e9",
+        "description": "In this Workshop, you will learn to create a spotlight section with background",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/create_a_spotlight_with_background_6XrBFuc.png",
+        "topic_count": 1,
         "duration": 315.833,
         "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "a7d9f7ea-4b16-4c9c-b00e-3d6927122864",
-    "auto_id": 5,
-    "title": "Article website",
-    "description": "In this workshop, you need to create an article page. This page may contain an image section, a title and a paragraph related to it. The paragraph should contain some elements of bold words, italic words and bold-italics words.",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Atricle_ctZWFcY.png",
-    "topic_count": 1,
-    "duration": 335.2,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Box Models",
-    "lesson_pk": "ab528d8e-f281-4a58-92df-802132db3411",
-    "skill": "Cascading Style Sheets",
-    "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
-    "current_topic": "b692475d-154c-402c-9036-95a159e0471e",
-    "topics": [
-      {
-        "id": "b692475d-154c-402c-9036-95a159e0471e",
-        "order_id": 1,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "CSS Function",
+        "lesson_pk": "53456fc2-cc71-45c0-8a1e-455f7271b04e",
+        "skill": "Cascading Style Sheets",
+        "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
+        "current_topic": "175d64e3-dba4-41d8-84ef-eac7b51ac2fa",
+        "topics": [
+            {
+                "id": "175d64e3-dba4-41d8-84ef-eac7b51ac2fa",
+                "order_id": 1,
+                "title": "Create a spotlight with background",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/create_a_spotlight_with_background_l0Nj8mm.png",
+                "playlist": "https://player.vimeo.com/external/683149475.m3u8?s=35fbf36cca28958531d1bbc386b633c04393f4e9",
+                "duration": 315.833,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "a7d9f7ea-4b16-4c9c-b00e-3d6927122864",
+        "auto_id": 5,
         "title": "Article website",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Article_website.jpg",
-        "playlist": "https://player.vimeo.com/external/682750890.m3u8?s=d5e3fce500f7820bb107d4463fbeb1740e72d85c",
+        "description": "In this workshop, you need to create an article page. This page may contain an image section, a title and a paragraph related to it. The paragraph should contain some elements of bold words, italic words and bold-italics words.",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Atricle_ctZWFcY.png",
+        "topic_count": 1,
         "duration": 335.2,
         "designation": "UI Engineer",
-        "skill_name": "Cascading Style Sheets",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "112af222-6861-49a6-b95f-15783a48595b",
-    "auto_id": 4,
-    "title": "Create a blog",
-    "description": "In this workshop, you need to create a Blog. In the blog, you should give one title, two paragraphs and also include two images in which one image should be clickable and go to the Google page \"www.google.com\".",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/04_-_Create_a_Blog__1.jpg",
-    "topic_count": 2,
-    "duration": 502.28,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Additional Information",
-    "lesson_pk": "116ffdc8-dbfe-4c48-9e9f-124fd247bf3b",
-    "skill": "HTML",
-    "skill_pk": "9774de5f-726e-46c7-ad75-8a36ee2912bf",
-    "current_topic": "af0cc46e-3a84-4473-b671-b01cba9f3aa5",
-    "topics": [
-      {
-        "id": "af0cc46e-3a84-4473-b671-b01cba9f3aa5",
-        "order_id": 1,
-        "title": "Create heading, table and list",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Create_Heading_Table_and_List_fJTqSfI.jpg",
-        "playlist": "https://player.vimeo.com/external/682222816.m3u8?s=2456bb8639ed2fefb296ba109a170b4d6f60e043",
-        "duration": 298.84,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Box Models",
+        "lesson_pk": "ab528d8e-f281-4a58-92df-802132db3411",
+        "skill": "Cascading Style Sheets",
+        "skill_pk": "f32658b9-49eb-4874-9ece-9a24c81bf6e1",
+        "current_topic": "b692475d-154c-402c-9036-95a159e0471e",
+        "topics": [
+            {
+                "id": "b692475d-154c-402c-9036-95a159e0471e",
+                "order_id": 1,
+                "title": "Article website",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Article_website.jpg",
+                "playlist": "https://player.vimeo.com/external/682750890.m3u8?s=d5e3fce500f7820bb107d4463fbeb1740e72d85c",
+                "duration": 335.2,
+                "designation": "UI Engineer",
+                "skill_name": "Cascading Style Sheets",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "112af222-6861-49a6-b95f-15783a48595b",
+        "auto_id": 4,
+        "title": "Create a blog",
+        "description": "In this workshop, you need to create a Blog. In the blog, you should give one title, two paragraphs and also include two images in which one image should be clickable and go to the Google page \"www.google.com\".",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/04_-_Create_a_Blog__1.jpg",
+        "topic_count": 2,
+        "duration": 502.28,
         "designation": "UI Engineer",
-        "skill_name": "HTML",
-        "status": "completed"
-      },
-      {
-        "id": "2e6d8391-3441-46e9-8f1d-1c5d7bbec5a0",
-        "order_id": 2,
-        "title": "Adding gallery",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Adding_Gallery_RUf1pvu.jpg",
-        "playlist": "https://player.vimeo.com/external/682222723.m3u8?s=b6b5ab111c7b6b59689a5227e9f774242441cd4e",
-        "duration": 203.44,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Additional Information",
+        "lesson_pk": "116ffdc8-dbfe-4c48-9e9f-124fd247bf3b",
+        "skill": "HTML",
+        "skill_pk": "9774de5f-726e-46c7-ad75-8a36ee2912bf",
+        "current_topic": "af0cc46e-3a84-4473-b671-b01cba9f3aa5",
+        "topics": [
+            {
+                "id": "af0cc46e-3a84-4473-b671-b01cba9f3aa5",
+                "order_id": 1,
+                "title": "Create heading, table and list",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Create_Heading_Table_and_List_fJTqSfI.jpg",
+                "playlist": "https://player.vimeo.com/external/682222816.m3u8?s=2456bb8639ed2fefb296ba109a170b4d6f60e043",
+                "duration": 298.84,
+                "designation": "UI Engineer",
+                "skill_name": "HTML",
+                "status": "completed"
+            },
+            {
+                "id": "2e6d8391-3441-46e9-8f1d-1c5d7bbec5a0",
+                "order_id": 2,
+                "title": "Adding gallery",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Adding_Gallery_RUf1pvu.jpg",
+                "playlist": "https://player.vimeo.com/external/682222723.m3u8?s=b6b5ab111c7b6b59689a5227e9f774242441cd4e",
+                "duration": 203.44,
+                "designation": "UI Engineer",
+                "skill_name": "HTML",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "76b727d2-3345-4942-a28a-23415a8c93f9",
+        "auto_id": 3,
+        "title": "Create student form",
+        "description": "In this workshop, you need to create a student data form by using student name, email id, address, father name, mother name, class and division.",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/04_-_Create_a_Student_Form.jpg",
+        "topic_count": 2,
+        "duration": 422.24,
         "designation": "UI Engineer",
-        "skill_name": "HTML",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "76b727d2-3345-4942-a28a-23415a8c93f9",
-    "auto_id": 3,
-    "title": "Create student form",
-    "description": "In this workshop, you need to create a student data form by using student name, email id, address, father name, mother name, class and division.",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/04_-_Create_a_Student_Form.jpg",
-    "topic_count": 2,
-    "duration": 422.24,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "HTML Forms",
-    "lesson_pk": "6900f5a7-067b-4f11-94bd-8cee382cf37e",
-    "skill": "HTML",
-    "skill_pk": "9774de5f-726e-46c7-ad75-8a36ee2912bf",
-    "current_topic": "6c0d6668-973f-4f18-849a-0f41fda304a2",
-    "topics": [
-      {
-        "id": "6c0d6668-973f-4f18-849a-0f41fda304a2",
-        "order_id": 1,
-        "title": "Create form fields",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Create_Form_Fields_uE81Nws.jpg",
-        "playlist": "https://player.vimeo.com/external/682220378.m3u8?s=a2c4b4fefcc9de766ba93a61fa7fdbf55f63f904",
-        "duration": 270.68,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "HTML Forms",
+        "lesson_pk": "6900f5a7-067b-4f11-94bd-8cee382cf37e",
+        "skill": "HTML",
+        "skill_pk": "9774de5f-726e-46c7-ad75-8a36ee2912bf",
+        "current_topic": "6c0d6668-973f-4f18-849a-0f41fda304a2",
+        "topics": [
+            {
+                "id": "6c0d6668-973f-4f18-849a-0f41fda304a2",
+                "order_id": 1,
+                "title": "Create form fields",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Create_Form_Fields_uE81Nws.jpg",
+                "playlist": "https://player.vimeo.com/external/682220378.m3u8?s=a2c4b4fefcc9de766ba93a61fa7fdbf55f63f904",
+                "duration": 270.68,
+                "designation": "UI Engineer",
+                "skill_name": "HTML",
+                "status": "completed"
+            },
+            {
+                "id": "ef0d5cfb-6ba3-4caa-b642-375c73add3d3",
+                "order_id": 2,
+                "title": "Add class and division",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Add_Class_and_Division.jpg",
+                "playlist": "https://player.vimeo.com/external/682220499.m3u8?s=59702a25767fb37b1179c492b2cbda2f5de02afb",
+                "duration": 151.56,
+                "designation": "UI Engineer",
+                "skill_name": "HTML",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "494cf32f-cb1c-49d9-a257-076ff60b26fa",
+        "auto_id": 2,
+        "title": "Create a product table",
+        "description": "In this workshop, you need to create a Pricing Table of a product. In the table, you should give the product details under the categories-name, category, discount, cost, price quantity and the total value of the product.",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/02_-_Create_a_Product_Table.jpg",
+        "topic_count": 2,
+        "duration": 250.76,
         "designation": "UI Engineer",
-        "skill_name": "HTML",
-        "status": "completed"
-      },
-      {
-        "id": "ef0d5cfb-6ba3-4caa-b642-375c73add3d3",
-        "order_id": 2,
-        "title": "Add class and division",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Add_Class_and_Division.jpg",
-        "playlist": "https://player.vimeo.com/external/682220499.m3u8?s=59702a25767fb37b1179c492b2cbda2f5de02afb",
-        "duration": 151.56,
-        "designation": "UI Engineer",
-        "skill_name": "HTML",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "494cf32f-cb1c-49d9-a257-076ff60b26fa",
-    "auto_id": 2,
-    "title": "Create a product table",
-    "description": "In this workshop, you need to create a Pricing Table of a product. In the table, you should give the product details under the categories-name, category, discount, cost, price quantity and the total value of the product.",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/02_-_Create_a_Product_Table.jpg",
-    "topic_count": 2,
-    "duration": 250.76,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "Tables",
-    "lesson_pk": "23eb8d16-cccf-45bf-a198-1e8a39aadf5a",
-    "skill": "HTML",
-    "skill_pk": "9774de5f-726e-46c7-ad75-8a36ee2912bf",
-    "current_topic": "520a3538-6a22-4e65-a548-9016f3113e1a",
-    "topics": [
-      {
-        "id": "520a3538-6a22-4e65-a548-9016f3113e1a",
-        "order_id": 1,
-        "title": "Arrange table",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Arrange_Table.jpg",
-        "playlist": "https://player.vimeo.com/external/682216586.m3u8?s=4796d4224fe105d58ac077e1f9e7534a19d2f33a",
-        "duration": 154.76,
-        "designation": "UI Engineer",
-        "skill_name": "HTML",
-        "status": "completed"
-      },
-      {
-        "id": "7d144082-2c41-47ef-ba95-7526879f173f",
-        "order_id": 2,
-        "title": "Table footer",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Table_Footer.jpg",
-        "playlist": "https://player.vimeo.com/external/682216656.m3u8?s=2efceb9cb2a2d9d72db9b95a33a3df765e01ff1d",
-        "duration": 96,
-        "designation": "UI Engineer",
-        "skill_name": "HTML",
-        "status": "completed"
-      }
-    ]
-  },
-  {
-    "id": "57c9f7ab-ccec-45fb-832f-c911080d86da",
-    "auto_id": 1,
-    "title": "Create a Profile Website",
-    "description": "In this workshop, you have to create a portfolio by giving it a name, with an about paragraph, image upload and give a button, which redirect to the Google page by giving the link www.google.com.",
-    "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_Create_Profile_Website.jpg",
-    "topic_count": 1,
-    "duration": 250.84,
-    "designation": "UI Engineer",
-    "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
-    "lesson": "How to Write a Tag?",
-    "lesson_pk": "57f40be3-135b-4d23-91a5-1429d2412065",
-    "skill": "HTML",
-    "skill_pk": "9774de5f-726e-46c7-ad75-8a36ee2912bf",
-    "current_topic": "e631e569-033f-431b-83e2-2e857a155158",
-    "topics": [
-      {
-        "id": "e631e569-033f-431b-83e2-2e857a155158",
-        "order_id": 1,
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "Tables",
+        "lesson_pk": "23eb8d16-cccf-45bf-a198-1e8a39aadf5a",
+        "skill": "HTML",
+        "skill_pk": "9774de5f-726e-46c7-ad75-8a36ee2912bf",
+        "current_topic": "520a3538-6a22-4e65-a548-9016f3113e1a",
+        "topics": [
+            {
+                "id": "520a3538-6a22-4e65-a548-9016f3113e1a",
+                "order_id": 1,
+                "title": "Arrange table",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Arrange_Table.jpg",
+                "playlist": "https://player.vimeo.com/external/682216586.m3u8?s=4796d4224fe105d58ac077e1f9e7534a19d2f33a",
+                "duration": 154.76,
+                "designation": "UI Engineer",
+                "skill_name": "HTML",
+                "status": "completed"
+            },
+            {
+                "id": "7d144082-2c41-47ef-ba95-7526879f173f",
+                "order_id": 2,
+                "title": "Table footer",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/Table_Footer.jpg",
+                "playlist": "https://player.vimeo.com/external/682216656.m3u8?s=2efceb9cb2a2d9d72db9b95a33a3df765e01ff1d",
+                "duration": 96,
+                "designation": "UI Engineer",
+                "skill_name": "HTML",
+                "status": "completed"
+            }
+        ]
+    },
+    {
+        "id": "57c9f7ab-ccec-45fb-832f-c911080d86da",
+        "auto_id": 1,
         "title": "Create a Profile Website",
-        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Create_Profile_Website.jpg",
-        "playlist": "https://player.vimeo.com/external/682215441.m3u8?s=8568f41056ee99662748c2048521b8461d229cfb",
+        "description": "In this workshop, you have to create a portfolio by giving it a name, with an about paragraph, image upload and give a button, which redirect to the Google page by giving the link www.google.com.",
+        "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_Create_Profile_Website.jpg",
+        "topic_count": 1,
         "duration": 250.84,
         "designation": "UI Engineer",
-        "skill_name": "HTML",
-        "status": "completed"
-      }
-    ]
-  }
+        "designation_pk": "34167af1-49ec-4330-92e0-eceb0aa06cf8",
+        "lesson": "How to Write a Tag?",
+        "lesson_pk": "57f40be3-135b-4d23-91a5-1429d2412065",
+        "skill": "HTML",
+        "skill_pk": "9774de5f-726e-46c7-ad75-8a36ee2912bf",
+        "current_topic": "e631e569-033f-431b-83e2-2e857a155158",
+        "topics": [
+            {
+                "id": "e631e569-033f-431b-83e2-2e857a155158",
+                "order_id": 1,
+                "title": "Create a Profile Website",
+                "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_Create_Profile_Website.jpg",
+                "playlist": "https://player.vimeo.com/external/682215441.m3u8?s=8568f41056ee99662748c2048521b8461d229cfb",
+                "duration": 250.84,
+                "designation": "UI Engineer",
+                "skill_name": "HTML",
+                "status": "completed"
+            }
+        ]
+    }
 ]
