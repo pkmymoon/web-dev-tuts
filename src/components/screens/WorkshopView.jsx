@@ -11,7 +11,7 @@ function WorkshopView() {
 
   let Workshop = null;
   WorkshopsData.map((object) =>
-    object.lesson_pk === practice ? (Workshop = object) : null
+    object.title === practice ? (Workshop = object) : null
   );
 
   let topic = null;

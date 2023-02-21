@@ -52,7 +52,7 @@ function Practices() {
                     key={item.id}
                     className=" w-full md:w-[49%] group transition-all ease-linear  hover:scale-[101%] bg-surface-1 dark:bg-surface-1-dark hover:bg-secondary-container hover:dark:bg-secondary-container-dark rounded-2xl"
                   >
-                    <Link to={item.lesson_pk} className="flex  items-start p-6">
+                    <Link to={item.title} className="flex  items-start p-6">
                       <div className="mr-5">
                         <p className="text-xl font-bold italic">
                           #{item.order}

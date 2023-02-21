@@ -2,7 +2,7 @@
     {
         "id": "83e7aaf6-6143-4b8f-ada7-36d0c8884c98",
         "auto_id": 111,
-        "title": "Develop an e-commerce app",
+        "title": "Create an e-commerce app products screen",
         "description": "Develop an e-commerce app",
         "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/Category_Section.jpg",
         "topic_count": 6,
@@ -773,7 +773,7 @@
     {
         "id": "f76f92d5-f922-413f-ad82-ae474adfa916",
         "auto_id": 26,
-        "title": "Creating a Travel App",
+        "title": "Create Travel App",
         "description": "In this practice, you'll learn how to create a travel app using jQuery",
         "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_Creating_travel_app_1_vcH6DMr.jpg",
         "topic_count": 1,
@@ -789,7 +789,7 @@
             {
                 "id": "e08b19e7-f87e-42aa-9459-99af75994aef",
                 "order_id": 1,
-                "title": "Create Travel App",
+                "title": "Creating Travel App",
                 "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_create_travel_app.jpg",
                 "playlist": "https://player.vimeo.com/external/683777077.m3u8?s=acdb407883ee78818bac7854d411f2099ddd3edc",
                 "duration": 467.4,
@@ -802,7 +802,7 @@
     {
         "id": "0e568bf4-1e69-4ad3-8893-9c00eae25159",
         "auto_id": 25,
-        "title": "Buliding a Website",
+        "title": "Create a Website",
         "description": "In this workshop, you'll learn how to create a website using bootstrap",
         "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_building_a_website__1.jpg",
         "topic_count": 7,
@@ -897,7 +897,7 @@
     {
         "id": "9c366cf1-9a13-4902-b05f-f9a609a675fe",
         "auto_id": 24,
-        "title": "Building a Travel Guide Application",
+        "title": "Build a Travel Guide Application",
         "description": "In this workshop, you'll learn how to build a travel guide application",
         "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/02_-_build_a_travel_guide_app_iNlswKm.jpg",
         "topic_count": 5,
@@ -1028,7 +1028,7 @@
     {
         "id": "c069bd92-71e8-463f-883c-7e1fc16956e4",
         "auto_id": 20,
-        "title": "Building a Todo Application",
+        "title": "Todo Application",
         "description": "In this workshop, you'll learn how to build a todo application",
         "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-__Building_a_todo_application.jpg",
         "topic_count": 9,
@@ -1232,7 +1232,7 @@
     {
         "id": "09e9554c-0046-4fc8-b6ad-f80fb72e1ad1",
         "auto_id": 16,
-        "title": "Find topper student in a class",
+        "title": "Find the topper student in a class",
         "description": "In this workshop, you will learn how to find a topper student in a class.",
         "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/01_-_find_topper_in_a_class.jpg",
         "topic_count": 1,
@@ -1248,7 +1248,7 @@
             {
                 "id": "faeec54a-0dec-4136-91dd-af287983293c",
                 "order_id": 1,
-                "title": "Find Topper Student in a Class",
+                "title": "Find the topper student in a class",
                 "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop-topic/01_-_find_topper_in_a_class.jpg",
                 "playlist": "https://player.vimeo.com/external/683649935.m3u8?s=8539c793de8f522e8402ce7b8222eb0b7e8b6f54",
                 "duration": 337.537,
@@ -1528,7 +1528,7 @@
     {
         "id": "67affb7d-04a1-4579-b61f-2104782cd0d8",
         "auto_id": 13,
-        "title": "Shipping Website",
+        "title": "Website spotlight",
         "description": "In this Workshop session, you will learn to create a spotlight on a normal website. This spotlight section includes a header section in which a logo is placed, background image, h1, h2 and a paragraph.",
         "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/shipping_website_1.jpg",
         "topic_count": 5,
@@ -1601,7 +1601,7 @@
     {
         "id": "96db7331-b3d1-456e-945f-4dd0717ea564",
         "auto_id": 12,
-        "title": "Website main section",
+        "title": "Main section of a website",
         "description": "In this Workshop session, you will learn to create a main section of the website. .",
         "image": "https://d3mbaugvr53zg5.cloudfront.net/media/learn/workshop/workshop/website_main_section.jpg",
         "topic_count": 2,

@@ -20,12 +20,12 @@ function PracticeView() {
     let currentPractice = null;
     PracticesData.map((item) =>
         item.practice_data.map((object) =>
-            object.lesson_pk === practice ? (currentPractice = object) : null
+            object.title === practice ? (currentPractice = object) : null
         )
     );
     let Workshop = null;
     WorkshopsData.map((object) =>
-        object.lesson_pk === practice ? (Workshop = object) : null
+        object.title === practice ? (Workshop = object) : null
     );
 
     React.useEffect(() => {
